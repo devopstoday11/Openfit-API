@@ -1,0 +1,7 @@
+<suite name ="Suite">
+    <test name = "Test">
+        <classes>
+            <class name = "APITest"></class>
+        </classes>
+    </test>
+</suite>
