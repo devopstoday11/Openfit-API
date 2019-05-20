@@ -67,7 +67,7 @@ public class Methods {
         userData.put("given_name","\""+given_name);
         userData.put("family_name","\""+family_name);
         userData.put("id_token", idToken);
-        userData.put("email","\""+email);
+        userData.put("email",email);
     }
 
     public static void getTokenId(Response response) throws ParseException{
@@ -128,6 +128,21 @@ public class Methods {
         FileWriter fileWriter = new FileWriter("/home/arsen_d/Desktop/OpenfitAPIs/src/test/Subscription.json");
         fileWriter.write(getUserData.toJSONString()+ "\n\n"+subscriptions.toJSONString());
         fileWriter.close();
+    }
+
+    public static void getLoginResponseContent(Response response) throws ParseException, IOException {
+        JSONObject loginContent = (JSONObject) new JSONParser().parse(response.body());
+        File file = new File("/home/arsen_d/Desktop/OpenfitAPIs/src/test/LoginContent.json");
+        FileWriter fileWriter = new FileWriter("LoginContent.json");
+        fileWriter.write(loginContent.toJSONString());
+        fileWriter.close();
+        String [] data = {"email", "given_name, family_name, sub, id_token, access_token, refresh_token"};
+        SoftAssert softAssert = new SoftAssert();
+        for (int i = 0; i < data.length; i++) {
+            softAssert.assertEquals(loginContent.getAsString(data[i]),userData.get(data[i]));
+        }
+        softAssert.assertAll();
+
     }
 
     public static String fileReader(String filePath) {
