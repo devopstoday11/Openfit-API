@@ -115,13 +115,31 @@ public class APITest {
         System.out.println(response.body());
     }
 
-    @Test(priority = 0, description = "Change password.")
-    @Step("Make request to create free user: {0}, Make request to generate valid token ID: {1}, Make request to subscribe with valid credentials: {2}, Make reqeust to change user password: {3}")
-    public void changePassword() throws IOException {
+    @Test(priority = 0, description = "Change password for Registered User.")
+    @Step("Make request to create free user: {0}, Make request to change user password: {1}")
+    public void changePasswordForRegisteredUser() throws IOException, ParseException {
+        freeRegister();
+        String autorization = (String) Methods.headers.get("Authorization");
         RequestBuilder requestBuilder = new RequestBuilder(" https://connect-customer.qa.openfit.com")
                 .addPathParameters("v1", "changepassword")
                 .addHeader("x-api-key", "wrlyU1ZZUL1QSl1BKe7zw9ZsTJANTCAe7mRh2WLP")
-                .addHeader("Authorization", "Bearer eyJraWQiOiJ0YXF6bkc4SklGNjN1cUJqTHE5cGppTDhVNmZSbkp1bmNKYkxNbGFYMndZPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI2NzU2OGI4Yi1kOWZjLTRmZjgtOThlNS1mMTExNTUxNGNkYjIiLCJldmVudF9pZCI6IjQ3NDdhZTA0LTcyZjMtMTFlOS05NGY5LTI3ZDIzY2EzMjc1MCIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE1NTc0NzI0ODEsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC51cy13ZXN0LTIuYW1hem9uYXdzLmNvbVwvdXMtd2VzdC0yXzBtTlFYbjQxOSIsImV4cCI6MTU1NzQ3NjE5NCwiaWF0IjoxNTU3NDcyNTk0LCJqdGkiOiI5N2RlYTVkYy0zZTljLTQ2ZTUtOWFkZS01YjE3NWU2NDE4MjUiLCJjbGllbnRfaWQiOiIzcDFybXU3ZXZzMm5yN2x1MjdoNzVjc25iZiIsInVzZXJuYW1lIjoiNjc1NjhiOGItZDlmYy00ZmY4LTk4ZTUtZjExMTU1MTRjZGIyIn0.d1Ey1P62bZrXyuE3swUz_MefaM7L2q_rKK6Mih_VTC3iFmWvBlaFbl7JwCti5mqAWbBvc_mML7xGfITvuhP_Zsk-vG34rE5sIX36LCKRFL_UXBvR3kn_tbYX5AN7FkhlGUtiwmOgJ_RxapIPchMmd7comjzy3zXv3BDJmwyIJsGn0gqc4jP82l6sezFc4JFVCcRaHxrvyR6Lqao8GxpbpvjqJuAQN8CPc4ZEVRDTnqq3_RXnz_Imn-WxjneP51HTLEsh6xWPyoFstPuAQBg--Od4_5h5jPGpNrZKGElegMWRcm45HfYhvlMkCVZDkzl5-Xnrm9Tp6lqESgdCldTSZw")
+                .addHeader("Authorization", autorization)
+                .addHeader("Content-Type", "application/json");
+        Response response = requestBuilder.post("previousPassword\":\"Test1234Test!\",\"proposedPassword\":\"Test1234!");
+        System.out.println(response.getCurl());
+        System.out.println(response.body());
+    }
+
+
+    @Test(priority = 0, description = "Change password for Subscribed User.")
+    @Step("Make request to create free user: {0}, Make request to generate valid token ID: {1}, Make request to subscribe with valid credentials: {2}, Make reqeust to change user password: {3}")
+    public void changePasswordForSubscribedUser() throws IOException, ParseException {
+        Registration6m();
+        String autorization = (String) Methods.headers.get("Authorization");
+        RequestBuilder requestBuilder = new RequestBuilder(" https://connect-customer.qa.openfit.com")
+                .addPathParameters("v1", "changepassword")
+                .addHeader("x-api-key", "wrlyU1ZZUL1QSl1BKe7zw9ZsTJANTCAe7mRh2WLP")
+                .addHeader("Authorization", autorization)
                 .addHeader("Content-Type", "application/json");
         Response response = requestBuilder.post("previousPassword\":\"Test1234Test!\",\"proposedPassword\":\"Test1234!");
         System.out.println(response.getCurl());
