@@ -10,6 +10,7 @@ import org.skyscreamer.jsonassert.JSONCompareMode;
 import org.testng.asserts.SoftAssert;
 import requests.RequestBuilder;
 import requests.Response;
+
 import java.io.*;
 import java.util.HashMap;
 
@@ -107,12 +108,19 @@ public class Methods {
         JSONObject subscriptions = (JSONObject) data.get(0);
         String dataType []= {"first_name", "last_name", "state", "city", "address1", "zip"};
         String subscription_canceled_at = JsonPath.read(subscriptions.toJSONString(),"$.canceled_at");
+        System.out.println(subscription_canceled_at);
         String subscription_plan_code = JsonPath.read(subscriptions.toJSONString(),"$.plan_code").toString();
+        System.out.println(subscription_plan_code);
         String subscription_plan_name = JsonPath.read(subscriptions.toJSONString(),"$.plan_name").toString();
+        System.out.println(subscription_plan_name);
         String subscription_source = JsonPath.read(subscriptions.toJSONString(),"$.source").toString();
+        System.out.println(subscription_source);
         String subscription_type = JsonPath.read(subscriptions.toJSONString(),"$.type").toString();
+        System.out.println(subscription_type);
         String subscription_id = JsonPath.read(subscriptions.toJSONString(),"$.id").toString();
+        System.out.println(subscription_id);
         String subscription_country = JsonPath.read(subscriptions.toJSONString(),"$.country").toString();
+        System.out.println(subscription_country);
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertNotNull(subscription_canceled_at);
         softAssert.assertEquals(subscription_plan_code,getUserData.getAsString("product_id")+"-"+getUserData.getAsString("variant_id"));
@@ -122,12 +130,10 @@ public class Methods {
         softAssert.assertEquals(subscription_country,"US");
         softAssert.assertNotNull(subscription_id);
         for (int i = 0; i <dataType.length; i++){
+            System.out.println(getUserData.getAsString(dataType[i]) + " " + subscriptions.getAsString(dataType[i]));
             softAssert.assertEquals(getUserData.getAsString(dataType[i]),subscriptions.getAsString(dataType[i]));
         }
         softAssert.assertAll();
-        FileWriter fileWriter = new FileWriter("/home/arsen_d/Desktop/OpenfitAPIs/src/test/Subscription.json");
-        fileWriter.write(getUserData.toJSONString()+ "\n\n"+subscriptions.toJSONString());
-        fileWriter.close();
     }
 
     public static void getLoginResponseContent(Response response) throws ParseException, IOException {
@@ -147,19 +153,15 @@ public class Methods {
 
     public static String fileReader(String filePath) {
         StringBuilder contentBuilder = new StringBuilder();
-        try (BufferedReader br = new BufferedReader(new FileReader(filePath)))
-        {
+        try (BufferedReader br = new BufferedReader(new FileReader(filePath))){
             String sCurrentLine;
-            while ((sCurrentLine = br.readLine()) != null)
-            {
+            while ((sCurrentLine = br.readLine()) != null) {
                 contentBuilder.append(sCurrentLine).append("\n");
             }
-        }
-        catch (IOException e)
+        } catch (IOException e)
         {
             e.printStackTrace();
-        }
-        return contentBuilder.toString();
+        }return contentBuilder.toString();
     }
 
     public static String randomAlphaNumeric(int count) {
