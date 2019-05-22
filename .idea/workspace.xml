@@ -4,179 +4,10 @@
     <list default="true" id="fd3e2269-c6cc-4769-a2be-92dcefec6ca8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Subscription.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/APITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/APITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/programsTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Openfit-APIs-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/009355d8-4cbf-449f-a1a2-47ad598492d1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/02b1f99b-3701-44b6-84c3-92d5b5028e15-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/0360f9dc-642f-4174-9156-bef3a5685eba-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/049b028c-e1ac-486f-aa47-e9660fe645b7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/04c786b1-053d-4c11-8653-8af5e5617bf2-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/063620ae-586c-473b-810f-34af05b9e912-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/07ad0cfe-c566-4ee8-a7fd-94f3ee8eb281-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/08e6c68b-23d0-4faf-81e3-d1eed4e03b48-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/0978589c-7f28-4c57-b31f-f0727ea350bf-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/0a8221ee-061b-475e-bee7-69f9c6126c33-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/0bd2db3b-ff31-4a61-a895-69c4ba76dfd2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/0ed26360-2bee-49c0-a18f-02d420c52587-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/0f3b6b83-aadf-4d75-8174-480938c18330-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/0f933bcd-b5a1-46aa-a9fc-cf3bb79a50ea-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/0f959bee-bb2e-4234-9469-35f9c8f9a156-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/12aabb63-ef37-4776-950c-da39ce628588-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/13441eb1-6899-44ca-8fb3-4d511da3e814-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/13a0ae43-a70e-459c-b241-51131f538851-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/13c997a2-bcaa-41c4-8cfe-cba58b5b4405-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/149dc8f7-b1b4-4e4a-a6c1-68a857a578b0-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/17b58343-9727-4964-9a47-fb7779013acd-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/1a595930-07bd-40ea-8c13-c12280a92727-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/1adb7ff6-cd44-42df-acfc-1241bc71574b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/1c023497-529a-4926-b40c-15d51e1d1001-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/1c68bc43-d1f2-4d58-9944-e34b766dfbeb-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/1d5f9711-2922-48d9-b0a2-c345f73adac1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/201b4258-5011-464a-a617-dc3d747d12f5-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/223347e9-8497-4ca0-8958-4ea1e3a883f3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/24241aed-7341-4052-a509-c2a5181c4f39-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/26d59b37-cae5-40e9-a386-43f6caebd4d0-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/282a6736-9031-4baa-a355-1ca182b1f6aa-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/289775e5-fa8d-4170-bde6-1c6e4c5b1182-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/2a7e1971-eb3f-44fe-80ff-8c550876ac60-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/2bbb4c80-4e44-4826-9630-27bdb217f1d8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/2f8dfc37-3716-4f1d-8b12-e443214a28fd-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/3024bba7-7416-437a-a684-9c85c0b31f0e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/30868f54-7b9d-4481-8643-2eaeea3145a3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/3113e71b-ab82-4c17-87c4-5572129343cd-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/3172550a-778e-452f-9139-94495f74c3a2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/32ac5560-6212-4f8a-aab8-68612ef5d8ee-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/34256004-6e4f-4ac3-96f7-8202d7f159b5-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/34ca3ec3-72db-467f-8369-00d064dfb25e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/34e5055a-6494-4404-9c1a-fc5cc628d443-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/37d82ffd-eb58-41c6-a4c9-b8a8a269d876-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/3807193a-9bf7-4510-b3d7-aa914be1d279-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/38fad9cb-adc1-4b8d-8796-ff1e49cd43a6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/39539b02-bdd7-48cb-8bd3-54b683d83b7d-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/3c5e022b-ea12-440f-afe5-7ee04f05a4b0-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/3cb7b6d7-7425-4dac-ab9f-2554c364db65-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/3d666c0f-ff1e-41f0-bc1f-f9b58735a021-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/3eb1f244-4b44-456d-ae6e-ec1cad122379-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/3eef4e97-ae33-404a-be18-e303e67311d3-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/403d276b-3dcf-4990-a025-5cf0f468252e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/47023bb6-56dd-491e-8cbb-02e2be58ba32-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/48c44a6b-c2aa-43d0-88c8-97a38a9d5dcb-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/4e01df3a-5616-4e11-bb1e-78ae1de10f02-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/4ea44b32-25e1-4378-8439-c4febb1e52d2-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/4ecea966-2be9-4890-841f-586c549b37a3-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/519943a6-1a1a-4339-a27b-acff52c51ca2-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/52a3acaa-52a3-401b-90b7-783c653bc831-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/558537a8-ecbf-4913-b7ae-9ad34fde5e1e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/55e2ff7d-496d-45c0-924f-f001c6ec7c26-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/5726b5eb-62fe-425f-91aa-5d6ef38b1728-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/5750781b-7ef5-435d-8bea-818f791b1d4b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/58d0299e-8a24-4bfa-bcb4-759c9c86f8d3-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/5adc22a9-0144-4a04-ae10-4468a51377db-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/5ba0180f-d747-475e-b1f6-357672ad0135-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/5f8dfc7c-ebb4-4734-a95b-15c5e24f40e3-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/619dae79-42f5-45d6-976f-cc1fe470c808-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/6275527b-816c-492b-ab29-b4d8bdab8965-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/638e4a63-6c48-4b72-ad13-6c11cc243a41-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/66242edf-6db5-425d-9c49-5847cd8aeab3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/68d4fd9e-44d9-425f-aeb3-dd151a8942c7-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/6b089f0b-8ff5-4032-83cf-3216b563a6ed-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/6e50eadb-adc8-4856-97bf-06372d977dc7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/6f9cc232-766e-447e-ad7f-9a671f18e581-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/708a665c-cdf6-490b-9a7d-248370daac7c-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/74d7864f-33f0-4187-ad6f-51ba56d8bdbb-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/75c57921-d61f-4884-99af-877a413f6735-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/7731d1cd-bad7-4e7f-a0b8-a6ebbb110d35-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/7dd23c03-7431-44cb-9996-17d1a29e24ae-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/7dee031b-b9c9-4408-b1a1-5f4b4c583cae-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/7e69b61c-ecae-4689-9195-1eb61a355342-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/82719b9f-589e-404f-8115-0b4ba7c4f7ab-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/8433de63-d1b4-406a-8379-53112f0d2c21-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/846b4df0-5bec-41b6-b0e8-f0a2131aa2a3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/85d74a4f-c8da-4e46-841d-ef03852dabbc-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/872a7315-0685-4569-83f9-f597758946c1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/8aac0732-9b60-4700-bd4e-449812896b2f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/8b3ecccc-9aef-4d33-8e11-97b3c8a63341-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/8d43f1ea-b917-4a0f-accc-78c1f1db85ab-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/8e35e846-bc73-42d3-b8c7-a5fcaa5948c1-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/8efc0975-7a70-41f0-b8e3-ecca4577d099-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/96dc557e-adae-4c31-b5ca-0c78825a8169-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/96e498a3-2d08-4822-86fb-a3f28a9dc0f4-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/9723fc89-e90d-415d-a97a-c719a7248aa9-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/981bd567-be4d-409e-aad6-002ff955488e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/9a356574-ab5c-4229-a0c7-8824950d3787-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/9e2d7170-78df-4ed8-a076-988dd615afd2-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/a07b4e09-1cf8-4fc4-b9b5-7b2fd7b3078d-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/a43a7e88-6c8f-4ee7-9e03-13feb890dc1e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/a52554a2-87f2-4cb6-a544-d145ea5a6403-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/a5d2b52a-4d14-4fb5-a312-a07d12b9a1b2-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/a86d7738-3734-4926-bab5-1a477615af8b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/acd01dfa-58a3-42c9-9316-692ab7796647-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/ad694b17-82de-40ec-9edc-01df023952d0-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/b10a7cb1-54a7-47b9-aba9-fe8cdcbd458c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/b284d45e-9684-473b-9eb1-b210963b675f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/b80f324b-16c8-4743-b898-3c6b61e18377-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/b834b651-976b-4a16-a7ce-b2e4df6d5838-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/b8dbb85b-0f53-4037-b409-ca7a2430eb3e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/b945c28b-d4be-468b-a515-9cf63092e778-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/b9d2331d-2b6a-4654-bd8d-53b1368dc1bc-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/bae62461-98ba-40cd-b98f-44c2da80d0ce-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/bb6532b6-9790-4e0a-9d3b-86e09fc7de98-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/bb6a3141-ebdb-464b-aa42-d40008c5d494-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/bdb91e51-6dfb-4809-8af5-2a29b8e8189c-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/bfea9224-9929-4323-8072-1fb36d682ea7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/c019d56b-9094-4d23-b47a-8c15af3c7d8a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/c08bbd75-a1b2-45e7-8f51-f89d2df0f8ef-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/c09c7b4f-fef4-4d50-bf93-36e9ec75a295-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/c207b392-0f2a-49f9-a967-4b998894b2ee-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/c3cc4662-b022-4e5f-bef8-a0616d472ac9-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/c3fcc58f-20b7-4a57-a763-8d1a6036c61d-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/c406eac5-4802-49d6-ae0c-c375a7763b5f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/c8adb3b9-5fad-4047-b26b-547582f258a8-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/caf0c9cf-a989-4473-bea6-082da3f48e1e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/cb1381d4-dec9-4e2e-a9ef-152b499393de-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/cc049848-1080-477d-9bde-aac07955475b-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/cd142ad5-3e94-4b48-8998-1376890915ec-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/d42da550-45d3-4279-b0ee-5648b9cd5ab5-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/d68f1470-6cea-4e27-8bff-c5a5b71fb857-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/d770e007-458a-4b13-8a64-aaae51ce9214-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/d871fbaf-8e5a-44d3-80d3-2768f35f592e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/dc137a20-9150-4eec-aa7f-3b7011dc0dbc-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/dc7721c0-81c4-4e10-83f3-e50f48f70976-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/e1a1ed41-2301-40b0-8c07-d83c5d247d6f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/e2234b6d-d9bc-4029-9810-a8ba9510fce0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/e39e2806-2dd3-43c4-8817-0c2450315850-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/e4007556-460d-476a-a084-5c050fbaf2ae-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/e403a87a-2c6f-46e2-b8e2-f1b08dd56d2b-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/e93c221d-9f9d-4d07-bc01-ac6e4a779e52-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/ea9bab7a-9713-4898-afa6-0c0a23e22570-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/ebae8944-7693-4713-a488-7e508d8d31d3-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/ee4ab23f-5514-46f6-a01e-9a553410dc7a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/ef183046-84de-47bc-b39f-3a162806c0de-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/ef81303e-2234-4019-8669-17d06aa5c2d7-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/f1f2fb73-c930-4cde-9097-8a25af94056e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/f83f4d53-2a37-4a0d-a2c5-6b127a14e97a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/fa5cbcdb-e93e-4fb3-ba64-0219bb22ec98-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/fab6b9a9-83c9-4f7d-aa32-a4f009518665-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/fb53e111-7608-4f19-90e2-27f07ca895bd-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/allure.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generator-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2019-05-17T17-25-33_971-jvmRun1.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2019-05-17T17-48-09_422-jvmRun1.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2019-05-17T17-52-21_999-jvmRun1.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2019-05-17T17-53-44_085-jvmRun1.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2019-05-17T17-55-09_204-jvmRun1.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/APITest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-APITest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/APITest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Methods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/APITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SubscriptionsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Subscriptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -195,10 +26,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/APITest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/APITest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+            <state relative-caret-position="382">
+              <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -207,10 +38,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/LoginTests.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ChangeAttributes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+            <state relative-caret-position="576">
+              <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ChangePassword.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-23">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -219,10 +59,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SubscriptionsTests.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Methods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="78" column="17" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
+            <state relative-caret-position="210">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -261,16 +101,23 @@
         <option value="$PROJECT_DIR$/src/test/12mRegistrationData" />
         <option value="$PROJECT_DIR$/src/test/java/testng xml" />
         <option value="$PROJECT_DIR$/testng xml" />
-        <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/allure.properties" />
         <option value="$PROJECT_DIR$/src/test/Subscription.json" />
         <option value="$PROJECT_DIR$/LoginContent.json" />
         <option value="$PROJECT_DIR$/src/test/java/Methods.java" />
         <option value="$PROJECT_DIR$/src/main/java/Methods.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/SubscriptionsTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/APITest.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoginTests.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/test/APITest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/SubscriptionsTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ChangePassword.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Subscriptions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LoginTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/APITest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ChangeAttributes.java" />
       </list>
     </option>
   </component>
@@ -331,14 +178,26 @@
               <item name="OpenfitAPIs" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpenfitAPIs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenfitAPIs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenfitAPIs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OpenfitAPIs" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpenfitAPIs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenfitAPIs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenfitAPIs" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -383,7 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.APITest.getSubscriptions">
+  <component name="RunManager" selected="TestNG.SubscriptionsTests">
     <configuration type="TestNG" singleton="false" nameIsGenerated="true">
       <module name="OpenfitAPIs" />
       <option name="SUITE_NAME" value="" />
@@ -421,12 +280,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="APITest.changePasswordForSubscribedUser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="APITest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Openfit-APIs" />
-      <option name="PACKAGE_NAME" value="" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="APITest" />
-      <option name="METHOD_NAME" value="changePasswordForSubscribedUser" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -457,12 +321,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="APITest.loginWithSubscribedUser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SubscriptionsTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Openfit-APIs" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="APITest" />
-      <option name="METHOD_NAME" value="loginWithSubscribedUser" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="SubscriptionsTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -512,18 +381,18 @@
       <item itemvalue="TestNG.&lt;default&gt;" />
       <item itemvalue="TestNG./home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/testng.xml" />
       <item itemvalue="TestNG.APITest.loginWithRegisteredUser" />
-      <item itemvalue="TestNG.APITest.loginWithSubscribedUser" />
-      <item itemvalue="TestNG.APITest.changePasswordForSubscribedUser" />
       <item itemvalue="TestNG.APITest.getSubscriptions" />
       <item itemvalue="XSLT.Tests" />
+      <item itemvalue="TestNG.SubscriptionsTests" />
+      <item itemvalue="TestNG.APITest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SubscriptionsTests" />
+        <item itemvalue="TestNG.APITest" />
         <item itemvalue="TestNG.APITest.getSubscriptions" />
         <item itemvalue="TestNG.APITest.loginWithRegisteredUser" />
         <item itemvalue="TestNG./home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/testng.xml" />
-        <item itemvalue="TestNG.APITest.changePasswordForSubscribedUser" />
-        <item itemvalue="TestNG.APITest.loginWithSubscribedUser" />
       </list>
     </recent_temporary>
   </component>
@@ -541,15 +410,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="APITest_changePasswordForSubscribedUser - 2019.05.20 at 18h 31m 23s.xml">
-      <configuration name="APITest.changePasswordForSubscribedUser" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="APITest_changePasswordForSubscribedUser - 2019.05.20 at 18h 38m 05s.xml">
-      <configuration name="APITest.changePasswordForSubscribedUser" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="APITest_loginWithRegisteredUser - 2019.05.20 at 19h 01m 17s.xml">
-      <configuration name="APITest.loginWithRegisteredUser" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="APITest_loginWithRegisteredUser - 2019.05.20 at 19h 01m 30s.xml">
       <configuration name="APITest.loginWithRegisteredUser" configurationId="TestNG" />
     </history-entry>
@@ -571,12 +431,21 @@
     <history-entry file="APITest_getSubscriptions - 2019.05.21 at 10h 11m 21s.xml">
       <configuration name="APITest.getSubscriptions" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="SubscriptionsTests - 2019.05.22 at 17h 10m 33s.xml">
+      <configuration name="SubscriptionsTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="APITest - 2019.05.22 at 17h 11m 48s.xml">
+      <configuration name="APITest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SubscriptionsTests - 2019.05.22 at 17h 12m 08s.xml">
+      <configuration name="SubscriptionsTests" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17523494" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1774461" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -584,13 +453,13 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.498618" visible="true" weight="0.32110092" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32925585" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.498618" weight="0.32110092" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39979655" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4991708" weight="0.32925585" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4991708" weight="0.33027524" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.501382" side_tool="true" weight="0.32110092" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32925585" />
@@ -676,13 +545,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/programs.txt" />
     <entry file="file://$PROJECT_DIR$/src/test/12mRegistrationData" />
     <entry file="file://$PROJECT_DIR$/src/test/subscription.txt" />
-    <entry file="file://$PROJECT_DIR$/OpenfitAPIs.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/ofabb/qatools/requests/1.0-SNAPSHOT/requests-1.0-SNAPSHOT.jar!/Examples.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -695,21 +557,7 @@
     <entry file="file://$PROJECT_DIR$/allure-results/a6ad4a48-8f51-4da0-a71b-e25c0dfddada-container.json" />
     <entry file="file://$PROJECT_DIR$/allure-results/4050b6df-ec65-452d-8409-01166a17ebf8-container.json" />
     <entry file="file://$PROJECT_DIR$/allure-results/1564834d-9f7f-4c86-aa04-a8f4135b27ef-container.json" />
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/allure-results/0d33327d-fa48-4cbc-82d6-38bd6ec62728-result.json" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/allure.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="46" lean-forward="true" selection-start-column="46" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/LoginContent.json" />
     <entry file="file://$PROJECT_DIR$/src/test/programsTest.txt" />
     <entry file="file://$PROJECT_DIR$/src/test/Subscription.json" />
@@ -721,10 +569,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/OpenfitAPIs.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="15">
+            <caret line="1" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/allure.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="46" lean-forward="true" selection-start-column="46" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Methods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="55" column="18" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="18" />
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Subscriptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-585">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -733,38 +622,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        <state relative-caret-position="210">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SubscriptionsTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/LoginTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="78" column="17" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
+        <state relative-caret-position="150">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/APITest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ChangePassword.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+        <state relative-caret-position="-23">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoginTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/APITest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        <state relative-caret-position="382">
+          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ChangeAttributes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
         </state>
       </provider>
     </entry>
