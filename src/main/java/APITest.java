@@ -9,8 +9,6 @@ import java.io.IOException;
 
 
 public class APITest {
-    Subscriptions subscriptions;
-
 
     @Test(priority = 0)
     @Description("Make request to GET token ID.")

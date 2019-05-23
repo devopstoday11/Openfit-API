@@ -104,19 +104,19 @@ public class Subscriptions {
         System.out.println("\nResponse: " +response.body());
     }
 
-    @Test(priority = 0)
-    @Description( "GET Subscription after Subscribing.")
-    @Step("Free Registration:, Generated Token ID:, Subscribe with valid product ID:")
-    public void getSubscriptions() throws IOException, ParseException {
-        registration6m();
-        String authorization = (String) Methods.headers.get("Authorization");
-        RequestBuilder requestBuilder = new RequestBuilder("https://connect-account-be.qa.openfit.com");
-        requestBuilder.addPathParameters("v1", "subscriptions")
-                .addHeader("x-api-key", "ZUL7kSands2gzEHb8ZB7X1onCufpTkqJ3S3h5AlK")
-                .addHeader("Authorization", authorization);
-        Response response = requestBuilder.get();
-        System.out.println("GET Subscriptions:\n"+response.getCurl());
-        System.out.println("\nResponse: " +response.body());
-        Methods.getSubscriptionContent(response);
-    }
+//    @Test(priority = 0)
+//    @Description( "GET Subscription after Subscribing.")
+//    @Step("Free Registration:, Generated Token ID:, Subscribe with valid product ID:")
+//    public void getSubscriptions() throws IOException, ParseException {
+//        registration6m();
+//        String authorization = (String) Methods.headers.get("Authorization");
+//        RequestBuilder requestBuilder = new RequestBuilder("https://connect-account-be.qa.openfit.com");
+//        requestBuilder.addPathParameters("v1", "subscriptions")
+//                .addHeader("x-api-key", "ZUL7kSands2gzEHb8ZB7X1onCufpTkqJ3S3h5AlK")
+//                .addHeader("Authorization", authorization);
+//        Response response = requestBuilder.get();
+//        System.out.println("GET Subscriptions:\n"+response.getCurl());
+//        System.out.println("\nResponse: " +response.body());
+//        Methods.getSubscriptionContent(response);
+//    }
 }
