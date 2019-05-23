@@ -24,7 +24,7 @@ public class Subscriptions {
         Response response = requestBuilder.post("{\"items\":[\n" +
                 "\t{\n" +
                 "\t\"product_id\":1685587853379,\n" +
-                "\t\"variant_id\":15447916838979,\n" +
+                "\t\"variant_id\":15447916904515,\n" +
                 "\t\"quantity\":1}],\n" +
                 "\t\"token_id\":" + Methods.tokenIDs.get("token_id") + ",\n" +
                 "\t\"access_token\":" + Methods.userData.get("access_token") + "\",\n" +
@@ -86,7 +86,7 @@ public class Subscriptions {
         Response response = requestBuilder.post("{\"items\":[\n" +
                 "\t{\n" +
                 "\t\"product_id\":1685587853379,\n" +
-                "\t\"variant_id\":15447916838979,\n" +
+                "\t\"variant_id\":15447916937283,\n" +
                 "\t\"quantity\":1}],\n" +
                 "\t\"token_id\":"+ Methods.tokenIDs.get("token_id")+",\n" +
                 "\t\"access_token\":"+ Methods.userData.get("access_token")+"\",\n" +
