@@ -73,6 +73,40 @@
     <build>
         <plugins>
             <plugin>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>3.0.2</version>
+                <executions>
+                    <execution>
+                        <id>process-resources</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${project.build.directory}/dist/resources</outputDirectory>
+                            <resources>
+                                <resource>
+                                    <directory>src/main/resources</directory>
+                                    <targetPath>${project.build.directory}/dist/resources</targetPath>
+                                    <includes>
+                                        <include>this_file_will_go_outside_the_ jar_in_the_folder.txt</include>
+                                        <include>this_too.txt</include>
+                                    </includes>
+                                </resource>
+                                <resource>
+                                    <directory>src/main/resources</directory>
+                                    <!-- without targetPath everything not excluded will be packaged inside the jar -->
+                                    <excludes>
+                                        <exclude>this_file_will_go_outside_the_ jar_in_the_folder.txt</exclude>
+                                        <exclude>this_too.txt</exclude>
+                                    </excludes>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
