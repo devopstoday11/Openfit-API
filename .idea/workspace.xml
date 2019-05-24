@@ -328,12 +328,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.APITest" />
+      <item itemvalue="TestNG.&lt;default&gt;" />
+      <item itemvalue="TestNG./home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/testng.xml" />
       <item itemvalue="TestNG.APITest.getSubscriptions" />
       <item itemvalue="TestNG.SubscriptionsTests" />
-      <item itemvalue="TestNG.&lt;default&gt;" />
+      <item itemvalue="TestNG.APITest" />
       <item itemvalue="TestNG./home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/TestsXmls/Subscribtions_Tests.xml" />
-      <item itemvalue="TestNG./home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/testng.xml" />
       <item itemvalue="XSLT.Tests" />
     </list>
     <recent_temporary>
