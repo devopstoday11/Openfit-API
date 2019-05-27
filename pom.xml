@@ -13,8 +13,8 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.test.skip>false</maven.test.skip>
-        <timestamp>${maven.build.timestamp}</timestamp>
-        <reports.output.directory>${basedir}/allure-reports/allure-results_${timestamp}/</reports.output.directory>
+<!--        <timestamp>${maven.build.timestamp}</timestamp>-->
+<!--        <reports.output.directory>${basedir}/allure-reports/allure-results_${timestamp}/</reports.output.directory>-->
     </properties>
 
     <dependencies>
@@ -68,7 +68,10 @@
             <plugin>
                 <groupId>ru.yandex.qatools.allure</groupId>
                 <artifactId>allure-maven-plugin</artifactId>
-                <version>2.5</version>
+                <configuration>
+                    <resultsDirectory>allure-results</resultsDirectory>
+                </configuration>
+                <version>2.4</version>
             </plugin>
         </plugins>
     </reporting>

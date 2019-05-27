@@ -21,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="110" column="42" selection-start-line="110" selection-start-column="34" selection-end-line="110" selection-end-column="42" />
+            <state relative-caret-position="240">
+              <caret line="16" column="59" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -55,6 +55,7 @@
       <find>authorization</find>
       <find>Xml</find>
       <find>compiler</find>
+      <find>report</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -86,7 +87,6 @@
         <option value="$PROJECT_DIR$/src/main/java/APITest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Subscriptions.java" />
         <option value="$PROJECT_DIR$/Login_Tests.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/LoginContent.json" />
         <option value="$PROJECT_DIR$/src/test/java/LoginTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/APITest.java" />
@@ -99,6 +99,7 @@
         <option value="$PROJECT_DIR$/TestsXmls/Login_Tests.xml" />
         <option value="$PROJECT_DIR$/TestsXmls/Subscribtions_Tests.xml" />
         <option value="$PROJECT_DIR$/TestsXmls/Change_Password_Tests.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -158,6 +159,17 @@
             <path>
               <item name="OpenfitAPIs" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpenfitAPIs" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenfitAPIs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenfitAPIs" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="allure-results" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenfitAPIs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenfitAPIs" type="462c0819:PsiDirectoryNode" />
               <item name="TestsXmls" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -204,7 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/TestsXmls/All_Tests.xml">
+  <component name="RunManager" selected="TestNG./home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/TestsXmls/Subscribtions_Tests.xml">
     <configuration type="TestNG" singleton="false" nameIsGenerated="true">
       <module name="OpenfitAPIs" />
       <option name="SUITE_NAME" value="" />
@@ -236,18 +248,6 @@
         <value defaultName="moduleWithDependencies" />
       </option>
       <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="APITest.freeRegister" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Openfit-APIs" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="APITest" />
-      <option name="METHOD_NAME" value="freeRegister" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -308,6 +308,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/TestsXmls/Subscribtions_Tests.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Openfit-APIs" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestsXmls/Subscribtions_Tests.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tests" type="XSLT" factoryName="XSLT">
       <option name="myOutputFile" value="$PROJECT_DIR$/results/Test" />
       <option name="myOpenOutputFile" value="false" />
@@ -331,18 +341,18 @@
       <item itemvalue="TestNG.&lt;default&gt;" />
       <item itemvalue="XSLT.Tests" />
       <item itemvalue="TestNG.ChangeAttributes.changeAttributesForRegisteredUser" />
-      <item itemvalue="TestNG.APITest.freeRegister" />
       <item itemvalue="TestNG.ChangePassword.changePasswordForRegisteredUser" />
       <item itemvalue="TestNG./home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/TestsXmls/Change_Password_Tests.xml" />
       <item itemvalue="TestNG./home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/TestsXmls/All_Tests.xml" />
+      <item itemvalue="TestNG./home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/TestsXmls/Subscribtions_Tests.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/TestsXmls/Subscribtions_Tests.xml" />
         <item itemvalue="TestNG./home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/TestsXmls/All_Tests.xml" />
         <item itemvalue="TestNG./home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/TestsXmls/Change_Password_Tests.xml" />
         <item itemvalue="TestNG.ChangePassword.changePasswordForRegisteredUser" />
         <item itemvalue="TestNG.ChangeAttributes.changeAttributesForRegisteredUser" />
-        <item itemvalue="TestNG.APITest.freeRegister" />
       </list>
     </recent_temporary>
   </component>
@@ -360,9 +370,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="APITest_freeRegister - 2019.05.27 at 14h 31m 45s.xml">
-      <configuration name="APITest.freeRegister" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ChangeAttributes_changeAttributesForRegisteredUser - 2019.05.27 at 14h 34m 14s.xml">
       <configuration name="ChangeAttributes.changeAttributesForRegisteredUser" configurationId="TestNG" />
     </history-entry>
@@ -390,6 +397,9 @@
     <history-entry file="_home_arsen_d_Desktop_Openfit-API_OpenfitAPIs_TestsXmls_All_Tests_xml - 2019.05.27 at 14h 55m 31s.xml">
       <configuration name="/home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/TestsXmls/All_Tests.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_home_arsen_d_Desktop_Openfit-API_OpenfitAPIs_TestsXmls_Subscribtions_Tests_xml - 2019.05.27 at 15h 12m 30s.xml">
+      <configuration name="/home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/TestsXmls/Subscribtions_Tests.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -404,7 +414,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.498618" weight="0.32110092" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.498618" visible="true" weight="0.32110092" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39979655" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -644,8 +654,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="110" column="42" selection-start-line="110" selection-start-column="34" selection-end-line="110" selection-end-column="42" />
+        <state relative-caret-position="240">
+          <caret line="16" column="59" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="59" />
         </state>
       </provider>
     </entry>
