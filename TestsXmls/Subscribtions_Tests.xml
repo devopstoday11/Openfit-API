@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name ="Suite">
-    <test name = "Test">
+    <test name = "Subscriptions_Tests">
         <classes>
             <class name="Subscriptions"></class>
         </classes>

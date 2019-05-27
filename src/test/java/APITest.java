@@ -37,7 +37,7 @@ public class APITest {
         Methods.getUser(response);
 
         System.out.println("Free register:\n"+response.getCurl());
-        System.out.println("\nResponse: " +response.body());
+        System.out.println("\nResponse: \n" +response.body());
     }
 
 //    @Test

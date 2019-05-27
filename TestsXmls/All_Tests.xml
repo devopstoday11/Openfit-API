@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name ="All">
+    <test name = "All_Tests">
+        <classes>
+            <class name="APITest"></class>
+            <class name="Subscriptions"></class>
+            <class name="ChangePassword"></class>
+            <class name="ChangeAttributes"></class>
+            <class name="LoginTests"></class>
+        </classes>
+    </test>
+</suite>

@@ -8,8 +8,8 @@ import requests.Response;
 import java.io.IOException;
 
 public class LoginTests {
-    Subscriptions subscriptionsForLogin;
-    APITest apiTests= new APITest();
+    Subscriptions subscriptionsForLogin = new Subscriptions();
+    APITest apiTests = new APITest();
 
     @Test(priority = 0)
     @Description( "Login with subscribed user.")

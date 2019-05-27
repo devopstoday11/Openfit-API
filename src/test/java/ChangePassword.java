@@ -8,14 +8,15 @@ import requests.Response;
 import java.io.IOException;
 
 public class ChangePassword {
-    APITest apiTest;
-    Subscriptions subscriptions;
+    APITest apiTest = new APITest();
+    Subscriptions subscriptions = new Subscriptions();
 
     @Test(priority = 0)
     @Description( "Change password for Registered User.")
     @Step("Make request to create free user:, Make request to change user password:")
     public void changePasswordForRegisteredUser() throws IOException, ParseException {
         apiTest.freeRegister();
+        Methods.headers((String) Methods.userData.get("id_token"));
         String authorization = (String) Methods.headers.get("Authorization");
         RequestBuilder requestBuilder = new RequestBuilder(" https://connect-customer.qa.openfit.com")
                 .addPathParameters("v1", "changepassword")
