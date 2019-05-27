@@ -13,6 +13,8 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.test.skip>false</maven.test.skip>
+        <timestamp>${maven.build.timestamp}</timestamp>
+        <reports.output.directory>${basedir}/allure-reports/allure-results_${timestamp}/</reports.output.directory>
     </properties>
 
     <dependencies>
