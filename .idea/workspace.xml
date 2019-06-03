@@ -1,7 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd3e2269-c6cc-4769-a2be-92dcefec6ca8" name="Default Changelist" comment="" />
+    <list default="true" id="fd3e2269-c6cc-4769-a2be-92dcefec6ca8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/java.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/java.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestsXmls/All_Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestsXmls/All_Tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestsXmls/Change_Attributes_Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestsXmls/Change_Attributes_Tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestsXmls/Change_Password_Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestsXmls/Change_Password_Tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestsXmls/Subscribtions_Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestsXmls/Subscribtions_Tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Methods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/APITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/APITests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ChangeAttributes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ChangeAttributesTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ChangePassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ChangePasswordTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Subscriptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SubscriptionsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Openfit-APIs-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Openfit-APIs-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Openfit-APIs-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Openfit-APIs-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Methods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-APITest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-APITest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-LoginTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-LoginTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/APITest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ChangeAttributes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ChangePassword.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LoginTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Subscriptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite/methods-not-run.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite/methods.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +61,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/Methods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1380">
-              <caret line="16" column="119" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="16" selection-end-column="119" />
+            <state relative-caret-position="210">
+              <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/Checker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="584">
+              <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/APITests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -56,6 +123,10 @@
       <find>Xml</find>
       <find>compiler</find>
       <find>report</find>
+      <find>country</find>
+      <find>getUserData</find>
+      <find>userDataForRegistration</find>
+      <find>token</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -77,7 +148,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/allure.properties" />
         <option value="$PROJECT_DIR$/src/test/Subscription.json" />
         <option value="$PROJECT_DIR$/src/test/java/Methods.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SubscriptionsTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/APITest.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/SubscriptionsTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/ChangePassword.java" />
@@ -87,19 +157,23 @@
         <option value="$PROJECT_DIR$/src/main/java/APITest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Subscriptions.java" />
         <option value="$PROJECT_DIR$/Login_Tests.xml" />
-        <option value="$PROJECT_DIR$/LoginContent.json" />
-        <option value="$PROJECT_DIR$/src/test/java/LoginTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/APITest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Methods.java" />
         <option value="$PROJECT_DIR$/src/test/java/ChangeAttributes.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Subscriptions.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ChangePassword.java" />
         <option value="$PROJECT_DIR$/TestsXmls/All_Tests.xml" />
         <option value="$PROJECT_DIR$/TestsXmls/Change_Attributes_Tests.xml" />
         <option value="$PROJECT_DIR$/TestsXmls/Login_Tests.xml" />
         <option value="$PROJECT_DIR$/TestsXmls/Subscribtions_Tests.xml" />
         <option value="$PROJECT_DIR$/TestsXmls/Change_Password_Tests.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/Subscriptions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Methods.java" />
+        <option value="$PROJECT_DIR$/LoginContent.json" />
+        <option value="$PROJECT_DIR$/src/test/java/APITest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ChangePassword.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LoginTests.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/SubscriptionsTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/APITests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/Methods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/Checker.java" />
       </list>
     </option>
   </component>
@@ -148,7 +222,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,19 +230,63 @@
               <item name="OpenfitAPIs" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpenfitAPIs" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="OpenfitAPIs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenfitAPIs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenfitAPIs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenfitAPIs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenfitAPIs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenfitAPIs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenfitAPIs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenfitAPIs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenfitAPIs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenfitAPIs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenfitAPIs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenfitAPIs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenfitAPIs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenfitAPIs" type="462c0819:PsiDirectoryNode" />
+              <item name="TestsXmls" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.53103447" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -200,7 +318,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/TestsXmls/Subscribtions_Tests.xml">
+  <component name="RunManager" selected="TestNG.APITests.freeRegister">
     <configuration type="TestNG" singleton="false" nameIsGenerated="true">
       <module name="OpenfitAPIs" />
       <option name="SUITE_NAME" value="" />
@@ -238,11 +356,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChangeAttributes.changeAttributesForRegisteredUser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="APITests.freeRegister" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Openfit-APIs" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ChangeAttributes" />
-      <option name="METHOD_NAME" value="changeAttributesForRegisteredUser" />
+      <option name="MAIN_CLASS_NAME" value="APITests" />
+      <option name="METHOD_NAME" value="freeRegister" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -250,11 +368,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChangePassword.changePasswordForRegisteredUser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTests.loginWithRegisteredUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Openfit-APIs" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ChangePassword" />
-      <option name="METHOD_NAME" value="changePasswordForRegisteredUser" />
+      <option name="MAIN_CLASS_NAME" value="LoginTests" />
+      <option name="METHOD_NAME" value="loginWithRegisteredUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubscriptionsTests.getSubscriptions" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Openfit-APIs" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SubscriptionsTests" />
+      <option name="METHOD_NAME" value="getSubscriptions" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubscriptionsTests.registration1m" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Openfit-APIs" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SubscriptionsTests" />
+      <option name="METHOD_NAME" value="registration1m" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubscriptionsTests.registration6m" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Openfit-APIs" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SubscriptionsTests" />
+      <option name="METHOD_NAME" value="registration6m" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -266,36 +420,6 @@
       <module name="OpenfitAPIs" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="PACKAGE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/TestsXmls/All_Tests.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Openfit-APIs" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestsXmls/All_Tests.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/TestsXmls/Change_Password_Tests.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Openfit-APIs" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestsXmls/Change_Password_Tests.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/TestsXmls/Subscribtions_Tests.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Openfit-APIs" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestsXmls/Subscribtions_Tests.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -323,20 +447,20 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.&lt;default&gt;" />
+      <item itemvalue="TestNG.SubscriptionsTests.getSubscriptions" />
+      <item itemvalue="TestNG.SubscriptionsTests.registration6m" />
       <item itemvalue="XSLT.Tests" />
-      <item itemvalue="TestNG.ChangeAttributes.changeAttributesForRegisteredUser" />
-      <item itemvalue="TestNG.ChangePassword.changePasswordForRegisteredUser" />
-      <item itemvalue="TestNG./home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/TestsXmls/Change_Password_Tests.xml" />
-      <item itemvalue="TestNG./home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/TestsXmls/All_Tests.xml" />
-      <item itemvalue="TestNG./home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/TestsXmls/Subscribtions_Tests.xml" />
+      <item itemvalue="TestNG.LoginTests.loginWithRegisteredUser" />
+      <item itemvalue="TestNG.SubscriptionsTests.registration1m" />
+      <item itemvalue="TestNG.APITests.freeRegister" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/TestsXmls/Subscribtions_Tests.xml" />
-        <item itemvalue="TestNG./home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/TestsXmls/All_Tests.xml" />
-        <item itemvalue="TestNG./home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/TestsXmls/Change_Password_Tests.xml" />
-        <item itemvalue="TestNG.ChangePassword.changePasswordForRegisteredUser" />
-        <item itemvalue="TestNG.ChangeAttributes.changeAttributesForRegisteredUser" />
+        <item itemvalue="TestNG.APITests.freeRegister" />
+        <item itemvalue="TestNG.SubscriptionsTests.registration1m" />
+        <item itemvalue="TestNG.SubscriptionsTests.registration6m" />
+        <item itemvalue="TestNG.LoginTests.loginWithRegisteredUser" />
+        <item itemvalue="TestNG.SubscriptionsTests.getSubscriptions" />
       </list>
     </recent_temporary>
   </component>
@@ -354,41 +478,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ChangeAttributes_changeAttributesForRegisteredUser - 2019.05.27 at 14h 34m 14s.xml">
-      <configuration name="ChangeAttributes.changeAttributesForRegisteredUser" configurationId="TestNG" />
+    <history-entry file="SubscriptionsTests_registration6m - 2019.06.03 at 17h 48m 24s.xml">
+      <configuration name="SubscriptionsTests.registration6m" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ChangeAttributes_changeAttributesForRegisteredUser - 2019.05.27 at 14h 36m 13s.xml">
-      <configuration name="ChangeAttributes.changeAttributesForRegisteredUser" configurationId="TestNG" />
+    <history-entry file="SubscriptionsTests_registration1m - 2019.06.03 at 17h 48m 52s.xml">
+      <configuration name="SubscriptionsTests.registration1m" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ChangeAttributes_changeAttributesForRegisteredUser - 2019.05.27 at 14h 38m 01s.xml">
-      <configuration name="ChangeAttributes.changeAttributesForRegisteredUser" configurationId="TestNG" />
+    <history-entry file="SubscriptionsTests_registration1m - 2019.06.03 at 17h 49m 23s.xml">
+      <configuration name="SubscriptionsTests.registration1m" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ChangeAttributes_changeAttributesForRegisteredUser - 2019.05.27 at 14h 39m 47s.xml">
-      <configuration name="ChangeAttributes.changeAttributesForRegisteredUser" configurationId="TestNG" />
+    <history-entry file="SubscriptionsTests_registration1m - 2019.06.03 at 17h 50m 06s.xml">
+      <configuration name="SubscriptionsTests.registration1m" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ChangeAttributes_changeAttributesForRegisteredUser - 2019.05.27 at 14h 45m 04s.xml">
-      <configuration name="ChangeAttributes.changeAttributesForRegisteredUser" configurationId="TestNG" />
+    <history-entry file="SubscriptionsTests_registration1m - 2019.06.03 at 17h 50m 32s.xml">
+      <configuration name="SubscriptionsTests.registration1m" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ChangePassword_changePasswordForRegisteredUser - 2019.05.27 at 14h 46m 09s.xml">
-      <configuration name="ChangePassword.changePasswordForRegisteredUser" configurationId="TestNG" />
+    <history-entry file="APITests_freeRegister - 2019.06.03 at 17h 51m 56s.xml">
+      <configuration name="APITests.freeRegister" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_arsen_d_Desktop_Openfit-API_OpenfitAPIs_TestsXmls_Change_Password_Tests_xml - 2019.05.27 at 14h 46m 54s.xml">
-      <configuration name="/home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/TestsXmls/Change_Password_Tests.xml" configurationId="TestNG" />
+    <history-entry file="SubscriptionsTests_registration1m - 2019.06.03 at 17h 52m 15s.xml">
+      <configuration name="SubscriptionsTests.registration1m" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_arsen_d_Desktop_Openfit-API_OpenfitAPIs_TestsXmls_Change_Password_Tests_xml - 2019.05.27 at 14h 48m 14s.xml">
-      <configuration name="/home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/TestsXmls/Change_Password_Tests.xml" configurationId="TestNG" />
+    <history-entry file="APITests_freeRegister - 2019.06.03 at 18h 04m 52s.xml">
+      <configuration name="APITests.freeRegister" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_arsen_d_Desktop_Openfit-API_OpenfitAPIs_TestsXmls_All_Tests_xml - 2019.05.27 at 14h 55m 31s.xml">
-      <configuration name="/home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/TestsXmls/All_Tests.xml" configurationId="TestNG" />
+    <history-entry file="APITests_freeRegister - 2019.06.03 at 18h 05m 29s.xml">
+      <configuration name="APITests.freeRegister" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_arsen_d_Desktop_Openfit-API_OpenfitAPIs_TestsXmls_Subscribtions_Tests_xml - 2019.05.27 at 15h 12m 30s.xml">
-      <configuration name="/home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/TestsXmls/Subscribtions_Tests.xml" configurationId="TestNG" />
+    <history-entry file="APITests_freeRegister - 2019.06.03 at 18h 05m 55s.xml">
+      <configuration name="APITests.freeRegister" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14040907" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14372581" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -397,12 +522,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.498618" weight="0.32110092" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.498618" visible="true" weight="0.32110092" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39979655" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4991708" visible="true" weight="0.2874618" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4991708" weight="0.3404689" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.501382" side_tool="true" weight="0.32110092" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32925585" />
@@ -410,7 +535,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.2498618" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.32868758" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.3283582" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -425,15 +550,6 @@
     <SUITE FILE_PATH="coverage/OpenfitAPIs$APITest_getSubscriptions.ic" NAME="APITest.getSubscriptions Coverage Results" MODIFIED="1558096959030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JSONExample.json" />
-    <entry file="file://$PROJECT_DIR$/src/test/test.feature" />
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/FileWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/RandomAccessFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -541,41 +657,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LoginTests.java" />
-    <entry file="file://$PROJECT_DIR$/LoginContent.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjrt/1.8.10/aspectjrt-1.8.10.jar!/org/aspectj/runtime/reflect/JoinPointImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="79" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Subscriptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="49" column="31" lean-forward="true" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Methods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="43" column="59" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestsXmls/Change_Attributes_Tests.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -600,6 +685,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ChangeAttributesTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/allure-results/d390fec1-ffdf-480c-9bee-61e99b904108-result.json" />
+    <entry file="file://$PROJECT_DIR$/LoginContent.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TestsXmls/All_Tests.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -607,38 +707,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoginTests.java">
+    <entry file="file://$PROJECT_DIR$/TestsXmls/Change_Attributes_Tests.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ChangeAttributes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ChangePassword.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/APITest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        <state relative-caret-position="60">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1380">
-          <caret line="16" column="119" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="16" selection-end-column="119" />
+        <state relative-caret-position="210">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LoginTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ChangePasswordTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/asserts/SoftAssert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SubscriptionsTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/APITests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/Methods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/Checker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -720,7 +854,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.53103447" />
               </list>
             </option>
           </splitter-proportions>

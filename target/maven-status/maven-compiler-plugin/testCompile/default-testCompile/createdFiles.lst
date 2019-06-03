@@ -1,5 +1,5 @@
-APITest.class
+ChangePasswordTests.class
 LoginTests.class
-ChangePassword.class
-Subscriptions.class
-ChangeAttributes.class
+SubscriptionsTests.class
+ChangeAttributesTests.class
+APITests.class

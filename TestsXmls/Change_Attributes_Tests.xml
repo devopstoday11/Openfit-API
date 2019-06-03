@@ -2,7 +2,7 @@
 <suite name ="Test">
     <test name = "Change_Attributes_Test">
         <classes>
-            <class name="ChangeAttributes"></class>
+            <class name="ChangeAttributesTests"></class>
         </classes>
     </test>
 </suite>

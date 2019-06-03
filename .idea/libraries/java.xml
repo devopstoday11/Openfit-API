@@ -2,8 +2,6 @@
   <library name="java">
     <CLASSES />
     <JAVADOC />
-    <SOURCES>
-      <root url="file://$USER_HOME$/Documents/qe-tools/requests/src/main/java" />
-    </SOURCES>
+    <SOURCES />
   </library>
 </component>

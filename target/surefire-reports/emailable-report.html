@@ -9,13 +9,70 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Surefire suite</th></tr>
-<tr><td><a href="#t0">Surefire test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">18,432</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">3</td><td class="num">24,016</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">APITest</td><td><a href="#m0">freeRegister</a></td><td rowspan="1">1558957324845</td><td rowspan="1">3666</td></tr><tr class="passedeven"><td><a href="#m1">getIDToken</a></td><td rowspan="1">1558957328607</td><td rowspan="1">928</td></tr><tr class="passedodd"><td rowspan="2">LoginTests</td><td><a href="#m2">loginWithRegisteredUser</a></td><td rowspan="1">1558957329538</td><td rowspan="1">3407</td></tr><tr class="passedodd"><td><a href="#m3">loginWithSubscribedUser</a></td><td rowspan="1">1558957332946</td><td rowspan="1">10294</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">APITest</td><td><a href="#m0">freeRegister</a></td><td rowspan="1">1559560856176</td><td rowspan="1">21018</td></tr><tr class="failedodd"><td rowspan="2">LoginTests</td><td><a href="#m1">loginWithRegisteredUser</a></td><td rowspan="1">1559560878239</td><td rowspan="1">598</td></tr><tr class="failedodd"><td><a href="#m2">loginWithSubscribedUser</a></td><td rowspan="1">1559560878861</td><td rowspan="1">1274</td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">APITest</td><td><a href="#m3">getIDToken</a></td><td rowspan="1">1559560877321</td><td rowspan="1">915</td></tr></tbody>
 </table>
-<h2>Surefire test</h2><h3 id="m0">APITest#freeRegister</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">APITest#getIDToken</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">LoginTests#loginWithRegisteredUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">LoginTests#loginWithSubscribedUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Surefire test</h2><h3 id="m0">APITest#freeRegister</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	expected [Test] but found [null],
+	expected [Test] but found [null],
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null
+	at Methods.getUser(Methods.java:66)
+	at APITest.freeRegister_aroundBody2(APITest.java:38)
+	at APITest$AjcClosure3.run(APITest.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+	at APITest.freeRegister(APITest.java:27)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">LoginTests#loginWithRegisteredUser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	expected [Test] but found [null],
+	expected [Test] but found [null],
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null
+	at Methods.getUser(Methods.java:66)
+	at APITest.freeRegister_aroundBody2(APITest.java:38)
+	at APITest$AjcClosure3.run(APITest.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+	at APITest.freeRegister(APITest.java:27)
+	at LoginTests.loginWithRegisteredUser_aroundBody2(LoginTests.java:33)
+	at LoginTests$AjcClosure3.run(LoginTests.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+	at LoginTests.loginWithRegisteredUser(LoginTests.java:33)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">LoginTests#loginWithSubscribedUser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	expected [Test] but found [null],
+	expected [Test] but found [null],
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null
+	at Methods.getUser(Methods.java:66)
+	at APITest.freeRegister_aroundBody2(APITest.java:38)
+	at APITest$AjcClosure3.run(APITest.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+	at APITest.freeRegister(APITest.java:27)
+	at Subscriptions.registration6m_aroundBody2(Subscriptions.java:50)
+	at Subscriptions$AjcClosure3.run(Subscriptions.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+	at Subscriptions.registration6m(Subscriptions.java:49)
+	at LoginTests.loginWithSubscribedUser_aroundBody0(LoginTests.java:18)
+	at LoginTests$AjcClosure1.run(LoginTests.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+	at LoginTests.loginWithSubscribedUser(LoginTests.java:18)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">APITest#getIDToken</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

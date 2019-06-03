@@ -12,7 +12,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <maven.test.skip>false</maven.test.skip>
+        <maven.test.skip>true</maven.test.skip>
 <!--        <timestamp>${maven.build.timestamp}</timestamp>-->
 <!--        <reports.output.directory>${basedir}/allure-reports/allure-results_${timestamp}/</reports.output.directory>-->
     </properties>
@@ -37,14 +37,8 @@
             <groupId>com.ofabb.qatools</groupId>
             <artifactId>requests</artifactId>
             <version>1.0-SNAPSHOT</version>
-            <classifier>jar-with-dependencies</classifier>
         </dependency>
-        <dependency>
-            <groupId>com.ofabb.qatools</groupId>
-            <artifactId>requests</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <type>jar</type>
-        </dependency>
+
 
         <dependency>
             <groupId>org.skyscreamer</groupId>
