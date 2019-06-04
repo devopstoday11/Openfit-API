@@ -10,14 +10,18 @@ import java.io.IOException;
 
 public class SubscriptionsTests {
 
-    APITests apiTests = new APITests();
+
+    GetTokenIdTests getTokenIdTests = new GetTokenIdTests();
+
+    public SubscriptionsTests() throws IOException {
+    }
 
     @Test(priority = 1)
     @Description("Make request to subscribe with 6m.")
     @Step("Make request to generate valid ID Token: {0}, Make request to register free user: {1}, Make request to Subscribe with 6 months subscription plan: {2}")
     public void registration1m() throws IOException, ParseException {
-        apiTests.getIDToken();
-        apiTests.freeRegister();
+        getTokenIdTests.getIDToken();
+        FreeRegisterTests.freeRegister();
         HelperMethods.headers((String) HelperMethods.userData.get("id_token"));
         RequestBuilder requestBuilder = new RequestBuilder("https://connect-checkout-be.qa.openfit.com");
         requestBuilder.addPathParameters("v1", "subscriptionsTests", "new")
@@ -47,8 +51,8 @@ public class SubscriptionsTests {
     @Description("Make request to subscribe with 6m.")
     @Step("Make request to generate valid ID Token: {0}, Make request to register free user: {1}, Make request to Subscribe with 6 months subscription plan: {2}")
     public void registration6m() throws IOException, ParseException {
-        apiTests.getIDToken();
-        apiTests.freeRegister();
+        getTokenIdTests.getIDToken();
+        FreeRegisterTests.freeRegister();
         HelperMethods.headers((String) HelperMethods.userData.get("id_token"));
         RequestBuilder requestBuilder = new RequestBuilder("https://connect-checkout-be.qa.openfit.com");
         requestBuilder.addPathParameters("v1", "subscriptionsTests", "new")
@@ -79,8 +83,8 @@ public class SubscriptionsTests {
     @Description("Make request to subscribe with 12m.")
     @Step("Make request to generate valid ID Token: {0}, Make request to register free user: {1}, Make request to Subscribe with 12 months subscription plan: {2}")
     public void registration12m() throws IOException, ParseException {
-        apiTests.getIDToken();
-        apiTests.freeRegister();
+        getTokenIdTests.getIDToken();
+        FreeRegisterTests.freeRegister();
         HelperMethods.headers((String) HelperMethods.userData.get("id_token"));
         RequestBuilder requestBuilder = new RequestBuilder("https://connect-checkout-be.qa.openfit.com");
         requestBuilder.addPathParameters("v1", "subscriptionsTests", "new")

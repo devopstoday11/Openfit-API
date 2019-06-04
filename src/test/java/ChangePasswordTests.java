@@ -9,14 +9,16 @@ import util.HelperMethods;
 import java.io.IOException;
 
 public class ChangePasswordTests {
-    APITests apiTests = new APITests();
     SubscriptionsTests subscriptionsTests = new SubscriptionsTests();
+
+    public ChangePasswordTests() throws IOException {
+    }
 
     @Test
     @Description( "Change password for Registered User.")
     @Step("Make request to create free user:, Make request to change user password:")
     public void changePasswordForRegisteredUser() throws IOException, ParseException {
-        apiTests.freeRegister();
+        FreeRegisterTests.freeRegister();
         HelperMethods.headers((String) HelperMethods.userData.get("id_token"));
         String authorization = (String) HelperMethods.headers.get("Authorization");
         RequestBuilder requestBuilder = new RequestBuilder(" https://connect-customer.qa.openfit.com")

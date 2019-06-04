@@ -4,13 +4,17 @@ import net.minidev.json.parser.ParseException;
 import org.testng.annotations.Test;
 import requests.RequestBuilder;
 import requests.Response;
+import util.Checker;
 import util.HelperMethods;
 
 import java.io.IOException;
 
 public class LoginTests {
     SubscriptionsTests subscriptionsTestsForLogin = new SubscriptionsTests();
-    APITests apiTests = new APITests();
+    GetTokenIdTests getTokenIdTests = new GetTokenIdTests();
+
+    public LoginTests() throws IOException {
+    }
 
     @Test(priority = 0)
     @Description( "Login with subscribed user.")
@@ -21,7 +25,7 @@ public class LoginTests {
                 .addPathParameters("v1", "login")
                 .addHeader("x-api-key", "wrlyU1ZZUL1QSl1BKe7zw9ZsTJANTCAe7mRh2WLP");
         Response response = requestBuilder.post("{\"email\": \""+ HelperMethods.userData.get("email")+"\",\"password\":\"Test1234@\"}", "application/json");
-        HelperMethods.getLoginResponseContent(response);
+        Checker.getLoginResponseContent(response);
         System.out.println(response.getCurl());
         System.out.println(response.body());
 
@@ -31,12 +35,12 @@ public class LoginTests {
     @Description("Login with registered user.")
     @Step("Subscribe with valid product ID:, Login with valid credentials:")
     public void loginWithRegisteredUser() throws IOException, ParseException {
-        apiTests.freeRegister();
+        FreeRegisterTests.freeRegister();
         RequestBuilder requestBuilder = new RequestBuilder(" https://connect-customer.qa.openfit.com")
                 .addPathParameters("v1", "login")
                 .addHeader("x-api-key", "wrlyU1ZZUL1QSl1BKe7zw9ZsTJANTCAe7mRh2WLP");
         Response response = requestBuilder.post("{\"email\": \""+ HelperMethods.userData.get("email")+"\",\"password\":\"Test1234@\"}", "application/json");
-        HelperMethods.getLoginResponseContent(response);
+        Checker.getLoginResponseContent(response);
         System.out.println(response.getCurl());
         System.out.println(response.body());
     }

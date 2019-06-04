@@ -2,7 +2,7 @@
 <suite name ="All">
     <test name = "All_Tests">
         <classes>
-            <class name="APITests"></class>
+            <class name="GetTokenIdTests"></class>
             <class name="SubscriptionsTests"></class>
             <class name="ChangePasswordTests"></class>
             <class name="ChangeAttributesTests"></class>

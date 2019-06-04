@@ -10,7 +10,9 @@ import java.io.IOException;
 
 public class ChangeAttributesTests {
     SubscriptionsTests subscriptionsTests = new SubscriptionsTests();
-    APITests apiTests = new APITests();
+
+    public ChangeAttributesTests() throws IOException {
+    }
 
     @Test(priority = 0)
     @Description("Change subscribed user attributes.")
@@ -37,7 +39,7 @@ public class ChangeAttributesTests {
     @Description("Change registered user attributes.")
     @Step("Make request to create free user:, Make request to generate valid token ID:, Make request to subscribe with valid credentials:, Make reqeust to change user attributes:")
     public void changeAttributesForRegisteredUser() throws IOException, ParseException {
-        apiTests.freeRegister();
+        FreeRegisterTests.freeRegister();
         HelperMethods.headers((String) HelperMethods.userData.get("id_token"));
         String authorization = (String) HelperMethods.headers.get("Authorization");
         System.out.println(authorization);
