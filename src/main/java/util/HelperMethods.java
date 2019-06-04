@@ -3,7 +3,6 @@ package util;
 import net.minidev.json.JSONObject;
 import net.minidev.json.parser.JSONParser;
 import net.minidev.json.parser.ParseException;
-import org.testng.asserts.SoftAssert;
 import requests.Response;
 
 import java.io.BufferedReader;
@@ -46,35 +45,13 @@ public class HelperMethods {
         String given_name = userJson.getAsString("given_name");
         String family_name = userJson.getAsString("family_name");
         String email = userJson.getAsString("email");
-        String sub = userJson.getAsString("sub");
         String idToken = userJson.getAsString("id_token");
         String access_token = userJson.getAsString("access_token");
-        String refresh_token = userJson.getAsString("refresh_token");
-        SoftAssert softAssert = new SoftAssert();
-        softAssert.assertEquals(given_name,"Test");
-        softAssert.assertEquals(family_name,"Test");
-        softAssert.assertNotNull(given_name);
-        softAssert.assertNotNull(family_name);
-        softAssert.assertNotNull(email);
-        softAssert.assertNotNull(sub);
-        softAssert.assertNotNull(idToken);
-        softAssert.assertNotNull(access_token);
-        softAssert.assertNotNull(refresh_token);
-        softAssert.assertAll();
         userData.put("access_token","\""+access_token);
         userData.put("given_name","\""+given_name);
         userData.put("family_name","\""+family_name);
         userData.put("id_token", idToken);
         userData.put("email",email);
-    }
-
-    public static void getTokenId(Response response) throws ParseException{
-        JSONObject tokenIdjson = (JSONObject) new JSONParser().parse(response.body());
-        String idToken = tokenIdjson.getAsString("id");
-        SoftAssert softAssert = new SoftAssert();
-        softAssert.assertNotNull(idToken);
-        tokenIDs.put("token_id","\""+idToken+"\"");
-
     }
 
 

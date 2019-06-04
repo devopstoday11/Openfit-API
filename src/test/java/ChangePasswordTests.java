@@ -10,15 +10,24 @@ import java.io.IOException;
 
 public class ChangePasswordTests {
     SubscriptionsTests subscriptionsTests = new SubscriptionsTests();
+    FreeRegisterTests freeRegisterTests;
 
-    public ChangePasswordTests() throws IOException {
+    {
+        try {
+            freeRegisterTests = new FreeRegisterTests();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public ChangePasswordTests(){
     }
 
     @Test
     @Description( "Change password for Registered User.")
     @Step("Make request to create free user:, Make request to change user password:")
     public void changePasswordForRegisteredUser() throws IOException, ParseException {
-        FreeRegisterTests.freeRegister();
+        freeRegisterTests.freeRegister();
         HelperMethods.headers((String) HelperMethods.userData.get("id_token"));
         String authorization = (String) HelperMethods.headers.get("Authorization");
         RequestBuilder requestBuilder = new RequestBuilder(" https://connect-customer.qa.openfit.com")

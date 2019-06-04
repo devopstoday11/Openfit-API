@@ -11,8 +11,7 @@ import java.io.IOException;
 
 public class LoginTests {
     SubscriptionsTests subscriptionsTestsForLogin = new SubscriptionsTests();
-    GetTokenIdTests getTokenIdTests = new GetTokenIdTests();
-
+    FreeRegisterTests freeRegisterTests = new FreeRegisterTests();
     public LoginTests() throws IOException {
     }
 
@@ -35,7 +34,7 @@ public class LoginTests {
     @Description("Login with registered user.")
     @Step("Subscribe with valid product ID:, Login with valid credentials:")
     public void loginWithRegisteredUser() throws IOException, ParseException {
-        FreeRegisterTests.freeRegister();
+        freeRegisterTests.freeRegister();
         RequestBuilder requestBuilder = new RequestBuilder(" https://connect-customer.qa.openfit.com")
                 .addPathParameters("v1", "login")
                 .addHeader("x-api-key", "wrlyU1ZZUL1QSl1BKe7zw9ZsTJANTCAe7mRh2WLP");

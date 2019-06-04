@@ -3,6 +3,7 @@
     <test name = "All_Tests">
         <classes>
             <class name="GetTokenIdTests"></class>
+            <class name="LoginTests"></class>
             <class name="SubscriptionsTests"></class>
             <class name="ChangePasswordTests"></class>
             <class name="ChangeAttributesTests"></class>

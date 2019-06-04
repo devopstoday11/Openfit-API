@@ -19,6 +19,15 @@ import java.io.IOException;
 public class Checker {
     static SoftAssert softAssert = new SoftAssert();
 
+    public static void getTokenId(Response response) throws ParseException{
+        JSONObject tokenIdjson = (JSONObject) new JSONParser().parse(response.body());
+        String idToken = tokenIdjson.getAsString("id");
+        SoftAssert softAssert = new SoftAssert();
+        softAssert.assertNotNull(idToken);
+        HelperMethods.tokenIDs.put("token_id","\""+idToken+"\"");
+
+    }
+
     public static void getFreeRegisterContent(Response response) throws ParseException, IOException {
         JSONObject freeRegisterContent = (JSONObject) new JSONParser().parse(response.body());
         String email = freeRegisterContent.getAsString("email");

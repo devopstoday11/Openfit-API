@@ -9,12 +9,21 @@ import util.HelperMethods;
 import java.io.IOException;
 
 public class ChangeAttributesTests {
-    SubscriptionsTests subscriptionsTests = new SubscriptionsTests();
+    SubscriptionsTests  subscriptionsTests = new SubscriptionsTests();
+    FreeRegisterTests freeRegisterTests;
 
-    public ChangeAttributesTests() throws IOException {
+    {
+        try {
+            freeRegisterTests = new FreeRegisterTests();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
-    @Test(priority = 0)
+    public ChangeAttributesTests(){
+    }
+
+    @Test
     @Description("Change subscribed user attributes.")
     @Step("Make request to create free user: , Make request to generate valid token ID:, Make request to subscribe with valid credentials:, Make reqeust to change user attributes:")
     public void changeAttributesForSubscribedUser() throws IOException, ParseException {
@@ -35,11 +44,11 @@ public class ChangeAttributesTests {
         System.out.println(response.body());
     }
 
-    @Test(priority = 0)
+    @Test
     @Description("Change registered user attributes.")
     @Step("Make request to create free user:, Make request to generate valid token ID:, Make request to subscribe with valid credentials:, Make reqeust to change user attributes:")
     public void changeAttributesForRegisteredUser() throws IOException, ParseException {
-        FreeRegisterTests.freeRegister();
+        freeRegisterTests.freeRegister();
         HelperMethods.headers((String) HelperMethods.userData.get("id_token"));
         String authorization = (String) HelperMethods.headers.get("Authorization");
         System.out.println(authorization);

@@ -12,23 +12,24 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class FreeRegisterTests {
-    FileReader fileReader = new FileReader("qa.properties");
+    FileReader fileReader = new FileReader("/home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/environments/qa.properties");
     static String x_api_key;
     static String freeRegisterUrl;
-    static String email = "tester" + HelperMethods.randomAlphaNumeric(5) + "@yopmail.com";
+    String email = "tester" + HelperMethods.randomAlphaNumeric(5) + "@yopmail.com";
+    static String content_type;
 
     public FreeRegisterTests() throws IOException {
         Properties properties = new Properties();
         properties.load(fileReader);
         x_api_key = properties.getProperty("api.qa.x-api-key");
         freeRegisterUrl = properties.getProperty("api.freeRegister.server");
+        content_type = properties.getProperty("api.contentType");
     }
 
     @Test
     @Description("Free register with valid credentials.")
     @Step("Make request to create free user:")
-    public static void freeRegister() throws IOException, ParseException {
-
+    public void freeRegister() throws IOException, ParseException {
         RequestBuilder requestBuilder = new RequestBuilder(freeRegisterUrl)
                 .addPathParameters("v1", "register")
                 .addHeader("x-api-key", x_api_key);
@@ -38,7 +39,7 @@ public class FreeRegisterTests {
                 "        \"email\":\""+email+"\",\n" +
                 "        \"password\":\"Test1234@\"\n" +
                 "        \n" +
-                "}", "application/json");
+                "}", content_type);
         System.out.println("Free register:\n"+response.getCurl());
         System.out.println("\nResponse: \n" +response.body());
         HelperMethods.getUser(response);
