@@ -40,8 +40,6 @@ public class FreeRegisterTests {
                 "        \"password\":\"Test1234@\"\n" +
                 "        \n" +
                 "}", content_type);
-        System.out.println("Free register:\n"+response.getCurl());
-        System.out.println("\nResponse: \n" +response.body());
         HelperMethods.getUser(response);
         Checker.getFreeRegisterContent(response);
     }

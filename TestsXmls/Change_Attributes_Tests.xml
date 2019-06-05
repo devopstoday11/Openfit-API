@@ -1,8 +1,0 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name ="Test">
-    <test name = "Change_Attributes_Test">
-        <classes>
-            <class name="ChangeAttributesTests"></class>
-        </classes>
-    </test>
-</suite>

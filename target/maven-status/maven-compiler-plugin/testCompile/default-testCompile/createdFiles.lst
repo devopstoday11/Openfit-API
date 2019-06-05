@@ -1,5 +1,6 @@
+SubscriptionsTests.class
 ChangePasswordTests.class
 LoginTests.class
-SubscriptionsTests.class
+FreeRegisterTests.class
+GetTokenIdTests.class
 ChangeAttributesTests.class
-APITests.class

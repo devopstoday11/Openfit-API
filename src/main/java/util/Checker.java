@@ -54,10 +54,6 @@ public class Checker {
 
     public static void getLoginResponseContent(Response response) throws ParseException, IOException {
         JSONObject loginContent = (JSONObject) new JSONParser().parse(response.body());
-        File file = new File("/home/arsen_d/Desktop/OpenfitAPIs/src/test/LoginContent.json");
-        FileWriter fileWriter = new FileWriter("LoginContent.json");
-        fileWriter.write(loginContent.toJSONString());
-        fileWriter.close();
         String [] data = {"email", "given_name, family_name, sub, id_token, access_token, refresh_token"};
         for (int i = 0; i < data.length; i++) {
             softAssert.assertEquals(loginContent.getAsString(data[i]), HelperMethods.userData.get(data[i]));

@@ -1,0 +1,2 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="API test run"><parameter name="api.env" value="qa" /><test name="Test run  and for Tests groups"><groups><run><include name="Tests" /></run></groups><packages><package name="tests.*" /></packages></test></suite>

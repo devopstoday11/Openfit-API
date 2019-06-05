@@ -1,77 +1,110 @@
-#!/usr/bin/python
-
 import argparse
-import subprocess
-import datetime
 import os
-from string import Template
+import subprocess as terminal
+import xml.etree.ElementTree as xmlParser
 
-parser = argparse.ArgumentParser(description="Execute REST API tests.",
+ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
+
+parser = argparse.ArgumentParser(description="Run Nutrition API tests",
                                  formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
-parser.add_argument("-cp", "--classpath",
-                    default="iron-man-1.0-SNAPSHOT-jar-with-dependencies.jar",
-                    help="JAR file(s) with IronMan glue code and all external dependencies (e.g. Cucumber)")
-parser.add_argument("-t", "--tests",
-                    default="tests",
-                    help="Path to the directory or file with the tests that should be executed")
-parser.add_argument("--tags", type=str, nargs='+',
-                    help="Cucumber tags to run the specified tests")
-parser.add_argument("--logLevel",
-                    help="Define log level(e.g. INFO, ERROR, WARN, DEBUG)")
-parser.add_argument("environment",
-                    help="Environment properties file")
-parser.add_argument("-cc", "--ccData", type=int,
-                    default=-1,
-                    help="Set credit card data for users ")
-parser.add_argument("-cid", "--coachId", type=int,
-                    default=-1,
-                    help="Set coach id for users ")
+parser.add_argument("--testName",
+                    default="API test run")
+parser.add_argument("-c", "--className", nargs='+',
+                    help="Tests class name")
+parser.add_argument("-g", "--groups", type=str, nargs='+',
+                    help="Group to run the specified tests")
+parser.add_argument("--environment", type=str,
+                    help="Environment properties file", default='qa')
+parser.add_argument("--generate", type=str,  default='True')
+
 
 args = parser.parse_args()
+url = ""
 
-args.__dict__['results'] = "results/" + datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+parameters = {"env": args.environment}
 
-if os.environ.get('JOB_URL') is not None:
-    args.__dict__['JOB_URL'] = os.environ['JOB_URL']
-else:
-    args.__dict__['JOB_URL'] = ''
+root = xmlParser.Element('suite', name=args.testName)
 
-createResultDir = "mkdir -p " + args.__dict__['results'] + "/logs"
-print createResultDir
-subprocess.call(createResultDir, shell=True)
 
-commandArgs = """java -cp $classpath \\
-        -Djenkins.job.url=$JOB_URL \\
-        -Diron-man.environment=$environment \\
-        -Diron-man.results=$results \\
-        -Diron-man.ccData=$ccData \\
-        -Diron-man.coachId=$coachId \\"""
+def generate_testngxml_file():
+    file = open(ROOT_DIR + "/src/test/resources/xmlFiles/test_suit.xml", "w")
+    file.write('<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >\n' + str(xmlParser.tostring(root)))
+    file.close()
 
-if None!=args.logLevel:
-    commandArgs += """\n        -DlogLevel=$logLevel \\"""
-commandArgs = commandArgs + """\n        cucumber.api.cli.Main \\
-        --glue com.beachbody.qe.ironman \\
-        $tests \\
-        --plugin junit:$results/results.xml \\
-        --plugin json:$results/results.json \\
-        --plugin html:$results/html"""
-if None!=args.tags:
-    for tag in args.tags:
-        commandArgs = commandArgs + """ \\ --tags """ + tag
-commandTemplate = Template(commandArgs)
-command = commandTemplate.substitute(args.__dict__)
-print command
-subprocess.call(command, shell=True)
 
-deleteCurrentCucumberHtmlReports = """rm -rf """ + """../cucumber-html-reports"""
-print deleteCurrentCucumberHtmlReports
-subprocess.call(deleteCurrentCucumberHtmlReports, shell=True)
+def generate_parameters():
+    for name, value in parameters.items():
+        parameter = xmlParser.Element('parameter', name='api.' + name, value=value)
+        root.append(parameter)
 
-copyJsonCommand = """cp """ + args.__dict__['results'] + """/results.json results/latest.json"""
-print copyJsonCommand
-subprocess.call(copyJsonCommand, shell=True)
-if (os.path.isfile(args.__dict__['results'] + "/club_users_info.csv")):
-    copyJsonCommand = """cp """ + args.__dict__['results'] + """/club_users_info.csv results/club_users_info.csv"""
-    print copyJsonCommand
-subprocess.call(copyJsonCommand, shell=True)
+
+def generate_test():
+    test = xmlParser.Element('test', name=generate_test_name())
+    if create_groups() != None:
+        test.append(create_groups())
+    test.append(get_classes())
+    root.append(test)
+
+
+def get_classes():
+    if args.className != None:
+        classes = xmlParser.Element('classes')
+        for class_name in args.className:
+            class_xmp = xmlParser.Element('class', name=class_name)
+            classes.append(class_xmp)
+        return classes
+    else:
+        packages = xmlParser.Element('packages')
+        package = xmlParser.Element('package', name='tests.*')
+        packages.append(package)
+        return packages
+
+
+def create_groups():
+    global generate_paths
+    if args.groups != None:
+        groups_section = xmlParser.Element('groups')
+        run = xmlParser.Element('run')
+
+        for group in args.groups:
+
+            if group.startswith("~"):
+                group_test = xmlParser.Element('exclude', name=group[1:])
+            else:
+                group_test = xmlParser.Element('include', name=group)
+            run.append(group_test)
+        groups_section.append(run)
+        return groups_section
+
+
+def generate_test_name():
+    name = 'Test run '
+    test_classes = ''
+    if args.className != None:
+        for c in args.className:
+            test_classes += str(c) + ','
+            print test_classes
+        if test_classes != '':
+            name += 'for ' + test_classes[0:len(test_classes) - 1] + ' classes'
+    if args.groups != None:
+        test_groups = ''
+        name += ' and for '
+        for g in args.groups:
+            test_groups += str(g) + ','
+        if test_groups != '':
+            name += '' + test_groups[0:len(test_groups) - 1] + ' groups'
+    print name
+    return name
+
+
+
+
+generate_parameters()
+generate_test()
+generate_testngxml_file()
+
+
+print ('mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/xmlFiles/test_suit.xml')
+terminal.call(["mvn", "clean", "test", "-Dsurefire.suiteXmlFiles=src/test/resources/xmlFiles/test_suit.xml"])
+terminal.call(["mvn", "io.qameta.allure:allure-maven:report"])
