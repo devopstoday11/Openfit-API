@@ -9,7 +9,7 @@ import util.HelperMethods;
 import java.io.IOException;
 
 public class ChangeAttributesTests {
-    SubscriptionsTests  subscriptionsTests;
+    SubscriptionsTests  subscriptionsTests = new SubscriptionsTests();
     FreeRegisterTests freeRegisterTests;
 
     {
