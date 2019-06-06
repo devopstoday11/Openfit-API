@@ -12,6 +12,14 @@ public class ChangePasswordTests {
     SubscriptionsTests subscriptionsTests;
     FreeRegisterTests freeRegisterTests;
 
+    {
+        try {
+            freeRegisterTests = new FreeRegisterTests();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     public ChangePasswordTests(){
     }
 

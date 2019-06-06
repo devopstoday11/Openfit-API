@@ -12,7 +12,21 @@ import java.util.Properties;
 
 public class SubscriptionsTests {
     FreeRegisterTests freeRegisterTests;
+    {
+        try {
+            freeRegisterTests = new FreeRegisterTests();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
     GetTokenIdTests getTokenIdTests;
+    {
+        try {
+            getTokenIdTests = new GetTokenIdTests();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
     FileReader fileReader;
     static String url;
