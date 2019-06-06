@@ -42,5 +42,6 @@ public class FreeRegisterTests {
                 "}", content_type);
         HelperMethods.getUser(response);
         Checker.getFreeRegisterContent(response);
+        System.out.println("Request to create free user: \n"+response.getCurl()+"\n\nResponse: \n"+response.body());
     }
 }

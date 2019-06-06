@@ -36,8 +36,8 @@ public class ChangePasswordTests {
                 .addHeader("Authorization", authorization)
                 .addHeader("Content-Type", "application/json");
         Response response = requestBuilder.put("{\"previousPassword\":\"Test1234@\",\"proposedPassword\":\"Test1234!\"}");
-        System.out.println(response.getCurl());
-        System.out.println(response.body());
+        System.out.println("\nRequest to change password for registered user: \n"+response.getCurl()+"\n\nResponse: \n"+response.body());
+
     }
 
 
@@ -53,7 +53,6 @@ public class ChangePasswordTests {
                 .addHeader("Authorization", authorization)
                 .addHeader("Content-Type", "application/json");
         Response response = requestBuilder.put("{\"previousPassword\":\"Test1234@\",\"proposedPassword\":\"Test1234!\"}");
-        System.out.println(response.getCurl());
-        System.out.println(response.body());
+        System.out.println("\nRequest to change password for subscribed user: \n"+response.getCurl()+"\n\nResponse: \n"+response.body());
     }
 }

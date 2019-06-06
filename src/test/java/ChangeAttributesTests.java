@@ -39,9 +39,8 @@ public class ChangeAttributesTests {
                 "        \"last_name\":\"Name\"\n" +
                 "        \n" +
                 "}", "application/json");
+        System.out.println("\nRequest to change attributes for subscribed user: \n"+response.getCurl()+"\n\nResponse: \n"+response.body());
 
-        System.out.println(response.getCurl());
-        System.out.println(response.body());
     }
 
     @Test
@@ -63,8 +62,7 @@ public class ChangeAttributesTests {
                 "        \"last_name\":\"Name\"\n" +
                 "        \n" +
                 "}", "application/json");
+        System.out.println("\nRequest to change attributes for registered user: \n"+response.getCurl()+"\n\nResponse: \n"+response.body());
 
-        System.out.println(response.getCurl());
-        System.out.println(response.body());
     }
 }

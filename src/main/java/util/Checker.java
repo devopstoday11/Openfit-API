@@ -1,6 +1,5 @@
 package util;
 
-import com.fasterxml.jackson.databind.util.JSONPObject;
 import net.minidev.json.JSONObject;
 import net.minidev.json.parser.JSONParser;
 import net.minidev.json.parser.ParseException;
@@ -48,8 +47,8 @@ public class Checker {
     }
 
     public static void getSubscriptionContent(Response response) throws ParseException, IOException {
-        JSONPObject subscriptionContent = (JSONPObject) new JSONParser().parse(response.body());
-
+        JSONObject subscriptionContent = (JSONObject) new JSONParser().parse(response.body());
+        String access_token = subscriptionContent.getAsString("message");
     }
 
     public static void getLoginResponseContent(Response response) throws ParseException, IOException {

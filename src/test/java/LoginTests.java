@@ -25,6 +25,7 @@ public class LoginTests {
                 .addHeader("x-api-key", "wrlyU1ZZUL1QSl1BKe7zw9ZsTJANTCAe7mRh2WLP");
         Response response = requestBuilder.post("{\"email\": \""+ HelperMethods.userData.get("email")+"\",\"password\":\"Test1234@\"}", "application/json");
         Checker.getLoginResponseContent(response);
+        System.out.println("\nRequest to login with subscribed  user: \n"+response.getCurl()+"\n\nResponse: \n"+response.body());
     }
 
     @Test(priority =0)
@@ -37,5 +38,6 @@ public class LoginTests {
                 .addHeader("x-api-key", "wrlyU1ZZUL1QSl1BKe7zw9ZsTJANTCAe7mRh2WLP");
         Response response = requestBuilder.post("{\"email\": \""+ HelperMethods.userData.get("email")+"\",\"password\":\"Test1234@\"}", "application/json");
         Checker.getLoginResponseContent(response);
+        System.out.println("\nRequest to login with free user: \n"+response.getCurl()+"\n\nResponse: \n"+response.body());
     }
 }
