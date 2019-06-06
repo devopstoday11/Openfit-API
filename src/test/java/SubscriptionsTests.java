@@ -95,15 +95,6 @@ public class SubscriptionsTests {
                 "\t\"quantity\":1}],\n" +
                 "\t\"token_id\":"+ HelperMethods.tokenIDs.get("token_id")+",\n" +
                 "\t\"access_token\":"+ HelperMethods.userData.get("access_token")+"\",\n" +
-                "\t\"shipping_address\":\n" +
-                "\t\t{\"first_name\":"+ HelperMethods.userData.get("given_name")+"\",\n" +
-                "\t\t\"last_name\":"+ HelperMethods.userData.get("family_name")+"\",\n" +
-                "\t\t\"state\":\"CA\",\n" +
-                "\t\t\"city\":\"Santa Monica\",\n" +
-                "\t\t\"address1\":\"3301 Exposition Blvd\",\n" +
-                "\t\t\"zip\":\"90404-5045\"\n" +
-                "\t\t},\"shipping_method\":\"on\"\n" +
-                "\t\n" +
                 "}");
         System.out.println("Registration 1m:\n"+response.getCurl());
         System.out.println("\nResponse: " +response.body());
@@ -126,17 +117,7 @@ public class SubscriptionsTests {
                 "\t\"variant_id\":"+variant_id_12m+",\n" +
                 "\t\"quantity\":1}],\n" +
                 "\t\"token_id\":"+ HelperMethods.tokenIDs.get("token_id")+",\n" +
-                "\t\"access_token\":"+ HelperMethods.userData.get("access_token")+"\",\n" +
-                "\t\"shipping_address\":\n" +
-                "\t\t{\"first_name\":"+ HelperMethods.userData.get("given_name")+"\",\n" +
-                "\t\t\"last_name\":"+ HelperMethods.userData.get("family_name")+"\",\n" +
-                "\t\t\"state\":\"CA\",\n" +
-                "\t\t\"city\":\"Santa Monica\",\n" +
-                "\t\t\"address1\":\"3301 Exposition Blvd\",\n" +
-                "\t\t\"zip\":\"90404-5045\"\n" +
-                "\t\t},\"shipping_method\":\"on\"\n" +
-                "\t\n" +
-                "}");
+                "\t\"access_token\":"+ HelperMethods.userData.get("access_token")+"\",\n" +"}");
         System.out.println("Registration 1m:\n"+response.getCurl());
         System.out.println("\nResponse: \n" +response.body());
     }
