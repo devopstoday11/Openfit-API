@@ -9,16 +9,8 @@ import util.HelperMethods;
 import java.io.IOException;
 
 public class ChangePasswordTests {
-    SubscriptionsTests subscriptionsTests = new SubscriptionsTests();
+    SubscriptionsTests subscriptionsTests;
     FreeRegisterTests freeRegisterTests;
-
-    {
-        try {
-            freeRegisterTests = new FreeRegisterTests();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
 
     public ChangePasswordTests(){
     }

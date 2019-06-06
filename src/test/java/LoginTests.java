@@ -10,8 +10,8 @@ import util.HelperMethods;
 import java.io.IOException;
 
 public class LoginTests {
-    SubscriptionsTests subscriptionsTestsForLogin = new SubscriptionsTests();
-    FreeRegisterTests freeRegisterTests = new FreeRegisterTests();
+    SubscriptionsTests subscriptionsTestsForLogin ;
+    FreeRegisterTests freeRegisterTests;
     public LoginTests() throws IOException {
     }
 
