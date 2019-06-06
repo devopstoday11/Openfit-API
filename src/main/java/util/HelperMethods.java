@@ -16,23 +16,6 @@ public class HelperMethods {
     public static HashMap headers = new HashMap();
     public static HashMap userData = new HashMap();
     public static HashMap tokenIDs = new HashMap();
-    public static String userDataForRegistration = "{\"items\":[\n" +
-            "\t{\n" +
-            "\t\"product_id\":1685587853379,\n" +
-            "\t\"variant_id\":15447916838979,\n" +
-            "\t\"quantity\":1}],\n" +
-            "\t\"token_id\":"+ HelperMethods.tokenIDs.get("token_id")+",\n" +
-            "\t\"access_token\":"+ HelperMethods.userData.get("access_token")+"\",\n" +
-            "\t\"shipping_address\":\n" +
-            "\t\t{\"first_name\":"+ HelperMethods.userData.get("given_name")+"\",\n" +
-            "\t\t\"last_name\":"+ HelperMethods.userData.get("family_name")+"\",\n" +
-            "\t\t\"state\":\"CA\",\n" +
-            "\t\t\"city\":\"Santa Monica\",\n" +
-            "\t\t\"address1\":\"3301 Exposition Blvd\",\n" +
-            "\t\t\"zip\":\"90404-5045\"\n" +
-            "\t\t},\"shipping_method\":\"on\"\n" +
-            "\t\n" +
-            "}";
 
     public static void headers(String authorization){
         headers.put("x-api-key","WYvuNYNwZo8LapYoJwwwh18rgJt85tPB8iYDAXSr");
