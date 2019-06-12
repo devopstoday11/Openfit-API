@@ -13,21 +13,9 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.test.skip>false</maven.test.skip>
-<!--        <timestamp>${maven.build.timestamp}</timestamp>-->
-<!--        <reports.output.directory>${basedir}/allure-reports/allure-results_${timestamp}/</reports.output.directory>-->
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>1.7.5</version>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-log4j12</artifactId>
-            <version>1.7.5</version>
-        </dependency>
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
@@ -72,40 +60,6 @@
     <build>
         <plugins>
             <plugin>
-                <artifactId>maven-resources-plugin</artifactId>
-                <version>3.0.2</version>
-                <executions>
-                    <execution>
-                        <id>process-resources</id>
-                        <phase>process-resources</phase>
-                        <goals>
-                            <goal>resources</goal>
-                        </goals>
-                        <configuration>
-                            <outputDirectory>${project.build.directory}/dist/resources</outputDirectory>
-                            <resources>
-                                <resource>
-                                    <directory>src/main/resources</directory>
-                                    <targetPath>${project.build.directory}/dist/resources</targetPath>
-                                    <includes>
-                                        <include>this_file_will_go_outside_the_ jar_in_the_folder.txt</include>
-                                        <include>this_too.txt</include>
-                                    </includes>
-                                </resource>
-                                <resource>
-                                    <directory>src/main/resources</directory>
-                                    <!-- without targetPath everything not excluded will be packaged inside the jar -->
-                                    <excludes>
-                                        <exclude>this_file_will_go_outside_the_ jar_in_the_folder.txt</exclude>
-                                        <exclude>this_too.txt</exclude>
-                                    </excludes>
-                                </resource>
-                            </resources>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
@@ -139,11 +93,6 @@
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <configuration>
-                    <archive>
-                        <manifest>
-                            <mainClass>com.beachbody.generator.TestCaseGenarator</mainClass>
-                        </manifest>
-                    </archive>
                     <descriptorRefs>
                         <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>
