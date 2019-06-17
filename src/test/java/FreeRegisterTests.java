@@ -43,8 +43,8 @@ public class FreeRegisterTests {
                 "}", content_type);
         HelperMethods.getUser(response);
         CheckerMethods.getFreeRegisterResponseContent(response);
+        System.out.println("Request to create free user: \n"+response.getCurl()+"\n\nResponse: \n"+response.body());
         Allure.addAttachment("Request: ", response.getCurl());
         Allure.addAttachment("Response: ", response.body());
-        System.out.println("Request to create free user: \n"+response.getCurl()+"\n\nResponse: \n"+response.body());
     }
 }

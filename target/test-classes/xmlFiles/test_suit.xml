@@ -1,9 +1,0 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="API test run">
-    <parameter name="api.env" value="qa"/>
-    <test name="Test run for FreeRegisterTests classes">
-        <classes>
-            <class name="FreeRegisterTests"/>
-        </classes>
-    </test>
-</suite>

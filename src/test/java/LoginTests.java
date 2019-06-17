@@ -1,3 +1,4 @@
+import io.qameta.allure.Allure;
 import io.qameta.allure.Description;
 import io.qameta.allure.Step;
 import net.minidev.json.parser.ParseException;
@@ -39,5 +40,7 @@ public class LoginTests {
         Response response = requestBuilder.post("{\"email\": \""+ HelperMethods.userData.get("email")+"\",\"password\":\"Test1234@\"}", "application/json");
         System.out.println("\nRequest to login with free user: \n"+response.getCurl()+"\n\nResponse: \n"+response.body());
         CheckerMethods.getLoginResponseContent(response);
+        Allure.addAttachment("Request: ", response.getCurl());
+        Allure.addAttachment("Response: ", response.body());
     }
 }

@@ -1,3 +1,4 @@
+import io.qameta.allure.Allure;
 import io.qameta.allure.Description;
 import io.qameta.allure.Step;
 import net.minidev.json.parser.ParseException;
@@ -39,6 +40,8 @@ public class ChangePasswordTests {
         Response response = requestBuilder.put("{\"previousPassword\":\"Test1234@\",\"proposedPassword\":\"Test1234!\"}");
         System.out.println("\nRequest to change password for registered user: \n"+response.getCurl()+"\n\nResponse: \n"+response.body());
         CheckerMethods.getChangePasswordResponseContent(response);
+        Allure.addAttachment("Request: ", response.getCurl());
+        Allure.addAttachment("Response: ", response.body());
     }
 
 
@@ -56,5 +59,7 @@ public class ChangePasswordTests {
         Response response = requestBuilder.put("{\"previousPassword\":\"Test1234@\",\"proposedPassword\":\"Test1234!\"}");
         System.out.println("\nRequest to change password for subscribed user: \n"+response.getCurl()+"\n\nResponse: \n"+response.body());
         CheckerMethods.getChangePasswordResponseContent(response);
+        Allure.addAttachment("Request: ", response.getCurl());
+        Allure.addAttachment("Response: ", response.body());
     }
 }

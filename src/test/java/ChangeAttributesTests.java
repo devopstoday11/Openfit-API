@@ -1,3 +1,4 @@
+import io.qameta.allure.Allure;
 import io.qameta.allure.Description;
 import io.qameta.allure.Step;
 import net.minidev.json.parser.ParseException;
@@ -42,6 +43,8 @@ public class ChangeAttributesTests {
                 "}", "application/json");
         System.out.println("\nRequest to change attributes for subscribed user: \n"+response.getCurl()+"\n\nResponse: \n"+response.body());
         CheckerMethods.getChangeAttributesResponseContent(response);
+        Allure.addAttachment("Request: ", response.getCurl());
+        Allure.addAttachment("Response: ", response.body());
     }
 
     @Test
@@ -65,5 +68,7 @@ public class ChangeAttributesTests {
                 "}", "application/json");
         System.out.println("\nRequest to change attributes for registered user: \n"+response.getCurl()+"\n\nResponse: \n"+response.body());
         CheckerMethods.getChangeAttributesResponseContent(response);
+        Allure.addAttachment("Request: ", response.getCurl());
+        Allure.addAttachment("Response: ", response.body());
     }
 }

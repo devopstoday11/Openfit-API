@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd3e2269-c6cc-4769-a2be-92dcefec6ca8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/CheckerMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/Checker.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ChangeAttributesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ChangeAttributesTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ChangePasswordTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ChangePasswordTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FreeRegisterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FreeRegisterTests.java" afterDir="false" />
@@ -13,28 +10,28 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SubscriptionsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SubscriptionsTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/xmlFiles/test_suit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/xmlFiles/test_suit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/Checker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/allure.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/allure-results/allure.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/allure-maven.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/allure-maven.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/attachments/258dc8048a43123e.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/attachments/3fec5575c08811f9.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/behaviors.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/graph.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/packages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/ee8fe2cf58144b75.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/timeline.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/widgets.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/widgets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/xunit.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/xunit.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/export/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/export/summary.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/history/history-trend.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/history/history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/API test run/Test run  and for Tests groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/API test run/Test run  and for Tests groups.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/API test run/Test run for FreeRegisterTests classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/API test run/Test run for FreeRegisterTests classes.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/API test run/Test run  and for Tests groups.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-FreeRegisterTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/API test run/Test run for FreeRegisterTests classes.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/API test run/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/API test run/classes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/API test run/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/API test run/methods-alphabetical.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/API test run/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/API test run/methods.html" afterDir="false" />
@@ -43,9 +40,11 @@
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/ChangeAttributesTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ChangeAttributesTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ChangePasswordTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ChangePasswordTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/FreeRegisterTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FreeRegisterTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/GetTokenIdTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GetTokenIdTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/LoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LoginTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SubscriptionsTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SubscriptionsTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/xmlFiles/test_suit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/xmlFiles/test_suit.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -64,38 +63,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/FreeRegisterTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="533">
+              <caret line="47" column="60" selection-start-line="46" selection-start-column="8" selection-end-line="47" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ContentTests.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SubscriptionsTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/CheckerMethods.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="68" column="102" lean-forward="true" selection-start-line="68" selection-start-column="102" selection-end-line="68" selection-end-column="102" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/Actual.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
-              <caret line="14423" column="29" selection-start-line="14423" selection-start-column="29" selection-end-line="14423" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/ContentExpected.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="131" column="35" lean-forward="true" selection-end-line="14423" selection-end-column="29" />
+            <state relative-caret-position="405">
+              <caret line="111" selection-start-line="111" selection-end-line="111" />
+              <folding>
+                <element signature="method#SubscriptionsTests#0;class#SubscriptionsTests#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -186,23 +173,23 @@
         <option value="$PROJECT_DIR$/TestsXmls/All_Tests.xml" />
         <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/test/java/GetTokenIdTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/HelperMethods.java" />
         <option value="$PROJECT_DIR$/src/test/Content.json" />
-        <option value="$PROJECT_DIR$/src/test/java/ContentTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/Checker.java" />
         <option value="$PROJECT_DIR$/src/test/resources/xmlFiles/test_suit.xml" />
         <option value="$PROJECT_DIR$/src/test/java/module.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/test-output/junitreports/TEST-test.SubscriptionsTests.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/ChangeAttributesTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ChangePasswordTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/LoginTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SubscriptionsTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/FreeRegisterTests.java" />
-        <option value="$PROJECT_DIR$/src/test/ContentExpected.json" />
         <option value="$PROJECT_DIR$/src/main/java/util/CheckerMethods.java" />
         <option value="$PROJECT_DIR$/src/test/Actual.json" />
+        <option value="$PROJECT_DIR$/src/test/java/ContentTests.java" />
+        <option value="$PROJECT_DIR$/src/test/ContentExpected.json" />
+        <option value="$PROJECT_DIR$/src/test/java/GetTokenIdTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LoginTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FreeRegisterTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ChangePasswordTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ChangeAttributesTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SubscriptionsTests.java" />
       </list>
     </option>
   </component>
@@ -303,6 +290,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenfitAPIs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenfitAPIs" type="462c0819:PsiDirectoryNode" />
+              <item name="test-output" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -509,12 +501,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ChangePasswordTests_changePasswordForRegisteredUser - 2019.06.17 at 10h 27m 12s.xml">
-      <configuration name="ChangePasswordTests.changePasswordForRegisteredUser" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ChangeAttributesTests_changeAttributesForRegisteredUser - 2019.06.17 at 10h 46m 32s.xml">
-      <configuration name="ChangeAttributesTests.changeAttributesForRegisteredUser" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ChangeAttributesTests_changeAttributesForRegisteredUser - 2019.06.17 at 10h 57m 40s.xml">
       <configuration name="ChangeAttributesTests.changeAttributesForRegisteredUser" configurationId="TestNG" />
     </history-entry>
@@ -539,6 +525,12 @@
     <history-entry file="ContentTests_getContent - 2019.06.17 at 11h 27m 25s.xml">
       <configuration name="ContentTests.getContent" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ContentTests_getContent - 2019.06.17 at 11h 33m 52s.xml">
+      <configuration name="ContentTests.getContent" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContentTests_getContent - 2019.06.17 at 11h 34m 43s.xml">
+      <configuration name="ContentTests.getContent" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -551,7 +543,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15975676" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -562,12 +553,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49806523" visible="true" weight="0.31294596" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49806523" weight="0.31294596" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39979655" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32925585" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.498618" weight="0.2919708" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.498618" visible="true" weight="0.29153925" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.501382" side_tool="true" weight="0.31600407" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32925585" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32925585" />
@@ -619,12 +610,6 @@
     <SUITE FILE_PATH="coverage/OpenfitAPIs$APITest_getSubscriptions.ic" NAME="APITest.getSubscriptions Coverage Results" MODIFIED="1558096959030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11909" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Subscriptions.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/APITest.java" />
     <entry file="file://$PROJECT_DIR$/test-output/Suite/Test.xml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -775,12 +760,6 @@
     <entry file="file://$PROJECT_DIR$/test-output/old/Suite/Test.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-output/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-output/testng-results.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-output/junitreports/TEST-test.SubscriptionsTests.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -788,79 +767,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ChangeAttributesTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/Actual.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/ContentExpected.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="66" column="68" selection-start-line="66" selection-start-column="68" selection-end-line="66" selection-end-column="68" />
+        <state relative-caret-position="105">
+          <caret line="131" column="35" lean-forward="true" selection-start-line="131" selection-start-column="35" selection-end-line="131" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ChangePasswordTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/CheckerMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="57" column="66" selection-start-line="57" selection-start-column="66" selection-end-line="57" selection-end-column="66" />
+        <state relative-caret-position="547">
+          <caret line="93" column="1" lean-forward="true" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="1" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/allure-results/ffc9c7b6-2c72-4eaa-9601-2304f7539cf0-attachment.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/allure-results/f39d4160-4e8e-4059-be73-8eaf5c91f894-attachment.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LoginTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
+        <state relative-caret-position="495">
+          <caret line="43" column="60" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/GetTokenIdTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+        <state relative-caret-position="465">
+          <caret line="43" column="60" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SubscriptionsTests.java">
+    <entry file="file://$PROJECT_DIR$/test-output/testng-results.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="101" column="62" selection-start-line="101" selection-start-column="62" selection-end-line="101" selection-end-column="62" />
-          <folding>
-            <element signature="method#SubscriptionsTests#0;class#SubscriptionsTests#0" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="22" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FreeRegisterTests.java">
+    <entry file="file://$PROJECT_DIR$/test-output/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ChangeAttributesTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="44" column="53" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="53" />
+        <state relative-caret-position="508">
+          <caret line="71" column="60" selection-start-line="71" selection-start-column="60" selection-end-line="71" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ChangePasswordTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="43" column="60" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ContentTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ContentExpected.json">
+    <entry file="file://$PROJECT_DIR$/src/test/java/FreeRegisterTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="131" column="35" lean-forward="true" selection-end-line="14423" selection-end-column="29" />
+        <state relative-caret-position="533">
+          <caret line="47" column="60" selection-start-line="46" selection-start-column="8" selection-end-line="47" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Actual.json">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SubscriptionsTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="14423" column="29" selection-start-line="14423" selection-start-column="29" selection-end-line="14423" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/CheckerMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="68" column="102" lean-forward="true" selection-start-line="68" selection-start-column="102" selection-end-line="68" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ContentTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state relative-caret-position="405">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+          <folding>
+            <element signature="method#SubscriptionsTests#0;class#SubscriptionsTests#0" />
+          </folding>
         </state>
       </provider>
     </entry>

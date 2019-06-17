@@ -1,3 +1,4 @@
+import io.qameta.allure.Allure;
 import io.qameta.allure.Description;
 import io.qameta.allure.Step;
 import net.minidev.json.parser.ParseException;
@@ -6,6 +7,7 @@ import requests.RequestBuilder;
 import requests.Response;
 import util.CheckerMethods;
 import util.HelperMethods;
+
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -57,7 +59,7 @@ public class SubscriptionsTests {
         url = properties.getProperty("api.Subscription.server");
     }
 
-    @Test(priority = 1)
+    @Test
     @Description("Make request to subscribe with 1m.")
     @Step("Make request to Subscribe with 1 month subscription plan:")
     public void registration1m() throws IOException, ParseException {
@@ -77,9 +79,11 @@ public class SubscriptionsTests {
                 "}");
         System.out.println("Registration 1m:\n" + response.getCurl());
         System.out.println("\nResponse: " + response.body());
+        Allure.addAttachment("Request: ", response.getCurl());
+        Allure.addAttachment("Response: ", response.body());
     }
 
-    @Test(priority = 1)
+    @Test
     @Description("Make request to subscribe with 6m.")
     @Step("Make request to generate valid ID Token: {0}, Make request to register free user: {1}, Make request to Subscribe with 6 months subscription plan: {2}")
     public void registration6m() throws IOException, ParseException {
@@ -100,9 +104,11 @@ public class SubscriptionsTests {
         System.out.println("Registration 1m:\n"+response.getCurl());
         System.out.println("\nResponse: " +response.body());
         CheckerMethods.getSubscriptionResponseContent(response);
+        Allure.addAttachment("Request: ", response.getCurl());
+        Allure.addAttachment("Response: ", response.body());
     }
 
-    @Test(priority = 1)
+    @Test
     @Description("Make request to subscribe with 12m.")
     @Step("Make request to generate valid ID Token: {0}, Make request to register free user: {1}, Make request to Subscribe with 12 months subscription plan: {2}")
     public void registration12m() throws IOException, ParseException {
@@ -121,5 +127,7 @@ public class SubscriptionsTests {
                 "\t\"access_token\":"+ HelperMethods.userData.get("access_token")+"\",\n" +"}");
         System.out.println("Registration 1m:\n"+response.getCurl());
         System.out.println("\nResponse: \n" +response.body());
+        Allure.addAttachment("Request: ", response.getCurl());
+        Allure.addAttachment("Response: ", response.body());
     }
 }
