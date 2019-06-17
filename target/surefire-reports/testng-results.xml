@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="10" total="12" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="API test run" duration-ms="9170" started-at="2019-06-17T08:42:33Z" finished-at="2019-06-17T08:42:43Z">
+    <groups>
+      <group name="tests1">
+        <method signature="FreeRegisterTests.freeRegister()[pri:0, instance:tests.FreeRegisterTests@45394b31]" name="freeRegister" class="tests.FreeRegisterTests"/>
+        <method signature="SubscriptionsTests.registration6m()[pri:0, instance:tests.SubscriptionsTests@1ec7d8b3]" name="registration6m" class="tests.SubscriptionsTests"/>
+      </group> <!-- tests1 -->
+    </groups>
+    <test name="Test run  and for tests1 groups" duration-ms="9170" started-at="2019-06-17T08:42:33Z" finished-at="2019-06-17T08:42:43Z">
+      <class name="tests.FreeRegisterTests">
+        <test-method status="PASS" signature="freeRegister()[pri:0, instance:tests.FreeRegisterTests@45394b31]" name="freeRegister" duration-ms="4752" started-at="2019-06-17T08:42:33Z" finished-at="2019-06-17T08:42:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freeRegister -->
+      </class> <!-- tests.FreeRegisterTests -->
+      <class name="tests.SubscriptionsTests">
+        <test-method status="PASS" signature="registration6m()[pri:0, instance:tests.SubscriptionsTests@1ec7d8b3]" name="registration6m" duration-ms="4168" started-at="2019-06-17T08:42:38Z" finished-at="2019-06-17T08:42:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration6m -->
+      </class> <!-- tests.SubscriptionsTests -->
+    </test> <!-- Test run  and for tests1 groups -->
+  </suite> <!-- API test run -->
+</testng-results>

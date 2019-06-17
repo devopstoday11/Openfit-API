@@ -1,0 +1,7 @@
+tests/GetTokenIdTests.class
+tests/SubscriptionsTests.class
+tests/ContentTests.class
+tests/ChangePasswordTests.class
+tests/LoginTests.class
+tests/ChangeAttributesTests.class
+tests/FreeRegisterTests.class

@@ -1,3 +1,5 @@
+package tests;
+
 import org.json.JSONException;
 import org.testng.annotations.Test;
 import requests.RequestBuilder;

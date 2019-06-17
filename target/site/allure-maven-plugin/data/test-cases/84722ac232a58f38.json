@@ -1,0 +1,143 @@
+{
+  "uid" : "84722ac232a58f38",
+  "name" : "registration6m",
+  "fullName" : "tests.SubscriptionsTests.registration6m",
+  "historyId" : "202557bca58e067ca7b2e3f22fa988b5",
+  "time" : {
+    "start" : 1560760958877,
+    "stop" : 1560760963044,
+    "duration" : 4167
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "description" : "Make request to subscribe with 6m.",
+  "descriptionHtml" : "<p>Make request to subscribe with 6m.</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "statusDetails" : {
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "Make request to generate valid ID Token: {0}, Make request to register free user: {1}, Make request to Subscribe with 6 months subscription plan: {2}",
+      "time" : {
+        "start" : 1560760958877,
+        "stop" : 1560760963043,
+        "duration" : 4166
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 6,
+      "steps" : [ {
+        "name" : "Make request to generate valid ID Token:",
+        "time" : {
+          "start" : 1560760958878,
+          "stop" : 1560760959745,
+          "duration" : 867
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f319d6d672b528d",
+          "name" : "Request: ",
+          "source" : "f319d6d672b528d.txt",
+          "type" : "text/plain",
+          "size" : 338
+        }, {
+          "uid" : "800c7d77ca41429",
+          "name" : "Response: ",
+          "source" : "800c7d77ca41429.txt",
+          "type" : "text/plain",
+          "size" : 52
+        } ],
+        "parameters" : [ ]
+      }, {
+        "name" : "Make request to create free user:",
+        "time" : {
+          "start" : 1560760959745,
+          "stop" : 1560760961798,
+          "duration" : 2053
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "9d8d629c6c5e16eb",
+          "name" : "Request: ",
+          "source" : "9d8d629c6c5e16eb.txt",
+          "type" : "text/plain",
+          "size" : 351
+        }, {
+          "uid" : "16e75df7a9bebb71",
+          "name" : "Response: ",
+          "source" : "16e75df7a9bebb71.txt",
+          "type" : "text/plain",
+          "size" : 3973
+        } ],
+        "parameters" : [ ]
+      } ],
+      "attachments" : [ {
+        "uid" : "6685e33798200aa3",
+        "name" : "Request: ",
+        "source" : "6685e33798200aa3.txt",
+        "type" : "text/plain",
+        "size" : 2417
+      }, {
+        "uid" : "f4385f78a0c18cf2",
+        "name" : "Response: ",
+        "source" : "f4385f78a0c18cf2.txt",
+        "type" : "text/plain",
+        "size" : 2130
+      } ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.SubscriptionsTests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.SubscriptionsTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "registration6m"
+  }, {
+    "name" : "parentSuite",
+    "value" : "API test run"
+  }, {
+    "name" : "suite",
+    "value" : "Test run  and for tests1 groups"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.SubscriptionsTests"
+  }, {
+    "name" : "host",
+    "value" : "MC-0126"
+  }, {
+    "name" : "thread",
+    "value" : "18861@MC-0126.main(1)"
+  } ],
+  "parameters" : [ {
+    "name" : "api.env",
+    "value" : "qa"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

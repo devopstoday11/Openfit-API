@@ -1,0 +1,125 @@
+{
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 2,
+    "unknown" : 0,
+    "total" : 2
+  },
+  "time" : {
+    "minDuration" : 4167,
+    "maxDuration" : 4677,
+    "sumDuration" : 8844,
+    "start" : 1560760954035,
+    "stop" : 1560760963044,
+    "duration" : 9009
+  },
+  "children" : [ {
+    "uid" : "7db334d311be1b63",
+    "name" : "API test run",
+    "time" : {
+      "minDuration" : 4167,
+      "maxDuration" : 4677,
+      "sumDuration" : 8844,
+      "start" : 1560760954035,
+      "stop" : 1560760963044,
+      "duration" : 9009
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "f74fb2f3cc23e8f4",
+      "name" : "Test run  and for tests1 groups",
+      "time" : {
+        "minDuration" : 4167,
+        "maxDuration" : 4677,
+        "sumDuration" : 8844,
+        "start" : 1560760954035,
+        "stop" : 1560760963044,
+        "duration" : 9009
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "cced28c789ad6456",
+        "name" : "tests.SubscriptionsTests",
+        "time" : {
+          "minDuration" : 4167,
+          "maxDuration" : 4167,
+          "sumDuration" : 4167,
+          "start" : 1560760958877,
+          "stop" : 1560760963044,
+          "duration" : 4167
+        },
+        "statistic" : {
+          "failed" : 0,
+          "broken" : 0,
+          "skipped" : 0,
+          "passed" : 1,
+          "unknown" : 0,
+          "total" : 1
+        },
+        "type" : "TestGroupNode",
+        "children" : [ {
+          "uid" : "84722ac232a58f38",
+          "name" : "registration6m",
+          "time" : {
+            "start" : 1560760958877,
+            "stop" : 1560760963044,
+            "duration" : 4167
+          },
+          "status" : "passed",
+          "flaky" : false,
+          "type" : "TestCaseNode"
+        } ]
+      }, {
+        "uid" : "4fa691318d57ae93",
+        "name" : "tests.FreeRegisterTests",
+        "time" : {
+          "minDuration" : 4677,
+          "maxDuration" : 4677,
+          "sumDuration" : 4677,
+          "start" : 1560760954035,
+          "stop" : 1560760958712,
+          "duration" : 4677
+        },
+        "statistic" : {
+          "failed" : 0,
+          "broken" : 0,
+          "skipped" : 0,
+          "passed" : 1,
+          "unknown" : 0,
+          "total" : 1
+        },
+        "type" : "TestGroupNode",
+        "children" : [ {
+          "uid" : "6d2c23a5c67158bd",
+          "name" : "freeRegister",
+          "time" : {
+            "start" : 1560760954035,
+            "stop" : 1560760958712,
+            "duration" : 4677
+          },
+          "status" : "passed",
+          "flaky" : false,
+          "type" : "TestCaseNode"
+        } ]
+      } ]
+    } ]
+  } ]
+}

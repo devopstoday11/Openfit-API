@@ -1,3 +1,5 @@
+package tests;
+
 import io.qameta.allure.Allure;
 import io.qameta.allure.Description;
 import io.qameta.allure.Step;
@@ -85,7 +87,7 @@ public class SubscriptionsTests {
 
     @Test
     @Description("Make request to subscribe with 6m.")
-    @Step("Make request to generate valid ID Token: {0}, Make request to register free user: {1}, Make request to Subscribe with 6 months subscription plan: {2}")
+    @Step("Make request to Subscribe with 6 months subscription plan:")
     public void registration6m() throws IOException, ParseException {
         getTokenIdTests.getIDToken();
         freeRegisterTests.freeRegister();
@@ -110,7 +112,7 @@ public class SubscriptionsTests {
 
     @Test
     @Description("Make request to subscribe with 12m.")
-    @Step("Make request to generate valid ID Token: {0}, Make request to register free user: {1}, Make request to Subscribe with 12 months subscription plan: {2}")
+    @Step("Make request to Subscribe with 12 months subscription plan:")
     public void registration12m() throws IOException, ParseException {
         getTokenIdTests.getIDToken();
         freeRegisterTests.freeRegister();

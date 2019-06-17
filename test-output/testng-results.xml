@@ -6,20 +6,20 @@
     <groups>
     </groups>
     <test name="Test" duration-ms="23969" started-at="2019-05-22T13:12:16Z" finished-at="2019-05-22T13:12:39Z">
-      <class name="SubscriptionsTests">
-        <test-method status="PASS" signature="registration12m()[pri:1, instance:test.SubscriptionsTests@5a4041cc]" name="registration12m" duration-ms="9786" started-at="2019-05-22T13:12:16Z" finished-at="2019-05-22T13:12:25Z">
+      <class name="tests.SubscriptionsTests">
+        <test-method status="PASS" signature="registration12m()[pri:1, instance:test.tests.SubscriptionsTests@5a4041cc]" name="registration12m" duration-ms="9786" started-at="2019-05-22T13:12:16Z" finished-at="2019-05-22T13:12:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registration12m -->
-        <test-method status="PASS" signature="registration1m()[pri:1, instance:test.SubscriptionsTests@5a4041cc]" name="registration1m" duration-ms="7092" started-at="2019-05-22T13:12:25Z" finished-at="2019-05-22T13:12:32Z">
+        <test-method status="PASS" signature="registration1m()[pri:1, instance:test.tests.SubscriptionsTests@5a4041cc]" name="registration1m" duration-ms="7092" started-at="2019-05-22T13:12:25Z" finished-at="2019-05-22T13:12:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registration1m -->
-        <test-method status="PASS" signature="registration6m()[pri:1, instance:test.SubscriptionsTests@5a4041cc]" name="registration6m" duration-ms="7001" started-at="2019-05-22T13:12:32Z" finished-at="2019-05-22T13:12:39Z">
+        <test-method status="PASS" signature="registration6m()[pri:1, instance:test.tests.SubscriptionsTests@5a4041cc]" name="registration6m" duration-ms="7001" started-at="2019-05-22T13:12:32Z" finished-at="2019-05-22T13:12:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registration6m -->
-      </class> <!-- SubscriptionsTests -->
+      </class> <!-- tests.SubscriptionsTests -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

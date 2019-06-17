@@ -1,0 +1,104 @@
+{
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 2,
+    "unknown" : 0,
+    "total" : 2
+  },
+  "time" : {
+    "minDuration" : 4167,
+    "maxDuration" : 4677,
+    "sumDuration" : 8844,
+    "start" : 1560760954035,
+    "stop" : 1560760963044,
+    "duration" : 9009
+  },
+  "children" : [ {
+    "uid" : "4abdc6d8beaa766f",
+    "name" : "tests",
+    "time" : {
+      "minDuration" : 4167,
+      "maxDuration" : 4677,
+      "sumDuration" : 8844,
+      "start" : 1560760954035,
+      "stop" : 1560760963044,
+      "duration" : 9009
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "374db0bb6e8244ca",
+      "name" : "SubscriptionsTests",
+      "time" : {
+        "minDuration" : 4167,
+        "maxDuration" : 4167,
+        "sumDuration" : 4167,
+        "start" : 1560760958877,
+        "stop" : 1560760963044,
+        "duration" : 4167
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "84722ac232a58f38",
+        "name" : "registration6m",
+        "time" : {
+          "start" : 1560760958877,
+          "stop" : 1560760963044,
+          "duration" : 4167
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "4b8c0d24f4695fa3",
+      "name" : "FreeRegisterTests",
+      "time" : {
+        "minDuration" : 4677,
+        "maxDuration" : 4677,
+        "sumDuration" : 4677,
+        "start" : 1560760954035,
+        "stop" : 1560760958712,
+        "duration" : 4677
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "6d2c23a5c67158bd",
+        "name" : "freeRegister",
+        "time" : {
+          "start" : 1560760954035,
+          "stop" : 1560760958712,
+          "duration" : 4677
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  } ]
+}

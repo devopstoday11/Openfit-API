@@ -1,0 +1,83 @@
+{
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 2,
+    "unknown" : 0,
+    "total" : 2
+  },
+  "time" : {
+    "minDuration" : 4167,
+    "maxDuration" : 4677,
+    "sumDuration" : 8844,
+    "start" : 1560760954035,
+    "stop" : 1560760963044,
+    "duration" : 9009
+  },
+  "children" : [ {
+    "uid" : "3e43f0a2ae9fdfd5",
+    "name" : "Default feature",
+    "time" : {
+      "minDuration" : 4167,
+      "maxDuration" : 4677,
+      "sumDuration" : 8844,
+      "start" : 1560760954035,
+      "stop" : 1560760963044,
+      "duration" : 9009
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "ca9b7e01effdeea4",
+      "name" : "Default story",
+      "time" : {
+        "minDuration" : 4167,
+        "maxDuration" : 4677,
+        "sumDuration" : 8844,
+        "start" : 1560760954035,
+        "stop" : 1560760963044,
+        "duration" : 9009
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "84722ac232a58f38",
+        "name" : "registration6m",
+        "time" : {
+          "start" : 1560760958877,
+          "stop" : 1560760963044,
+          "duration" : 4167
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "6d2c23a5c67158bd",
+        "name" : "freeRegister",
+        "time" : {
+          "start" : 1560760954035,
+          "stop" : 1560760958712,
+          "duration" : 4677
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  } ]
+}
