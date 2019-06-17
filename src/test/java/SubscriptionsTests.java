@@ -4,6 +4,7 @@ import net.minidev.json.parser.ParseException;
 import org.testng.annotations.Test;
 import requests.RequestBuilder;
 import requests.Response;
+import util.CheckerMethods;
 import util.HelperMethods;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -98,7 +99,7 @@ public class SubscriptionsTests {
                 "}");
         System.out.println("Registration 1m:\n"+response.getCurl());
         System.out.println("\nResponse: " +response.body());
-
+        CheckerMethods.getSubscriptionResponseContent(response);
     }
 
     @Test(priority = 1)

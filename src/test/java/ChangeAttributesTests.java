@@ -4,6 +4,7 @@ import net.minidev.json.parser.ParseException;
 import org.testng.annotations.Test;
 import requests.RequestBuilder;
 import requests.Response;
+import util.CheckerMethods;
 import util.HelperMethods;
 
 import java.io.IOException;
@@ -40,7 +41,7 @@ public class ChangeAttributesTests {
                 "        \n" +
                 "}", "application/json");
         System.out.println("\nRequest to change attributes for subscribed user: \n"+response.getCurl()+"\n\nResponse: \n"+response.body());
-
+        CheckerMethods.getChangeAttributesResponseContent(response);
     }
 
     @Test
@@ -63,6 +64,6 @@ public class ChangeAttributesTests {
                 "        \n" +
                 "}", "application/json");
         System.out.println("\nRequest to change attributes for registered user: \n"+response.getCurl()+"\n\nResponse: \n"+response.body());
-
+        CheckerMethods.getChangeAttributesResponseContent(response);
     }
 }

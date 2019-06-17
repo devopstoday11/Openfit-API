@@ -1,10 +1,11 @@
+import io.qameta.allure.Allure;
 import io.qameta.allure.Description;
 import io.qameta.allure.Step;
 import net.minidev.json.parser.ParseException;
 import org.testng.annotations.Test;
 import requests.RequestBuilder;
 import requests.Response;
-import util.Checker;
+import util.CheckerMethods;
 import util.HelperMethods;
 
 import java.io.FileReader;
@@ -41,7 +42,9 @@ public class FreeRegisterTests {
                 "        \n" +
                 "}", content_type);
         HelperMethods.getUser(response);
-        Checker.getFreeRegisterContent(response);
+        CheckerMethods.getFreeRegisterResponseContent(response);
+        Allure.addAttachment("Request: ", response.getCurl());
+        Allure.addAttachment("Response: ", response.body());
         System.out.println("Request to create free user: \n"+response.getCurl()+"\n\nResponse: \n"+response.body());
     }
 }

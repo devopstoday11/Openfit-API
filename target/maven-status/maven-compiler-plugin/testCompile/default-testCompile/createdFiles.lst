@@ -1,4 +1,5 @@
 SubscriptionsTests.class
+ContentTests.class
 ChangePasswordTests.class
 LoginTests.class
 FreeRegisterTests.class

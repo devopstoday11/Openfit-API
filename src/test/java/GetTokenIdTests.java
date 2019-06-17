@@ -4,7 +4,7 @@ import net.minidev.json.parser.ParseException;
 import org.testng.annotations.Test;
 import requests.RequestBuilder;
 import requests.Response;
-import util.Checker;
+import util.CheckerMethods;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -37,7 +37,7 @@ public class GetTokenIdTests {
         RequestBuilder requestBuilder = new RequestBuilder(getIdTokenUrl);
         requestBuilder.addPathParameters("js","v1","token");
         Response response = requestBuilder.post("{\"first_name\": \"Instigate\", \"last_name\": \"Mobile\", \"postal_code\": \"90404\", \"country\": \"US\", \"number\": \"4111111111111111\",\"month\": \"12\", \"year\": \"2020\", \"cvv\": \"132\", \"key\": \"ewr1-bBXWWGAuZMiIT4CL76bvwL\" }","application/json");
-        Checker.getTokenId(response);
+        CheckerMethods.getTokenIdResponseContent(response);
         System.out.println("\nRequest to get ID token: \n"+response.getCurl()+"\n\nResponse: \n"+response.body());
 
     }

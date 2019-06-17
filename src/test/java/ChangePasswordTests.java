@@ -4,6 +4,7 @@ import net.minidev.json.parser.ParseException;
 import org.testng.annotations.Test;
 import requests.RequestBuilder;
 import requests.Response;
+import util.CheckerMethods;
 import util.HelperMethods;
 
 import java.io.IOException;
@@ -37,7 +38,7 @@ public class ChangePasswordTests {
                 .addHeader("Content-Type", "application/json");
         Response response = requestBuilder.put("{\"previousPassword\":\"Test1234@\",\"proposedPassword\":\"Test1234!\"}");
         System.out.println("\nRequest to change password for registered user: \n"+response.getCurl()+"\n\nResponse: \n"+response.body());
-
+        CheckerMethods.getChangePasswordResponseContent(response);
     }
 
 
@@ -54,5 +55,6 @@ public class ChangePasswordTests {
                 .addHeader("Content-Type", "application/json");
         Response response = requestBuilder.put("{\"previousPassword\":\"Test1234@\",\"proposedPassword\":\"Test1234!\"}");
         System.out.println("\nRequest to change password for subscribed user: \n"+response.getCurl()+"\n\nResponse: \n"+response.body());
+        CheckerMethods.getChangePasswordResponseContent(response);
     }
 }
