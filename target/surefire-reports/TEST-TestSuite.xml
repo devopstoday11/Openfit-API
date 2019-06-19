@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="10.714" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="28.543" tests="12" errors="0" skipped="0" failures="8">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
@@ -31,18 +31,17 @@
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="4.15.0-51-generic"/>
-    <property name="surefire.suiteXmlFiles" value="src/test/resources/xmlFiles/test_suit.xml"/>
     <property name="user.home" value="/home/arsen_d"/>
     <property name="user.timezone" value="Asia/Yerevan"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
-    <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
     <property name="user.name" value="arsen_d"/>
     <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -Dsurefire.suiteXmlFiles=src/test/resources/xmlFiles/test_suit.xml"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -60,6 +59,204 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="freeRegister" classname="tests.FreeRegisterTests" time="4.751"/>
-  <testcase name="registration6m" classname="tests.SubscriptionsTests" time="4.169"/>
+  <testcase name="freeRegister" classname="tests.FreeRegisterTests" time="3.248"/>
+  <testcase name="registration12m" classname="tests.SubscriptionsTests" time="7.581"/>
+  <testcase name="registration1m" classname="tests.SubscriptionsTests" time="1.412">
+    <failure message="The following asserts failed:&#10;	expected [Test] but found [null],&#10;	expected [Test] but found [null],&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null" type="java.lang.AssertionError">java.lang.AssertionError: 
+The following asserts failed:
+	expected [Test] but found [null],
+	expected [Test] but found [null],
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null
+	at tests.SubscriptionsTests.registration1m_aroundBody0(SubscriptionsTests.java:64)
+	at tests.SubscriptionsTests.registration1m(SubscriptionsTests.java:58)
+</failure>
+    <system-out><![CDATA[
+Request to get ID token: 
+curl -v -X POST 'https://api.recurly.com/js/v1/token' -H 'Content-Length:204' -H 'Content-Type:application/json; charset=utf-8' -d '{"first_name": "Instigate", "last_name": "Mobile", "postal_code": "90404", "country": "US", "number": "4111111111111111","month": "12", "year": "2020", "cvv": "132", "key": "ewr1-bBXWWGAuZMiIT4CL76bvwL" }' 
+
+Response: 
+{"type":"credit_card","id":"byef_nB5ke7KF0pXLt_How"}
+]]></system-out>
+  </testcase>
+  <testcase name="registration6m" classname="tests.SubscriptionsTests" time="0.822">
+    <failure message="The following asserts failed:&#10;	expected [Test] but found [null],&#10;	expected [Test] but found [null],&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected [Test] but found [null],&#10;	expected [Test] but found [null],&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null" type="java.lang.AssertionError">java.lang.AssertionError: 
+The following asserts failed:
+	expected [Test] but found [null],
+	expected [Test] but found [null],
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected [Test] but found [null],
+	expected [Test] but found [null],
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null
+	at tests.SubscriptionsTests.registration6m_aroundBody2(SubscriptionsTests.java:105)
+	at tests.SubscriptionsTests.registration6m(SubscriptionsTests.java:99)
+</failure>
+    <system-out><![CDATA[
+Request to get ID token: 
+curl -v -X POST 'https://api.recurly.com/js/v1/token' -H 'Content-Length:204' -H 'Content-Type:application/json; charset=utf-8' -d '{"first_name": "Instigate", "last_name": "Mobile", "postal_code": "90404", "country": "US", "number": "4111111111111111","month": "12", "year": "2020", "cvv": "132", "key": "ewr1-bBXWWGAuZMiIT4CL76bvwL" }' 
+
+Response: 
+{"type":"credit_card","id":"Fu4dl8DYafNM4VQzQSjdnQ"}
+]]></system-out>
+  </testcase>
+  <testcase name="getIDToken" classname="tests.GetTokenIdTests" time="0.217"/>
+  <testcase name="changePasswordForRegisteredUser" classname="tests.ChangePasswordTests" time="2.14">
+    <failure message="The following asserts failed:&#10;	expected [Test] but found [null],&#10;	expected [Test] but found [null],&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected [Test] but found [null],&#10;	expected [Test] but found [null],&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null" type="java.lang.AssertionError">java.lang.AssertionError: 
+The following asserts failed:
+	expected [Test] but found [null],
+	expected [Test] but found [null],
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected [Test] but found [null],
+	expected [Test] but found [null],
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null
+	at tests.ChangePasswordTests.changePasswordForRegisteredUser_aroundBody0(ChangePasswordTests.java:28)
+	at tests.ChangePasswordTests.changePasswordForRegisteredUser(ChangePasswordTests.java:28)
+</failure>
+  </testcase>
+  <testcase name="changePasswordForSubscribedUser" classname="tests.ChangePasswordTests" time="2.958">
+    <failure message="The following asserts failed:&#10;	expected [Test] but found [null],&#10;	expected [Test] but found [null],&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected [Test] but found [null],&#10;	expected [Test] but found [null],&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null" type="java.lang.AssertionError">java.lang.AssertionError: 
+The following asserts failed:
+	expected [Test] but found [null],
+	expected [Test] but found [null],
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected [Test] but found [null],
+	expected [Test] but found [null],
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null
+	at tests.ChangePasswordTests.changePasswordForSubscribedUser_aroundBody2(ChangePasswordTests.java:48)
+	at tests.ChangePasswordTests.changePasswordForSubscribedUser(ChangePasswordTests.java:48)
+</failure>
+    <system-out><![CDATA[
+Request to get ID token: 
+curl -v -X POST 'https://api.recurly.com/js/v1/token' -H 'Content-Length:204' -H 'Content-Type:application/json; charset=utf-8' -d '{"first_name": "Instigate", "last_name": "Mobile", "postal_code": "90404", "country": "US", "number": "4111111111111111","month": "12", "year": "2020", "cvv": "132", "key": "ewr1-bBXWWGAuZMiIT4CL76bvwL" }' 
+
+Response: 
+{"type":"credit_card","id":"tDNwRm4QytrxJeBaCsrUnw"}
+]]></system-out>
+  </testcase>
+  <testcase name="loginWithRegisteredUser" classname="tests.LoginTests" time="1.991">
+    <failure message="The following asserts failed:&#10;	expected [Test] but found [null],&#10;	expected [Test] but found [null],&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected [Test] but found [null],&#10;	expected [Test] but found [null],&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null" type="java.lang.AssertionError">java.lang.AssertionError: 
+The following asserts failed:
+	expected [Test] but found [null],
+	expected [Test] but found [null],
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected [Test] but found [null],
+	expected [Test] but found [null],
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null
+	at tests.LoginTests.loginWithRegisteredUser_aroundBody2(LoginTests.java:40)
+	at tests.LoginTests.loginWithRegisteredUser(LoginTests.java:40)
+</failure>
+  </testcase>
+  <testcase name="loginWithSubscribedUser" classname="tests.LoginTests" time="2.545">
+    <failure message="The following asserts failed:&#10;	expected [Test] but found [null],&#10;	expected [Test] but found [null],&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected [Test] but found [null],&#10;	expected [Test] but found [null],&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null" type="java.lang.AssertionError">java.lang.AssertionError: 
+The following asserts failed:
+	expected [Test] but found [null],
+	expected [Test] but found [null],
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected [Test] but found [null],
+	expected [Test] but found [null],
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null
+	at tests.LoginTests.loginWithSubscribedUser_aroundBody0(LoginTests.java:25)
+	at tests.LoginTests.loginWithSubscribedUser(LoginTests.java:25)
+</failure>
+    <system-out><![CDATA[
+Request to get ID token: 
+curl -v -X POST 'https://api.recurly.com/js/v1/token' -H 'Content-Length:204' -H 'Content-Type:application/json; charset=utf-8' -d '{"first_name": "Instigate", "last_name": "Mobile", "postal_code": "90404", "country": "US", "number": "4111111111111111","month": "12", "year": "2020", "cvv": "132", "key": "ewr1-bBXWWGAuZMiIT4CL76bvwL" }' 
+
+Response: 
+{"type":"credit_card","id":"95G_grjzISRgZEnNIEGnBA"}
+]]></system-out>
+  </testcase>
+  <testcase name="changeAttributesForRegisteredUser" classname="tests.ChangeAttributesTests" time="2.322">
+    <failure message="The following asserts failed:&#10;	expected [Test] but found [null],&#10;	expected [Test] but found [null],&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected [Test] but found [null],&#10;	expected [Test] but found [null],&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null" type="java.lang.AssertionError">java.lang.AssertionError: 
+The following asserts failed:
+	expected [Test] but found [null],
+	expected [Test] but found [null],
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected [Test] but found [null],
+	expected [Test] but found [null],
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null
+	at tests.ChangeAttributesTests.changeAttributesForRegisteredUser_aroundBody2(ChangeAttributesTests.java:50)
+	at tests.ChangeAttributesTests.changeAttributesForRegisteredUser(ChangeAttributesTests.java:50)
+</failure>
+  </testcase>
+  <testcase name="changeAttributesForSubscribedUser" classname="tests.ChangeAttributesTests" time="2.294">
+    <failure message="The following asserts failed:&#10;	expected [Test] but found [null],&#10;	expected [Test] but found [null],&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected [Test] but found [null],&#10;	expected [Test] but found [null],&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null" type="java.lang.AssertionError">java.lang.AssertionError: 
+The following asserts failed:
+	expected [Test] but found [null],
+	expected [Test] but found [null],
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected [Test] but found [null],
+	expected [Test] but found [null],
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null
+	at tests.ChangeAttributesTests.changeAttributesForSubscribedUser_aroundBody0(ChangeAttributesTests.java:28)
+	at tests.ChangeAttributesTests.changeAttributesForSubscribedUser(ChangeAttributesTests.java:28)
+</failure>
+    <system-out><![CDATA[
+Request to get ID token: 
+curl -v -X POST 'https://api.recurly.com/js/v1/token' -H 'Content-Length:204' -H 'Content-Type:application/json; charset=utf-8' -d '{"first_name": "Instigate", "last_name": "Mobile", "postal_code": "90404", "country": "US", "number": "4111111111111111","month": "12", "year": "2020", "cvv": "132", "key": "ewr1-bBXWWGAuZMiIT4CL76bvwL" }' 
+
+Response: 
+{"type":"credit_card","id":"Lw1afX-schv7tySVk7BxLQ"}
+]]></system-out>
+  </testcase>
+  <testcase name="getContent" classname="tests.ContentTests" time="0.003"/>
 </testsuite>

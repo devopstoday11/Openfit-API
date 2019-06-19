@@ -3,26 +3,92 @@
   <component name="ChangeListManager">
     <list default="true" id="fd3e2269-c6cc-4769-a2be-92dcefec6ca8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Actual.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ChangeAttributesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/hello/ChangeAttributesTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ChangePasswordTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/hello/ChangePasswordTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ContentTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/hello/ContentTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FreeRegisterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/hello/FreeRegisterTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GetTokenIdTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/hello/GetTokenIdTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/hello/LoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SubscriptionsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/hello/SubscriptionsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/CheckerMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/CheckerMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/HelperMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/HelperMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ChangeAttributesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ChangeAttributesTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ChangePasswordTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ChangePasswordTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ContentTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ContentTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/FreeRegisterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/FreeRegisterTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/GetTokenIdTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/GetTokenIdTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SubscriptionsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SubscriptionsTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/xmlFiles/test_suit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/xmlFiles/test_suit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Suite/Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Suite/Test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Suite/Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Suite/Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-test.SubscriptionsTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-test.SubscriptionsTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/3252300f-80d3-461b-9cd4-069c7bc3268f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/6ab84a1a-babb-4a39-9021-fa39d376ba69-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/97e8b76c-8e28-41e7-8f85-253fad56f6a2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/af7d3393-fc72-43dc-9526-e27db9217997-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/allure.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/b1f583c5-c706-4273-939a-800be075be85-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/b8d7e39e-39de-472d-9b17-3f71a8db83bd-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/b8d8eb51-0cfa-430b-adf8-42308a243976-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/bdbd947a-7353-4dd6-ba83-d6dfd904cbed-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/c59c834d-221e-4cab-9c36-a8bcd42190d3-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/d0aef37c-2b10-4ce3-a8cf-e7304fb6f8cb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/df95d208-cb1e-4d35-9884-a445f3b1e29b-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/dfb38d50-2051-403e-9037-249d48002f15-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/e2bb5424-9a2a-4603-9eaf-c22253c9f8eb-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/ea4579c4-04b4-4036-b717-5a96ccba776f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/CheckerMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/CheckerMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/HelperMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/HelperMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/allure-maven.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/allure-maven.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/attachments/16e75df7a9bebb71.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/attachments/6685e33798200aa3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/attachments/69ca81657b19895.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/attachments/800c7d77ca41429.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/attachments/9d8d629c6c5e16eb.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/attachments/a5dbb865c434cb7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/attachments/f319d6d672b528d.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/attachments/f4385f78a0c18cf2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/graph.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/packages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/6d2c23a5c67158bd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/84722ac232a58f38.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/timeline.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/widgets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/xunit.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/export/mail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/export/summary.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/history/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/history/history.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/plugins/behaviors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/plugins/packages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/plugins/screen-diff/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/plugins/screen-diff/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/API test run/Test run  and for tests1 groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/API test run/Test run  and for tests1 groups.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.FreeRegisterTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.FreeRegisterTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.SubscriptionsTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.SubscriptionsTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/API test run/Test run  and for tests1 groups.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/API test run/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/API test run/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/API test run/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/API test run/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/API test run/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/API test run/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/API test run/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/API test run/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/API test run/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/API test run/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ChangeAttributesTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ChangeAttributesTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ChangePasswordTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ChangePasswordTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ContentTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ContentTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/FreeRegisterTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/FreeRegisterTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/GetTokenIdTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/GetTokenIdTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/LoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/LoginTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/SubscriptionsTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/SubscriptionsTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/xmlFiles/test_suit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/xmlFiles/test_suit.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,103 +107,41 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/hello/FreeRegisterTests.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/SubscriptionsTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="216">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1922#1975#0" />
+                <element signature="e#1998#2101#0" />
+                <element signature="e#2211#2337#0" />
+                <element signature="e#3282#3335#0" />
+                <element signature="e#3358#3461#0" />
+                <element signature="e#3474#3531#0" />
+                <element signature="e#3571#3697#0" />
+                <element signature="e#3978#4496#0" />
+                <element signature="e#4661#4714#0" />
+                <element signature="e#4737#4781#0" />
+                <element signature="e#4794#4851#0" />
+                <element signature="e#4874#4918#0" />
+                <element signature="e#5339#5813#0" />
+                <element signature="e#5836#5880#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/xmlFiles/test_suit.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="92" column="29" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/hello/ChangeAttributesTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/hello/SubscriptionsTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              <folding>
-                <element signature="method#SubscriptionsTests#0;class#SubscriptionsTests#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/hello/LoginTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/hello/GetTokenIdTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/hello/ChangePasswordTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/hello/ContentTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/util/CheckerMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="89" column="18" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
+            <state relative-caret-position="155">
+              <caret line="103" column="60" selection-start-line="103" selection-start-column="60" selection-end-line="103" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#getChangeAttributesResponseContent#0;class#CheckerMethods#0" />
+                <element signature="method#getChangePasswordResponseContent#0;class#CheckerMethods#0" />
+                <element signature="method#compareContent#0;class#CheckerMethods#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -153,9 +157,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>get</find>
-      <find>userData</find>
-      <find>getIDToken</find>
       <find>getTokenId</find>
       <find>allu</find>
       <find>maven</find>
@@ -165,7 +166,6 @@
       <find>.properti</find>
       <find>aspectjweaver</find>
       <find>surefire</find>
-      <find>headers</find>
       <find>autorization</find>
       <find>authorization</find>
       <find>Xml</find>
@@ -183,6 +183,10 @@
       <find>http</find>
       <find>-g</find>
       <find>tests</find>
+      <find>test.</find>
+      <find>-m</find>
+      <find>m</find>
+      <find>headers</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -196,15 +200,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/JsonParser.java" />
-        <option value="$PROJECT_DIR$/src/test/12mRegistrationData" />
-        <option value="$PROJECT_DIR$/src/test/java/testng xml" />
-        <option value="$PROJECT_DIR$/testng xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/allure.properties" />
-        <option value="$PROJECT_DIR$/src/test/Subscription.json" />
-        <option value="$PROJECT_DIR$/src/test/java/Methods.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/APITest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/SubscriptionsTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/ChangePassword.java" />
         <option value="$PROJECT_DIR$/src/main/java/LoginTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/ChangeAttributes.java" />
@@ -228,25 +223,34 @@
         <option value="$PROJECT_DIR$/environments/qa.properties" />
         <option value="$PROJECT_DIR$/TestsXmls/All_Tests.xml" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/util/HelperMethods.java" />
         <option value="$PROJECT_DIR$/src/test/Content.json" />
         <option value="$PROJECT_DIR$/src/main/java/util/Checker.java" />
         <option value="$PROJECT_DIR$/src/test/java/module.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/test-output/junitreports/TEST-test.SubscriptionsTests.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/util/CheckerMethods.java" />
-        <option value="$PROJECT_DIR$/src/test/Actual.json" />
         <option value="$PROJECT_DIR$/src/test/java/ContentTests.java" />
         <option value="$PROJECT_DIR$/src/test/ContentExpected.json" />
         <option value="$PROJECT_DIR$/src/test/java/GetTokenIdTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoginTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/ChangePasswordTests.java" />
-        <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/src/test/java/SubscriptionsTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/FreeRegisterTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/ChangeAttributesTests.java" />
         <option value="$PROJECT_DIR$/src/test/resources/xmlFiles/test_suit.xml" />
         <option value="$PROJECT_DIR$/src/test/hello/ContentTests.java" />
+        <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/src/test/Actual.json" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/TestRunner.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/ContentTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/ChangeAttributesTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/ChangePasswordTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/FreeRegisterTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/GetTokenIdTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/HelperMethods.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/SubscriptionsTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/CheckerMethods.java" />
       </list>
     </option>
   </component>
@@ -295,6 +299,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -339,14 +345,20 @@
               <item name="OpenfitAPIs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="hello" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenfitAPIs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenfitAPIs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -386,7 +398,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/src/test/resources/xmlFiles/test_suit.xml">
+  <component name="RunManager" selected="TestNG.FreeRegisterTests.freeRegister">
     <configuration type="TestNG" singleton="false" nameIsGenerated="true">
       <module name="OpenfitAPIs" />
       <option name="SUITE_NAME" value="" />
@@ -424,11 +436,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChangeAttributesTests.changeAttributesForRegisteredUser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FreeRegisterTests.freeRegister" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Openfit-APIs" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="tests.ChangeAttributesTests" />
-      <option name="METHOD_NAME" value="changeAttributesForRegisteredUser" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.FreeRegisterTests" />
+      <option name="METHOD_NAME" value="freeRegister" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -436,11 +454,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChangePasswordTests.changePasswordForRegisteredUser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTests.loginWithSubscribedUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Openfit-APIs" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="tests.ChangePasswordTests" />
-      <option name="METHOD_NAME" value="changePasswordForRegisteredUser" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LoginTests" />
+      <option name="METHOD_NAME" value="loginWithSubscribedUser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -448,11 +472,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContentTests.getContent" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SubscriptionsTests.registration12m" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Openfit-APIs" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="tests.ContentTests" />
-      <option name="METHOD_NAME" value="getContent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SubscriptionsTests" />
+      <option name="METHOD_NAME" value="registration12m" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -460,11 +490,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetTokenIdTests.getIDToken" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SubscriptionsTests.registration1m" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Openfit-APIs" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="tests.GetTokenIdTests" />
-      <option name="METHOD_NAME" value="getIDToken" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SubscriptionsTests" />
+      <option name="METHOD_NAME" value="registration1m" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubscriptionsTests.registration6m" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Openfit-APIs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SubscriptionsTests" />
+      <option name="METHOD_NAME" value="registration6m" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -476,16 +530,6 @@
       <module name="OpenfitAPIs" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="PACKAGE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/src/test/resources/xmlFiles/test_suit.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Openfit-APIs" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/xmlFiles/test_suit.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -514,19 +558,19 @@
     <list>
       <item itemvalue="TestNG.&lt;default&gt;" />
       <item itemvalue="XSLT.Tests" />
-      <item itemvalue="TestNG.ChangePasswordTests.changePasswordForRegisteredUser" />
-      <item itemvalue="TestNG.ChangeAttributesTests.changeAttributesForRegisteredUser" />
-      <item itemvalue="TestNG.GetTokenIdTests.getIDToken" />
-      <item itemvalue="TestNG.ContentTests.getContent" />
-      <item itemvalue="TestNG./home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/src/test/resources/xmlFiles/test_suit.xml" />
+      <item itemvalue="TestNG.LoginTests.loginWithSubscribedUser" />
+      <item itemvalue="TestNG.SubscriptionsTests.registration12m" />
+      <item itemvalue="TestNG.SubscriptionsTests.registration1m" />
+      <item itemvalue="TestNG.FreeRegisterTests.freeRegister" />
+      <item itemvalue="TestNG.SubscriptionsTests.registration6m" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/src/test/resources/xmlFiles/test_suit.xml" />
-        <item itemvalue="TestNG.ContentTests.getContent" />
-        <item itemvalue="TestNG.GetTokenIdTests.getIDToken" />
-        <item itemvalue="TestNG.ChangePasswordTests.changePasswordForRegisteredUser" />
-        <item itemvalue="TestNG.ChangeAttributesTests.changeAttributesForRegisteredUser" />
+        <item itemvalue="TestNG.FreeRegisterTests.freeRegister" />
+        <item itemvalue="TestNG.SubscriptionsTests.registration12m" />
+        <item itemvalue="TestNG.SubscriptionsTests.registration1m" />
+        <item itemvalue="TestNG.SubscriptionsTests.registration6m" />
+        <item itemvalue="TestNG.LoginTests.loginWithSubscribedUser" />
       </list>
     </recent_temporary>
   </component>
@@ -544,35 +588,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ContentTests_getContent - 2019.06.17 at 11h 19m 05s.xml">
-      <configuration name="ContentTests.getContent" configurationId="TestNG" />
+    <history-entry file="SubscriptionsTests_registration1m - 2019.06.19 at 16h 50m 31s.xml">
+      <configuration name="SubscriptionsTests.registration1m" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContentTests_getContent - 2019.06.17 at 11h 22m 08s.xml">
-      <configuration name="ContentTests.getContent" configurationId="TestNG" />
+    <history-entry file="FreeRegisterTests_freeRegister - 2019.06.19 at 16h 51m 43s.xml">
+      <configuration name="FreeRegisterTests.freeRegister" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContentTests_getContent - 2019.06.17 at 11h 27m 25s.xml">
-      <configuration name="ContentTests.getContent" configurationId="TestNG" />
+    <history-entry file="SubscriptionsTests_registration6m - 2019.06.19 at 17h 37m 19s.xml">
+      <configuration name="SubscriptionsTests.registration6m" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContentTests_getContent - 2019.06.17 at 11h 33m 52s.xml">
-      <configuration name="ContentTests.getContent" configurationId="TestNG" />
+    <history-entry file="SubscriptionsTests_registration6m - 2019.06.19 at 17h 38m 40s.xml">
+      <configuration name="SubscriptionsTests.registration6m" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContentTests_getContent - 2019.06.17 at 11h 34m 43s.xml">
-      <configuration name="ContentTests.getContent" configurationId="TestNG" />
+    <history-entry file="SubscriptionsTests_registration1m - 2019.06.19 at 17h 40m 20s.xml">
+      <configuration name="SubscriptionsTests.registration1m" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_arsen_d_Desktop_Openfit-API_OpenfitAPIs_src_test_resources_xmlFiles_test_suit_xml - 2019.06.17 at 12h 32m 35s.xml">
-      <configuration name="/home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/src/test/resources/xmlFiles/test_suit.xml" configurationId="TestNG" />
+    <history-entry file="SubscriptionsTests_registration12m - 2019.06.19 at 17h 44m 08s.xml">
+      <configuration name="SubscriptionsTests.registration12m" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_arsen_d_Desktop_Openfit-API_OpenfitAPIs_src_test_resources_xmlFiles_test_suit_xml - 2019.06.17 at 12h 33m 08s.xml">
-      <configuration name="/home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/src/test/resources/xmlFiles/test_suit.xml" configurationId="TestNG" />
+    <history-entry file="SubscriptionsTests_registration12m - 2019.06.19 at 17h 46m 01s.xml">
+      <configuration name="SubscriptionsTests.registration12m" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_arsen_d_Desktop_Openfit-API_OpenfitAPIs_src_test_resources_xmlFiles_test_suit_xml - 2019.06.17 at 12h 36m 39s.xml">
-      <configuration name="/home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/src/test/resources/xmlFiles/test_suit.xml" configurationId="TestNG" />
+    <history-entry file="SubscriptionsTests_registration12m - 2019.06.19 at 17h 48m 09s.xml">
+      <configuration name="SubscriptionsTests.registration12m" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_arsen_d_Desktop_Openfit-API_OpenfitAPIs_src_test_resources_xmlFiles_test_suit_xml - 2019.06.17 at 12h 37m 59s.xml">
-      <configuration name="/home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/src/test/resources/xmlFiles/test_suit.xml" configurationId="TestNG" />
+    <history-entry file="SubscriptionsTests_registration12m - 2019.06.19 at 17h 48m 58s.xml">
+      <configuration name="SubscriptionsTests.registration12m" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_arsen_d_Desktop_Openfit-API_OpenfitAPIs_src_test_resources_xmlFiles_test_suit_xml - 2019.06.17 at 12h 38m 14s.xml">
-      <configuration name="/home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/src/test/resources/xmlFiles/test_suit.xml" configurationId="TestNG" />
+    <history-entry file="FreeRegisterTests_freeRegister - 2019.06.19 at 17h 53m 23s.xml">
+      <configuration name="FreeRegisterTests.freeRegister" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -585,10 +629,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15975676" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16639027" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -596,14 +640,14 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32925585" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49806523" weight="0.31294596" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49806523" weight="0.47196737" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39979655" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32925585" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.498618" weight="0.29153925" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.501382" side_tool="true" weight="0.31600407" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50193477" side_tool="true" weight="0.29153925" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49806523" visible="true" weight="0.28440368" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32925585" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32925585" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -654,18 +698,6 @@
     <SUITE FILE_PATH="coverage/OpenfitAPIs$APITest_getSubscriptions.ic" NAME="APITest.getSubscriptions Coverage Results" MODIFIED="1558096959030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/APITest.java" />
-    <entry file="file://$PROJECT_DIR$/test-output/Suite/Test.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="1818" column="18" selection-start-line="1818" selection-start-column="12" selection-end-line="1818" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LoginTests.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjrt/1.8.10/aspectjrt-1.8.10.jar!/org/aspectj/runtime/reflect/JoinPointImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
@@ -746,16 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/HelperMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Content.json" />
     <entry file="file://$PROJECT_DIR$/Content.json" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.jar!/org/skyscreamer/jsonassert/JSONAssert.class">
@@ -767,13 +789,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/database/fsdkf.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/module.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-output/testng-reports.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -797,9 +812,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Actual.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/ContentExpected.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -807,12 +819,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/allure-results/ffc9c7b6-2c72-4eaa-9601-2304f7539cf0-attachment.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/allure-results/f39d4160-4e8e-4059-be73-8eaf5c91f894-attachment.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/allure-results/ffc9c7b6-2c72-4eaa-9601-2304f7539cf0-attachment.txt" />
+    <entry file="file://$PROJECT_DIR$/target/allure-results/f39d4160-4e8e-4059-be73-8eaf5c91f894-attachment.txt" />
     <entry file="file://$PROJECT_DIR$/test-output/testng-results.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -823,23 +831,6 @@
     <entry file="file://$PROJECT_DIR$/test-output/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="92" column="29" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/hello/FreeRegisterTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/xmlFiles/test_suit.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -847,60 +838,153 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/hello/SubscriptionsTests.java">
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="109" column="48" selection-start-line="109" selection-start-column="46" selection-end-line="109" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="664" column="18" selection-start-line="664" selection-start-column="18" selection-end-line="664" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Actual.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="166" selection-start-line="166" selection-end-line="166" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/ContentTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
           <folding>
-            <element signature="method#SubscriptionsTests#0;class#SubscriptionsTests#0" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/hello/LoginTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/hello/GetTokenIdTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/hello/ChangePasswordTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/hello/ChangeAttributesTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="496">
+          <caret line="43" column="79" selection-start-line="43" selection-start-column="79" selection-end-line="43" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/ChangeAttributesTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="60" column="2" lean-forward="true" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/ChangePasswordTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="46" column="56" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/GetTokenIdTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/HelperMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/SubscriptionsTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="e#1922#1975#0" />
+            <element signature="e#1998#2101#0" />
+            <element signature="e#2211#2337#0" />
+            <element signature="e#3282#3335#0" />
+            <element signature="e#3358#3461#0" />
+            <element signature="e#3474#3531#0" />
+            <element signature="e#3571#3697#0" />
+            <element signature="e#3978#4496#0" />
+            <element signature="e#4661#4714#0" />
+            <element signature="e#4737#4781#0" />
+            <element signature="e#4794#4851#0" />
+            <element signature="e#4874#4918#0" />
+            <element signature="e#5339#5813#0" />
+            <element signature="e#5836#5880#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/FreeRegisterTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="57" column="55" lean-forward="true" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="initializer##0;class#FreeRegisterTests#0" />
+            <element signature="method#FreeRegisterTests#0;class#FreeRegisterTests#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/util/CheckerMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="89" column="18" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/hello/ContentTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        <state relative-caret-position="155">
+          <caret line="103" column="60" selection-start-line="103" selection-start-column="60" selection-end-line="103" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#getChangeAttributesResponseContent#0;class#CheckerMethods#0" />
+            <element signature="method#getChangePasswordResponseContent#0;class#CheckerMethods#0" />
+            <element signature="method#compareContent#0;class#CheckerMethods#0" />
           </folding>
         </state>
       </provider>

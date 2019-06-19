@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 8 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,8 +37,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-API_test_run">
-              <span class="suite-name border-passed">API test run</span>
+            <a href="#" class="navigator-link" panel-name="suite-Surefire_suite">
+              <span class="suite-name border-failed">Surefire suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-API_test_run">
-                    <span>test_suit.xml</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Surefire_suite">
+                    <span>[unset file name]</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-API_test_run">
+                  <a href="#" class="navigator-link " panel-name="testlist-Surefire_suite">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-API_test_run">
-                    <span>1 group</span>
+                  <a href="#" class="navigator-link " panel-name="group-Surefire_suite">
+                    <span>3 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-API_test_run">
+                  <a href="#" class="navigator-link " panel-name="times-Surefire_suite">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-API_test_run">
+                  <a href="#" class="navigator-link " panel-name="reporter-Surefire_suite">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-API_test_run">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Surefire_suite">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-API_test_run">
+                  <a href="#" class="navigator-link " panel-name="chronological-Surefire_suite">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,26 +91,85 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">12 methods, 8 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="tests.ChangeAttributesTests" hash-for-method="changeAttributesForRegisteredUser">changeAttributesForRegisteredUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="tests.ChangeAttributesTests" hash-for-method="changeAttributesForSubscribedUser">changeAttributesForSubscribedUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="tests.ChangePasswordTests" hash-for-method="changePasswordForRegisteredUser">changePasswordForRegisteredUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="tests.ChangePasswordTests" hash-for-method="changePasswordForSubscribedUser">changePasswordForSubscribedUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="tests.LoginTests" hash-for-method="loginWithRegisteredUser">loginWithRegisteredUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="tests.LoginTests" hash-for-method="loginWithSubscribedUser">loginWithSubscribedUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="tests.SubscriptionsTests" hash-for-method="registration1m">registration1m</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="tests.SubscriptionsTests" hash-for-method="registration6m">registration6m</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-API_test_run" class="hide-methods passed suite-API_test_run"> (hide)</a> <!-- hide-methods passed suite-API_test_run -->
-                      <a href="#" panel-name="suite-API_test_run" class="show-methods passed suite-API_test_run"> (show)</a> <!-- show-methods passed suite-API_test_run -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
                     </span>
-                    <div class="method-list-content passed suite-API_test_run">
+                    <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-API_test_run" title="tests.FreeRegisterTests" hash-for-method="freeRegister">freeRegister</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="tests.FreeRegisterTests" hash-for-method="freeRegister">freeRegister</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-API_test_run" title="tests.SubscriptionsTests" hash-for-method="registration6m">registration6m</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="tests.ContentTests" hash-for-method="getContent">getContent</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-API_test_run -->
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="tests.GetTokenIdTests" hash-for-method="getIDToken">getIDToken</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="tests.SubscriptionsTests" hash-for-method="registration12m">registration12m</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -121,8 +180,309 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-API_test_run" class="panel API_test_run">
-          <div class="suite-API_test_run-class-passed">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.SubscriptionsTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registration1m">
+                  </a> <!-- registration1m -->
+                  <span class="method-name">registration1m</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [Test] but found [null],
+	expected [Test] but found [null],
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null
+	at util.CheckerMethods.getFreeRegisterResponseContent(CheckerMethods.java:59)
+	at tests.FreeRegisterTests.freeRegister_aroundBody0(FreeRegisterTests.java:64)
+	at tests.FreeRegisterTests$AjcClosure1.run(FreeRegisterTests.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+	at tests.FreeRegisterTests.freeRegister(FreeRegisterTests.java:53)
+	at tests.SubscriptionsTests.registration1m_aroundBody0(SubscriptionsTests.java:64)
+	at tests.SubscriptionsTests$AjcClosure1.run(SubscriptionsTests.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+	at tests.SubscriptionsTests.registration1m(SubscriptionsTests.java:58)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registration6m">
+                  </a> <!-- registration6m -->
+                  <span class="method-name">registration6m</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [Test] but found [null],
+	expected [Test] but found [null],
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected [Test] but found [null],
+	expected [Test] but found [null],
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null
+	at util.CheckerMethods.getFreeRegisterResponseContent(CheckerMethods.java:59)
+	at tests.FreeRegisterTests.freeRegister_aroundBody0(FreeRegisterTests.java:64)
+	at tests.FreeRegisterTests$AjcClosure1.run(FreeRegisterTests.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+	at tests.FreeRegisterTests.freeRegister(FreeRegisterTests.java:53)
+	at tests.SubscriptionsTests.registration6m_aroundBody2(SubscriptionsTests.java:105)
+	at tests.SubscriptionsTests$AjcClosure3.run(SubscriptionsTests.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+	at tests.SubscriptionsTests.registration6m(SubscriptionsTests.java:99)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.ChangeAttributesTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="changeAttributesForRegisteredUser">
+                  </a> <!-- changeAttributesForRegisteredUser -->
+                  <span class="method-name">changeAttributesForRegisteredUser</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [Test] but found [null],
+	expected [Test] but found [null],
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected [Test] but found [null],
+	expected [Test] but found [null],
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null
+	at util.CheckerMethods.getFreeRegisterResponseContent(CheckerMethods.java:59)
+	at tests.FreeRegisterTests.freeRegister_aroundBody0(FreeRegisterTests.java:64)
+	at tests.FreeRegisterTests$AjcClosure1.run(FreeRegisterTests.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+	at tests.FreeRegisterTests.freeRegister(FreeRegisterTests.java:53)
+	at tests.ChangeAttributesTests.changeAttributesForRegisteredUser_aroundBody2(ChangeAttributesTests.java:50)
+	at tests.ChangeAttributesTests$AjcClosure3.run(ChangeAttributesTests.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+	at tests.ChangeAttributesTests.changeAttributesForRegisteredUser(ChangeAttributesTests.java:50)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="changeAttributesForSubscribedUser">
+                  </a> <!-- changeAttributesForSubscribedUser -->
+                  <span class="method-name">changeAttributesForSubscribedUser</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [Test] but found [null],
+	expected [Test] but found [null],
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected [Test] but found [null],
+	expected [Test] but found [null],
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null
+	at util.CheckerMethods.getFreeRegisterResponseContent(CheckerMethods.java:59)
+	at tests.FreeRegisterTests.freeRegister_aroundBody0(FreeRegisterTests.java:64)
+	at tests.FreeRegisterTests$AjcClosure1.run(FreeRegisterTests.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+	at tests.FreeRegisterTests.freeRegister(FreeRegisterTests.java:53)
+	at tests.SubscriptionsTests.registration6m_aroundBody2(SubscriptionsTests.java:105)
+	at tests.SubscriptionsTests$AjcClosure3.run(SubscriptionsTests.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+	at tests.SubscriptionsTests.registration6m(SubscriptionsTests.java:99)
+	at tests.ChangeAttributesTests.changeAttributesForSubscribedUser_aroundBody0(ChangeAttributesTests.java:28)
+	at tests.ChangeAttributesTests$AjcClosure1.run(ChangeAttributesTests.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+	at tests.ChangeAttributesTests.changeAttributesForSubscribedUser(ChangeAttributesTests.java:28)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.LoginTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithRegisteredUser">
+                  </a> <!-- loginWithRegisteredUser -->
+                  <span class="method-name">loginWithRegisteredUser</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [Test] but found [null],
+	expected [Test] but found [null],
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected [Test] but found [null],
+	expected [Test] but found [null],
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null
+	at util.CheckerMethods.getFreeRegisterResponseContent(CheckerMethods.java:59)
+	at tests.FreeRegisterTests.freeRegister_aroundBody0(FreeRegisterTests.java:64)
+	at tests.FreeRegisterTests$AjcClosure1.run(FreeRegisterTests.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+	at tests.FreeRegisterTests.freeRegister(FreeRegisterTests.java:53)
+	at tests.LoginTests.loginWithRegisteredUser_aroundBody2(LoginTests.java:40)
+	at tests.LoginTests$AjcClosure3.run(LoginTests.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+	at tests.LoginTests.loginWithRegisteredUser(LoginTests.java:40)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithSubscribedUser">
+                  </a> <!-- loginWithSubscribedUser -->
+                  <span class="method-name">loginWithSubscribedUser</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [Test] but found [null],
+	expected [Test] but found [null],
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected [Test] but found [null],
+	expected [Test] but found [null],
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null
+	at util.CheckerMethods.getFreeRegisterResponseContent(CheckerMethods.java:59)
+	at tests.FreeRegisterTests.freeRegister_aroundBody0(FreeRegisterTests.java:64)
+	at tests.FreeRegisterTests$AjcClosure1.run(FreeRegisterTests.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+	at tests.FreeRegisterTests.freeRegister(FreeRegisterTests.java:53)
+	at tests.SubscriptionsTests.registration6m_aroundBody2(SubscriptionsTests.java:105)
+	at tests.SubscriptionsTests$AjcClosure3.run(SubscriptionsTests.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+	at tests.SubscriptionsTests.registration6m(SubscriptionsTests.java:99)
+	at tests.LoginTests.loginWithSubscribedUser_aroundBody0(LoginTests.java:25)
+	at tests.LoginTests$AjcClosure1.run(LoginTests.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+	at tests.LoginTests.loginWithSubscribedUser(LoginTests.java:25)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.ChangePasswordTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="changePasswordForRegisteredUser">
+                  </a> <!-- changePasswordForRegisteredUser -->
+                  <span class="method-name">changePasswordForRegisteredUser</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [Test] but found [null],
+	expected [Test] but found [null],
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected [Test] but found [null],
+	expected [Test] but found [null],
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null
+	at util.CheckerMethods.getFreeRegisterResponseContent(CheckerMethods.java:59)
+	at tests.FreeRegisterTests.freeRegister_aroundBody0(FreeRegisterTests.java:64)
+	at tests.FreeRegisterTests$AjcClosure1.run(FreeRegisterTests.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+	at tests.FreeRegisterTests.freeRegister(FreeRegisterTests.java:53)
+	at tests.ChangePasswordTests.changePasswordForRegisteredUser_aroundBody0(ChangePasswordTests.java:28)
+	at tests.ChangePasswordTests$AjcClosure1.run(ChangePasswordTests.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+	at tests.ChangePasswordTests.changePasswordForRegisteredUser(ChangePasswordTests.java:28)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="changePasswordForSubscribedUser">
+                  </a> <!-- changePasswordForSubscribedUser -->
+                  <span class="method-name">changePasswordForSubscribedUser</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [Test] but found [null],
+	expected [Test] but found [null],
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected [Test] but found [null],
+	expected [Test] but found [null],
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null,
+	expected object to not be null
+	at util.CheckerMethods.getFreeRegisterResponseContent(CheckerMethods.java:59)
+	at tests.FreeRegisterTests.freeRegister_aroundBody0(FreeRegisterTests.java:64)
+	at tests.FreeRegisterTests$AjcClosure1.run(FreeRegisterTests.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+	at tests.FreeRegisterTests.freeRegister(FreeRegisterTests.java:53)
+	at tests.SubscriptionsTests.registration6m_aroundBody2(SubscriptionsTests.java:105)
+	at tests.SubscriptionsTests$AjcClosure3.run(SubscriptionsTests.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+	at tests.SubscriptionsTests.registration6m(SubscriptionsTests.java:99)
+	at tests.ChangePasswordTests.changePasswordForSubscribedUser_aroundBody2(ChangePasswordTests.java:48)
+	at tests.ChangePasswordTests$AjcClosure3.run(ChangePasswordTests.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+	at tests.ChangePasswordTests.changePasswordForSubscribedUser(ChangePasswordTests.java:48)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">tests.SubscriptionsTests</span>
@@ -130,14 +490,14 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="registration6m">
-                  </a> <!-- registration6m -->
-                  <span class="method-name">registration6m</span>
+                  <a name="registration12m">
+                  </a> <!-- registration12m -->
+                  <span class="method-name">registration12m</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-API_test_run-class-passed -->
-          <div class="suite-API_test_run-class-passed">
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">tests.FreeRegisterTests</span>
@@ -151,27 +511,47 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-API_test_run-class-passed -->
-        </div> <!-- panel API_test_run -->
-        <div panel-name="test-xml-API_test_run" class="panel">
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ContentTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getContent">
+                  </a> <!-- getContent -->
+                  <span class="method-name">getContent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.GetTokenIdTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getIDToken">
+                  </a> <!-- getIDToken -->
+                  <span class="method-name">getIDToken</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/src/test/resources/xmlFiles/test_suit.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;API test run&quot;&gt;
-  &lt;parameter name=&quot;api.env&quot; value=&quot;qa&quot;/&gt;
-  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test run  and for tests1 groups&quot;&gt;
-    &lt;groups&gt;
-      &lt;run&gt;
-        &lt;include name=&quot;tests1&quot;/&gt;
-      &lt;/run&gt;
-    &lt;/groups&gt;
-    &lt;packages&gt;
-      &lt;package name=&quot;tests.*&quot;/&gt;
-    &lt;/packages&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire suite&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;tests.FreeRegisterTests&quot;/&gt;
       &lt;class name=&quot;tests.SubscriptionsTests&quot;/&gt;
@@ -181,33 +561,41 @@
       &lt;class name=&quot;tests.ChangeAttributesTests&quot;/&gt;
       &lt;class name=&quot;tests.ContentTests&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test run  and for tests1 groups --&gt;
-&lt;/suite&gt; &lt;!-- API test run --&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-API_test_run" class="panel">
+        <div panel-name="testlist-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for API test run</span>
+            <span class="header-content">Tests for Surefire suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test run  and for tests1 groups (7 classes)</span>
+                <span class="test-name">Surefire test (7 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-API_test_run" class="panel">
+        <div panel-name="group-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for API test run</span>
+            <span class="header-content">Groups for Surefire suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
-              <span class="test-group-name">tests1</span>
+              <span class="test-group-name">critical</span>
               <br/>
               <div class="method-in-group">
                 <span class="method-in-group-name">freeRegister</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">registration12m</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">registration1m</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
@@ -215,106 +603,136 @@
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">hp</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">getContent</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getIDToken</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginWithRegisteredUser</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginWithSubscribedUser</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">major</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">changeAttributesForRegisteredUser</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">changeAttributesForSubscribedUser</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">changePasswordForRegisteredUser</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">changePasswordForSubscribedUser</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-API_test_run" class="panel">
+        <div panel-name="times-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for API test run</span>
+            <span class="header-content">Times for Surefire suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_API_test_run');
-function tableData_API_test_run() {
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(12);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'freeRegister')
-data.setCell(0, 2, 'tests.FreeRegisterTests')
-data.setCell(0, 3, 4752);
+data.setCell(0, 1, 'registration12m')
+data.setCell(0, 2, 'tests.SubscriptionsTests')
+data.setCell(0, 3, 7582);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'registration6m')
-data.setCell(1, 2, 'tests.SubscriptionsTests')
-data.setCell(1, 3, 4168);
-window.suiteTableData['API_test_run']= { tableData: data, tableDiv: 'times-div-API_test_run'}
+data.setCell(1, 1, 'freeRegister')
+data.setCell(1, 2, 'tests.FreeRegisterTests')
+data.setCell(1, 3, 3248);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'changePasswordForSubscribedUser')
+data.setCell(2, 2, 'tests.ChangePasswordTests')
+data.setCell(2, 3, 2957);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginWithSubscribedUser')
+data.setCell(3, 2, 'tests.LoginTests')
+data.setCell(3, 3, 2544);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'changeAttributesForRegisteredUser')
+data.setCell(4, 2, 'tests.ChangeAttributesTests')
+data.setCell(4, 3, 2321);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'changeAttributesForSubscribedUser')
+data.setCell(5, 2, 'tests.ChangeAttributesTests')
+data.setCell(5, 3, 2292);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'changePasswordForRegisteredUser')
+data.setCell(6, 2, 'tests.ChangePasswordTests')
+data.setCell(6, 3, 2140);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'loginWithRegisteredUser')
+data.setCell(7, 2, 'tests.LoginTests')
+data.setCell(7, 3, 1989);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'registration1m')
+data.setCell(8, 2, 'tests.SubscriptionsTests')
+data.setCell(8, 3, 1390);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'registration6m')
+data.setCell(9, 2, 'tests.SubscriptionsTests')
+data.setCell(9, 3, 821);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'getIDToken')
+data.setCell(10, 2, 'tests.GetTokenIdTests')
+data.setCell(10, 3, 217);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'getContent')
+data.setCell(11, 2, 'tests.ContentTests')
+data.setCell(11, 3, 4);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 seconds</span>
-              <div id="times-div-API_test_run">
-              </div> <!-- times-div-API_test_run -->
+              <span class="suite-total-time">Total running time: 27 seconds</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-API_test_run" class="panel">
+        <div panel-name="reporter-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for API test run</span>
+            <span class="header-content">Reporter output for Surefire suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-API_test_run" class="panel">
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">10 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">tests.ContentTests</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">getContent</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">tests.LoginTests</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">loginWithRegisteredUser</span>
-                <br/>
-                <span class="ignored-method-name">loginWithSubscribedUser</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">tests.SubscriptionsTests</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">registration12m</span>
-                <br/>
-                <span class="ignored-method-name">registration1m</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">tests.ChangeAttributesTests</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">changeAttributesForSubscribedUser</span>
-                <br/>
-                <span class="ignored-method-name">changeAttributesForRegisteredUser</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">tests.ChangePasswordTests</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">changePasswordForRegisteredUser</span>
-                <br/>
-                <span class="ignored-method-name">changePasswordForSubscribedUser</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">tests.GetTokenIdTests</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">getIDToken</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-API_test_run" class="panel">
+        <div panel-name="chronological-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
@@ -329,8 +747,79 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">tests.SubscriptionsTests</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <span class="method-name">registration12m</span>
+                <span class="method-start">3344 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">registration1m</span>
+                <span class="method-start">10927 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">registration6m</span>
-                <span class="method-start">4931 ms</span>
+                <span class="method-start">12341 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.GetTokenIdTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getIDToken</span>
+                <span class="method-start">13169 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ChangePasswordTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">changePasswordForRegisteredUser</span>
+                <span class="method-start">13388 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">changePasswordForSubscribedUser</span>
+                <span class="method-start">15532 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginWithRegisteredUser</span>
+                <span class="method-start">18495 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginWithSubscribedUser</span>
+                <span class="method-start">20488 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ChangeAttributesTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">changeAttributesForRegisteredUser</span>
+                <span class="method-start">23038 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">changeAttributesForSubscribedUser</span>
+                <span class="method-start">25363 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ContentTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getContent</span>
+                <span class="method-start">27659 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

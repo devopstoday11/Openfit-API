@@ -16,22 +16,10 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class SubscriptionsTests {
-    FreeRegisterTests freeRegisterTests;
-    {
-        try {
-            freeRegisterTests = new FreeRegisterTests();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-    GetTokenIdTests getTokenIdTests;
-    {
-        try {
-            getTokenIdTests = new GetTokenIdTests();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
+    FreeRegisterTests freeRegisterTests = new FreeRegisterTests();
+    GetTokenIdTests getTokenIdTests = new GetTokenIdTests();
+    HelperMethods helperMethods = new HelperMethods();
+    CheckerMethods checkerMethods = new CheckerMethods();
 
     FileReader fileReader;
     static String url;
@@ -39,6 +27,7 @@ public class SubscriptionsTests {
     static String variant_id_1m;
     static String variant_id_6m;
     static String variant_id_12m;
+
     {
         try {
             fileReader = new FileReader("/home/arsen_d/Desktop/Openfit-API/OpenfitAPIs/environments/qa.properties");
@@ -47,7 +36,7 @@ public class SubscriptionsTests {
         }
     }
 
-    public SubscriptionsTests(){
+    public SubscriptionsTests() {
         Properties properties = new Properties();
         try {
             properties.load(fileReader);
@@ -61,74 +50,125 @@ public class SubscriptionsTests {
         url = properties.getProperty("api.Subscription.server");
     }
 
-    @Test
+    @Test(groups = "critical")
     @Description("Make request to subscribe with 1m.")
     @Step("Make request to Subscribe with 1 month subscription plan:")
-    public void registration1m() throws IOException, ParseException {
-        getTokenIdTests.getIDToken();
-        freeRegisterTests.freeRegister();
-        HelperMethods.headers((String) HelperMethods.userData.get("id_token"));
+    public void registration1m(){
+        try {
+            getTokenIdTests.getIDToken();
+        } catch (IOException e) {
+            System.out.println("getToken ID IOException");
+            e.printStackTrace();
+        }
+        try {
+            freeRegisterTests.freeRegister();
+        } catch (IOException | ParseException e) {
+            System.out.println("freeRegisterTests IOException | ParseException");
+            e.printStackTrace();
+        }
+        HelperMethods.headers((String) helperMethods.userData.get("id_token"));
         RequestBuilder requestBuilder = new RequestBuilder(url);
-        requestBuilder.addPathParameters("v1", "subscriptionsTests", "new")
+        requestBuilder.addPathParameters("v1", "subscriptions", "new")
                 .addHeader(HelperMethods.headers);
-        Response response = requestBuilder.post("{\"items\":[\n" +
-                "\t{\n" +
-                "\t\"product_id\":"+product_id+",\n" +
-                "\t\"variant_id\":"+variant_id_1m+",\n" +
-                "\t\"quantity\":1}],\n" +
-                "\t\"token_id\":" + HelperMethods.tokenIDs.get("token_id") + ",\n" +
-                "\t\"access_token\":" + HelperMethods.userData.get("access_token") + "\",\n" +
-                "}");
+        Response response = null;
+        try {
+            response = requestBuilder.post("{\"items\":[\n" +
+                    "\t{\n" +
+                    "\t\"product_id\":" + product_id + ",\n" +
+                    "\t\"variant_id\":" + variant_id_1m + ",\n" +
+                    "\t\"quantity\":1}],\n" +
+                    "\t\"token_id\":" + HelperMethods.tokenIDs.get("token_id") + ",\n" +
+                    "\t\"access_token\":\"" + helperMethods.userData.get("access_token") + "\"\n" +
+                    "}");
+        } catch (IOException e) {
+            System.out.println("Request is not sent");
+            e.printStackTrace();
+        }
         System.out.println("Registration 1m:\n" + response.getCurl());
         System.out.println("\nResponse: " + response.body());
+        checkerMethods.getSubscriptionResponseContent(response);
         Allure.addAttachment("Request: ", response.getCurl());
         Allure.addAttachment("Response: ", response.body());
     }
 
-    @Test
+    @Test(groups = "critical")
     @Description("Make request to subscribe with 6m.")
     @Step("Make request to Subscribe with 6 months subscription plan:")
-    public void registration6m() throws IOException, ParseException {
-        getTokenIdTests.getIDToken();
-        freeRegisterTests.freeRegister();
-        HelperMethods.headers((String) HelperMethods.userData.get("id_token"));
+    public void registration6m(){
+        try {
+            getTokenIdTests.getIDToken();
+        } catch (IOException e) {
+            System.out.println("getToken ID IOException");
+            e.printStackTrace();
+        }
+        try {
+            freeRegisterTests.freeRegister();
+        } catch (IOException | ParseException e) {
+            System.out.println("freeRegisterTests IOException | ParseException");
+            e.printStackTrace();
+        }
+        HelperMethods.headers((String) helperMethods.userData.get("id_token"));
         RequestBuilder requestBuilder = new RequestBuilder(url);
-        requestBuilder.addPathParameters("v1", "subscriptionsTests", "new")
+        requestBuilder.addPathParameters("v1", "subscriptions", "new")
                 .addHeader(HelperMethods.headers);
-        Response response = requestBuilder.post("{\"items\":[\n" +
-                "\t{\n" +
-                "\t\"product_id\":"+product_id+",\n" +
-                "\t\"variant_id\":"+variant_id_6m+",\n" +
-                "\t\"quantity\":1}],\n" +
-                "\t\"token_id\":"+ HelperMethods.tokenIDs.get("token_id")+",\n" +
-                "\t\"access_token\":"+ HelperMethods.userData.get("access_token")+"\",\n" +
-                "}");
-        System.out.println("Registration 1m:\n"+response.getCurl());
-        System.out.println("\nResponse: " +response.body());
-        CheckerMethods.getSubscriptionResponseContent(response);
+        Response response = null;
+        try {
+            response = requestBuilder.post("" +
+                    "{\"items\":[\n" +
+                    "\t{\n" +
+                    "\t\"product_id\":" + product_id + ",\n" +
+                    "\t\"variant_id\":" + variant_id_6m + ",\n" +
+                    "\t\"quantity\":1}],\n" +
+                    "\t\"token_id\":" + HelperMethods.tokenIDs.get("token_id") + ",\n" +
+                    "\t\"access_token\":\"" + helperMethods.userData.get("access_token") + "\"\n" +
+                    "}");
+        } catch (IOException e) {
+            System.out.println("Request is not sent");
+            e.printStackTrace();
+        }
+        System.out.println("Registration 6m:\n" + response.getCurl());
+        System.out.println("\nResponse: " + response.body());
+        checkerMethods.getSubscriptionResponseContent(response);
         Allure.addAttachment("Request: ", response.getCurl());
         Allure.addAttachment("Response: ", response.body());
     }
 
-    @Test
+    @Test(groups = "critical")
     @Description("Make request to subscribe with 12m.")
     @Step("Make request to Subscribe with 12 months subscription plan:")
-    public void registration12m() throws IOException, ParseException {
-        getTokenIdTests.getIDToken();
-        freeRegisterTests.freeRegister();
-        HelperMethods.headers((String) HelperMethods.userData.get("id_token"));
+    public void registration12m(){
+        try {
+            getTokenIdTests.getIDToken();
+        } catch (IOException e) {
+            System.out.println("getToken ID IOException");
+            e.printStackTrace();
+        }
+        try {
+            freeRegisterTests.freeRegister();
+        } catch (IOException | ParseException e) {
+            System.out.println("freeRegisterTests IOException | ParseException");
+            e.printStackTrace();
+        }
+        HelperMethods.headers((String) helperMethods.userData.get("id_token"));
         RequestBuilder requestBuilder = new RequestBuilder(url);
-        requestBuilder.addPathParameters("v1", "subscriptionsTests", "new")
+        requestBuilder.addPathParameters("v1", "subscriptions", "new")
                 .addHeader(HelperMethods.headers);
-        Response response = requestBuilder.post("{\"items\":[\n" +
-                "\t{\n" +
-                "\t\"product_id\":"+product_id+",\n" +
-                "\t\"variant_id\":"+variant_id_12m+",\n" +
-                "\t\"quantity\":1}],\n" +
-                "\t\"token_id\":"+ HelperMethods.tokenIDs.get("token_id")+",\n" +
-                "\t\"access_token\":"+ HelperMethods.userData.get("access_token")+"\",\n" +"}");
-        System.out.println("Registration 1m:\n"+response.getCurl());
-        System.out.println("\nResponse: \n" +response.body());
+        Response response = null;
+        try {
+            response = requestBuilder.post("{\"items\":[\n" +
+                    "\t{\n" +
+                    "\t\"product_id\":" + product_id + ",\n" +
+                    "\t\"variant_id\":" + variant_id_12m + ",\n" +
+                    "\t\"quantity\":1}],\n" +
+                    "\t\"token_id\":" + HelperMethods.tokenIDs.get("token_id") + ",\n" +
+                    "\t\"access_token\":\"" + helperMethods.userData.get("access_token") + "\"\n" + "}");
+        } catch (IOException e) {
+            System.out.println("Request is not sent");
+            e.printStackTrace();
+        }
+        System.out.println("Registration 12m:\n" + response.getCurl());
+        System.out.println("\nResponse: \n" + response.body());
+        checkerMethods.getSubscriptionResponseContent(response);
         Allure.addAttachment("Request: ", response.getCurl());
         Allure.addAttachment("Response: ", response.body());
     }

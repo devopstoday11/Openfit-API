@@ -1,2 +1,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="API test run"><parameter name="api.env" value="qa" /><test name="Test run  and for tests1 groups"><groups><run><include name="tests1" /></run></groups><packages><package name="tests.*" /></packages></test></suite>
+<suite name="API test run">
+    <parameter name="api.env" value="qa"/>
+    <test name="Test run for SubscriptionsTests classes">
+        <classes>
+            <class name="SubscriptionsTests"/>
+        </classes>
+    </test>
+</suite>
