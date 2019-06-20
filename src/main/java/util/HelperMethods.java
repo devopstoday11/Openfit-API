@@ -15,8 +15,8 @@ public class HelperMethods {
 
     private static final String ALPHA_NUMERIC_STRING = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
     public static HashMap headers = new HashMap();
-    public HashMap userData = new HashMap();
-    public HashMap tokenIDs = new HashMap();
+    public static HashMap userData = new HashMap();
+    public static HashMap tokenIDs = new HashMap();
 
     public static void headers(String authorization) {
         headers.put("x-api-key", "WYvuNYNwZo8LapYoJwwwh18rgJt85tPB8iYDAXSr");
@@ -39,6 +39,7 @@ public class HelperMethods {
         userData.put("given_name", given_name);
         userData.put("family_name", family_name);
         userData.put("id_token", idToken);
+        System.out.println(email+" email in getUser");
         userData.put("email", email);
     }
 

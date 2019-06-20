@@ -1,0 +1,6 @@
+curl -v -X POST 'https://connect-customer.qa.openfit.com/v1/changeattributes' -H 'Authorization:Bearer eyJraWQiOiJ0YXF6bkc4SklGNjN1cUJqTHE5cGppTDhVNmZSbkp1bmNKYkxNbGFYMndZPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJkMWJiOTFhMC0yZTBjLTQ0N2EtOGUwNS04NjI3MDM2NWUzNDkiLCJldmVudF9pZCI6IjlhYzUzNjg4LTE3OTMtNGZmMi1hMjJhLTU4YTYwZmFjYTM0ZiIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE1NjEwMzkyNzAsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC51cy13ZXN0LTIuYW1hem9uYXdzLmNvbVwvdXMtd2VzdC0yXzBtTlFYbjQxOSIsImV4cCI6MTU2MTA0Mjg3MCwiaWF0IjoxNTYxMDM5MjcwLCJqdGkiOiJhYjJmNDdkZS02OTIzLTQxNDAtOGU1Mi1mNGJkM2UyYzhkZWYiLCJjbGllbnRfaWQiOiIzcDFybXU3ZXZzMm5yN2x1MjdoNzVjc25iZiIsInVzZXJuYW1lIjoiZDFiYjkxYTAtMmUwYy00NDdhLThlMDUtODYyNzAzNjVlMzQ5In0.LilawoNtsXcfiSM52k27bT8UK9ICOaDWtbSL-F6u8USMNC9FGi8fTEJn_o4Qimcyw8ZnDvJUv51DTzVkZxGUaoELXe63VGgcMPMgUx05YOwSDgf4LQAexG7d7M0WhnlYD3zIV3P9mIfv6Kh_1sjmsuZok9yN-fsk3EBYclcr4h2gIc0_CgGkYLpK7ljDOMggp5w41AK7mtWzFtQjLr-uxzLiK7-fdTV_woF6qQ4FiFN9F9Q3IxNpg2F1nQAAQiMLIQ1h3oao4HCuhjC6i9GOLllBvLf3wi-5HX58jkamtvQxhhHEjIGEZULT_P-1u7ndK8YK3OfntBjMFQ2adIiAKA' -H 'Content-Length:114' -H 'Content-Type:application/json; charset=utf-8' -H 'x-api-key:wrlyU1ZZUL1QSl1BKe7zw9ZsTJANTCAe7mRh2WLP' -d '{
+        "email":"tester0yjhz@yopmail.com",
+        "first_name":"Updated",
+        "last_name":"Name"
+        
+}' 

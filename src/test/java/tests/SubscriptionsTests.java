@@ -91,18 +91,8 @@ public class SubscriptionsTests {
     @Description("Make request to subscribe with 6m.")
     @Step("Make request to Subscribe with 6 months subscription plan:")
     public void registration6m(){
-        try {
-            getTokenIdTests.getIDToken();
-        } catch (PathNotFoundException e) {
-            System.out.println("getToken ID PathNotFoundException");
-            e.printStackTrace();
-        }
-        try {
-            freeRegisterTests.freeRegister();
-        } catch (PathNotFoundException e) {
-            System.out.println("freeRegisterTests PathNotFoundException");
-            e.printStackTrace();
-        }
+        getTokenIdTests.getIDToken();
+        freeRegisterTests.freeRegister();
         HelperMethods.headers((String) helperMethods.userData.get("id_token"));
         RequestBuilder requestBuilder = new RequestBuilder(url);
         requestBuilder.addPathParameters("v1", "subscriptions", "new")

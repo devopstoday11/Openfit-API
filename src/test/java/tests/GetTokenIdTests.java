@@ -51,8 +51,8 @@ public class GetTokenIdTests {
             System.out.println("GET ID token IOException");
             e.printStackTrace();
         }
-        checkerMethods.getTokenIdResponseContent(response);
         System.out.println("\nRequest to get ID token: \n" + response.getCurl() + "\n\nResponse: \n" + response.body());
+        checkerMethods.getTokenIdResponseContent(response);
         Allure.addAttachment("Request: ", response.getCurl());
         Allure.addAttachment("Response: ", response.body());
     }

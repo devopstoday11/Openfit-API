@@ -1,0 +1,7 @@
+curl -v -X POST 'https://connect-customer.qa.openfit.com/v1/register' -H 'Content-Length:145' -H 'Content-Type:application/json; charset=utf-8' -H 'x-api-key:wrlyU1ZZUL1QSl1BKe7zw9ZsTJANTCAe7mRh2WLP' -d '{
+        "given_name":"Test",
+        "family_name":"Test",
+        "email":"testerIE4C9@yopmail.com",
+        "password":"Test1234@"
+        
+}' 

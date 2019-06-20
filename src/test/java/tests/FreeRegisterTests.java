@@ -31,7 +31,6 @@ public class FreeRegisterTests {
 
     static String x_api_key;
     static String freeRegisterUrl;
-    String email = "tester" + HelperMethods.randomAlphaNumeric(5) + "@yopmail.com";
     static String content_type;
 
     public FreeRegisterTests() {
@@ -46,6 +45,10 @@ public class FreeRegisterTests {
         content_type = properties.getProperty("api.contentType");
     }
 
+    public String getRandomEmail () {
+        return "tester" + HelperMethods.randomAlphaNumeric(5) + "@yopmail.com";
+    }
+
     @Test(groups = "critical")
     @Description("Free register with valid credentials.")
     @Step("Make request to create free user:")
@@ -58,7 +61,7 @@ public class FreeRegisterTests {
             response = requestBuilder.post("{\n" +
                     "        \"given_name\":\"Test\",\n" +
                     "        \"family_name\":\"Test\",\n" +
-                    "        \"email\":\"" + email + "\",\n" +
+                    "        \"email\":\"" + getRandomEmail() + "\",\n" +
                     "        \"password\":\"Test1234@\"\n" +
                     "        \n" +
                     "}", content_type);
@@ -72,8 +75,8 @@ public class FreeRegisterTests {
             System.out.println("Free Register Parse Exception");
             e.printStackTrace();
         }
-        checkerMethods.getFreeRegisterResponseContent(response);
         System.out.println("Request to create free user: \n" + response.getCurl() + "\n\nResponse: \n" + response.body());
+        checkerMethods.getFreeRegisterResponseContent(response);
         Allure.addAttachment("Request: ", response.getCurl());
         Allure.addAttachment("Response: ", response.body());
     }
