@@ -41,10 +41,16 @@ public class GetTokenIdTests {
     @Test(groups = "hp")
     @Description("Make request to GET token ID.")
     @Step("Make request to generate valid ID Token:")
-    public void getIDToken() throws IOException {
+    public void getIDToken(){
         RequestBuilder requestBuilder = new RequestBuilder(getIdTokenUrl);
         requestBuilder.addPathParameters("js", "v1", "token");
-        Response response = requestBuilder.post("{\"first_name\": \"Instigate\", \"last_name\": \"Mobile\", \"postal_code\": \"90404\", \"country\": \"US\", \"number\": \"4111111111111111\",\"month\": \"12\", \"year\": \"2020\", \"cvv\": \"132\", \"key\": \"ewr1-bBXWWGAuZMiIT4CL76bvwL\" }", "application/json");
+        Response response = null;
+        try {
+            response = requestBuilder.post("{\"first_name\": \"Instigate\", \"last_name\": \"Mobile\", \"postal_code\": \"90404\", \"country\": \"US\", \"number\": \"4111111111111111\",\"month\": \"12\", \"year\": \"2020\", \"cvv\": \"132\", \"key\": \"ewr1-bBXWWGAuZMiIT4CL76bvwL\" }", "application/json");
+        } catch (IOException e) {
+            System.out.println("GET ID token IOException");
+            e.printStackTrace();
+        }
         checkerMethods.getTokenIdResponseContent(response);
         System.out.println("\nRequest to get ID token: \n" + response.getCurl() + "\n\nResponse: \n" + response.body());
         Allure.addAttachment("Request: ", response.getCurl());

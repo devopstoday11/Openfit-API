@@ -1,9 +1,9 @@
 package tests;
 
+import com.jayway.jsonpath.PathNotFoundException;
 import io.qameta.allure.Allure;
 import io.qameta.allure.Description;
 import io.qameta.allure.Step;
-import net.minidev.json.parser.ParseException;
 import org.testng.annotations.Test;
 import requests.RequestBuilder;
 import requests.Response;
@@ -56,14 +56,14 @@ public class SubscriptionsTests {
     public void registration1m(){
         try {
             getTokenIdTests.getIDToken();
-        } catch (IOException e) {
-            System.out.println("getToken ID IOException");
+        } catch (PathNotFoundException e) {
+            System.out.println("getToken ID PathNotFoundException");
             e.printStackTrace();
         }
         try {
             freeRegisterTests.freeRegister();
-        } catch (IOException | ParseException e) {
-            System.out.println("freeRegisterTests IOException | ParseException");
+        } catch (PathNotFoundException e) {
+            System.out.println("freeRegisterTests PathNotFoundException");
             e.printStackTrace();
         }
         HelperMethods.headers((String) helperMethods.userData.get("id_token"));
@@ -97,14 +97,14 @@ public class SubscriptionsTests {
     public void registration6m(){
         try {
             getTokenIdTests.getIDToken();
-        } catch (IOException e) {
-            System.out.println("getToken ID IOException");
+        } catch (PathNotFoundException e) {
+            System.out.println("getToken ID PathNotFoundException");
             e.printStackTrace();
         }
         try {
             freeRegisterTests.freeRegister();
-        } catch (IOException | ParseException e) {
-            System.out.println("freeRegisterTests IOException | ParseException");
+        } catch (PathNotFoundException e) {
+            System.out.println("freeRegisterTests PathNotFoundException");
             e.printStackTrace();
         }
         HelperMethods.headers((String) helperMethods.userData.get("id_token"));
@@ -139,14 +139,14 @@ public class SubscriptionsTests {
     public void registration12m(){
         try {
             getTokenIdTests.getIDToken();
-        } catch (IOException e) {
-            System.out.println("getToken ID IOException");
+        } catch (PathNotFoundException e) {
+            System.out.println("getToken ID PathNotFoundException");
             e.printStackTrace();
         }
         try {
             freeRegisterTests.freeRegister();
-        } catch (IOException | ParseException e) {
-            System.out.println("freeRegisterTests IOException | ParseException");
+        } catch (PathNotFoundException e) {
+            System.out.println("freeRegisterTests PathNotFoundException");
             e.printStackTrace();
         }
         HelperMethods.headers((String) helperMethods.userData.get("id_token"));

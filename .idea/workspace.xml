@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="fd3e2269-c6cc-4769-a2be-92dcefec6ca8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/FreeRegisterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/FreeRegisterTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/GetTokenIdTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/GetTokenIdTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SubscriptionsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SubscriptionsTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,37 +24,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/SubscriptionsTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="-315">
+              <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+              <folding>
+                <element signature="e#1886#1939#0" />
+                <element signature="e#1975#2088#0" />
+                <element signature="e#2078#2135#0" />
+                <element signature="e#2175#2301#0" />
+                <element signature="e#2615#3108#0" />
+                <element signature="e#3131#3230#0" />
+                <element signature="e#3753#3806#0" />
+                <element signature="e#3839#3952#0" />
+                <element signature="e#3992#4049#0" />
+                <element signature="e#4082#4201#0" />
+                <element signature="e#4493#5011#0" />
+                <element signature="e#5034#5133#0" />
+                <element signature="e#5670#5723#0" />
+                <element signature="e#5746#5849#0" />
+                <element signature="e#5884#5941#0" />
+                <element signature="e#5974#6093#0" />
+                <element signature="e#6399#6873#0" />
+                <element signature="e#6896#6995#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/FreeRegisterTests.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="57" column="55" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="initializer##0;class#FreeRegisterTests#0" />
-                <element signature="method#FreeRegisterTests#0;class#FreeRegisterTests#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/ChangePasswordTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="32" column="81" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="81" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -81,7 +88,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getTokenId</find>
       <find>allu</find>
       <find>maven</find>
       <find>repository</find>
@@ -111,6 +117,7 @@
       <find>-m</find>
       <find>m</find>
       <find>headers</find>
+      <find>-c</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -165,16 +172,16 @@
         <option value="$PROJECT_DIR$/src/test/Actual.json" />
         <option value="$PROJECT_DIR$/src/test/java/tests/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/TestRunner.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/tests/ContentTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/ChangeAttributesTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/ChangePasswordTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/FreeRegisterTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/GetTokenIdTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/HelperMethods.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/SubscriptionsTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/CheckerMethods.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/FreeRegisterTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/GetTokenIdTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/SubscriptionsTests.java" />
       </list>
     </option>
   </component>
@@ -231,6 +238,11 @@
             <path>
               <item name="OpenfitAPIs" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpenfitAPIs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenfitAPIs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenfitAPIs" type="462c0819:PsiDirectoryNode" />
+              <item name="environments" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OpenfitAPIs" type="b2602c69:ProjectViewProjectNode" />
@@ -480,12 +492,12 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.&lt;default&gt;" />
       <item itemvalue="TestNG.FreeRegisterTests.freeRegister" />
       <item itemvalue="TestNG.LoginTests.loginWithSubscribedUser" />
       <item itemvalue="TestNG.SubscriptionsTests.registration12m" />
       <item itemvalue="TestNG.SubscriptionsTests.registration1m" />
       <item itemvalue="TestNG.SubscriptionsTests.registration6m" />
-      <item itemvalue="TestNG.&lt;default&gt;" />
       <item itemvalue="XSLT.Tests" />
     </list>
     <recent_temporary>
@@ -554,7 +566,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1713654" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -565,20 +576,20 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49806523" weight="0.47196737" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49806523" visible="true" weight="0.47196737" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39979655" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32925585" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50193477" side_tool="true" weight="0.29153925" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49806523" visible="true" weight="0.2640163" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49806523" weight="0.2640163" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32925585" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32925585" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.2498618" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.3283582" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.3283582" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -613,6 +624,18 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32946378" />
     </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/SubscriptionsTests.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -716,13 +739,6 @@
     <entry file="file://$PROJECT_DIR$/test-output/testng-reports.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/environments/qa.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="68" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-output/failed.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -752,20 +768,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-output/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/xmlFiles/test_suit.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="109" column="48" selection-start-line="109" selection-start-column="46" selection-end-line="109" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -778,34 +784,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/util/TestRunner.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/Actual.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="166" selection-start-line="166" selection-end-line="166" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/ContentTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -826,13 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/GetTokenIdTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/util/HelperMethods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -843,21 +818,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/SubscriptionsTests.java">
+    <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="-390">
+          <caret line="7" selection-start-line="7" selection-end-line="15" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/FreeRegisterTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/ChangePasswordTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="57" column="55" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
+        <state relative-caret-position="231">
+          <caret line="32" column="81" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="81" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="initializer##0;class#FreeRegisterTests#0" />
-            <element signature="method#FreeRegisterTests#0;class#FreeRegisterTests#0" />
           </folding>
         </state>
       </provider>
@@ -875,12 +848,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/ChangePasswordTests.java">
+    <entry file="file://$PROJECT_DIR$/environments/qa.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="32" column="81" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="81" />
+        <state relative-caret-position="120">
+          <caret line="8" column="59" lean-forward="true" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Actual.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-output/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/ContentTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/FreeRegisterTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="49" column="57" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="initializer##0;class#FreeRegisterTests#0" />
+            <element signature="method#FreeRegisterTests#0;class#FreeRegisterTests#0" />
+            <element signature="e#1846#2226#0" />
+            <element signature="e#2249#2293#0" />
+            <element signature="e#2183#2239#0" />
+            <element signature="e#2265#2309#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/GetTokenIdTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="50" column="47" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/SubscriptionsTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315">
+          <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+          <folding>
+            <element signature="e#1886#1939#0" />
+            <element signature="e#1975#2088#0" />
+            <element signature="e#2078#2135#0" />
+            <element signature="e#2175#2301#0" />
+            <element signature="e#2615#3108#0" />
+            <element signature="e#3131#3230#0" />
+            <element signature="e#3753#3806#0" />
+            <element signature="e#3839#3952#0" />
+            <element signature="e#3992#4049#0" />
+            <element signature="e#4082#4201#0" />
+            <element signature="e#4493#5011#0" />
+            <element signature="e#5034#5133#0" />
+            <element signature="e#5670#5723#0" />
+            <element signature="e#5746#5849#0" />
+            <element signature="e#5884#5941#0" />
+            <element signature="e#5974#6093#0" />
+            <element signature="e#6399#6873#0" />
+            <element signature="e#6896#6995#0" />
           </folding>
         </state>
       </provider>

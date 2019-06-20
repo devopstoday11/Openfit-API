@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="28.543" tests="12" errors="0" skipped="0" failures="8">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="37.698" tests="12" errors="0" skipped="0" failures="6">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
@@ -24,7 +24,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Linux"/>
-    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="classworlds.conf" value="/opt/idea-IC-191.6183.87/plugins/maven/lib/maven3/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -37,11 +37,11 @@
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="user.name" value="arsen_d"/>
-    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.class.path" value="/opt/idea-IC-191.6183.87/plugins/maven/lib/maven3/boot/plexus-classworlds-2.5.2.jar:/opt/idea-IC-191.6183.87/lib/idea_rt.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2019.1 install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -51,27 +51,55 @@
     <property name="securerandom.source" value="file:/dev/./urandom"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="maven.home" value="/opt/idea-IC-191.6183.87/plugins/maven/lib/maven3"/>
     <property name="file.separator" value="/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="idea.version2019.1" value="true"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="freeRegister" classname="tests.FreeRegisterTests" time="3.248"/>
-  <testcase name="registration12m" classname="tests.SubscriptionsTests" time="7.581"/>
-  <testcase name="registration1m" classname="tests.SubscriptionsTests" time="1.412">
-    <failure message="The following asserts failed:&#10;	expected [Test] but found [null],&#10;	expected [Test] but found [null],&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null" type="java.lang.AssertionError">java.lang.AssertionError: 
-The following asserts failed:
-	expected [Test] but found [null],
-	expected [Test] but found [null],
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null
-	at tests.SubscriptionsTests.registration1m_aroundBody0(SubscriptionsTests.java:64)
+  <testcase name="freeRegister" classname="tests.FreeRegisterTests" time="3.384"/>
+  <testcase name="registration12m" classname="tests.SubscriptionsTests" time="5.386">
+    <failure message="No results for path: $[&apos;result&apos;]" type="com.jayway.jsonpath.PathNotFoundException">com.jayway.jsonpath.PathNotFoundException: No results for path: $['result']
+	at tests.SubscriptionsTests.registration12m_aroundBody4(SubscriptionsTests.java:171)
+	at tests.SubscriptionsTests.registration12m(SubscriptionsTests.java:141)
+</failure>
+    <system-out><![CDATA[
+Request to get ID token: 
+curl -v -X POST 'https://api.recurly.com/js/v1/token' -H 'Content-Length:204' -H 'Content-Type:application/json; charset=utf-8' -d '{"first_name": "Instigate", "last_name": "Mobile", "postal_code": "90404", "country": "US", "number": "4111111111111111","month": "12", "year": "2020", "cvv": "132", "key": "ewr1-bBXWWGAuZMiIT4CL76bvwL" }' 
+
+Response: 
+{"type":"credit_card","id":"6VPnYky00Tt0A1HPp1N3tw"}
+Request to create free user: 
+curl -v -X POST 'https://connect-customer.qa.openfit.com/v1/register' -H 'Content-Length:145' -H 'Content-Type:application/json; charset=utf-8' -H 'x-api-key:wrlyU1ZZUL1QSl1BKe7zw9ZsTJANTCAe7mRh2WLP' -d '{
+        "given_name":"Test",
+        "family_name":"Test",
+        "email":"testerXWUH8@yopmail.com",
+        "password":"Test1234@"
+        
+}' 
+
+Response: 
+{"email":"testerxwuh8@yopmail.com","given_name":"Test","family_name":"Test","sub":"c68d4733-2530-4699-a784-7ae37aad7cec","id_token":"eyJraWQiOiJpNXdpK29KS2pzbzdWZG0xY20zdUZ4SnVQYUZGSFE4aElkRUptcjQwdkdjPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJjNjhkNDczMy0yNTMwLTQ2OTktYTc4NC03YWUzN2FhZDdjZWMiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLXdlc3QtMi5hbWF6b25hd3MuY29tXC91cy13ZXN0LTJfMG1OUVhuNDE5IiwiY29nbml0bzp1c2VybmFtZSI6ImM2OGQ0NzMzLTI1MzAtNDY5OS1hNzg0LTdhZTM3YWFkN2NlYyIsImdpdmVuX25hbWUiOiJUZXN0IiwiYXVkIjoiM3Axcm11N2V2czJucjdsdTI3aDc1Y3NuYmYiLCJldmVudF9pZCI6ImEyZDRkZTFmLTI1NDktNDYwMy1hYzM4LTZhMTQ3ZTAyNjc3ZSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNTYxMDMxNTc3LCJleHAiOjE1NjEwMzUxNzcsImlhdCI6MTU2MTAzMTU3NywiZmFtaWx5X25hbWUiOiJUZXN0IiwiZW1haWwiOiJ0ZXN0ZXJ4d3VoOEB5b3BtYWlsLmNvbSJ9.Mekv4wgLFjEMLdEbapLGiLcEmqsEEFJtKSuetOUvgfroUM5MYHyH-e7uj1BTY9zjCywc7xs7BiEUJdPnQf2b3DD9AsKttT3sSDaVW7DQaUvau98VinnTB_n7M5_lVIMVvXmTkTn6Jp4QyMhOVC1bhaMAvm3NK03BKDXNOxwAAwx5X3t8YZ8dBK1-oMGnRx39ZhsmkH3tpb4AT8EFrrZcxrQDNoaSO4vS0jS1zFtTRvAvwq7yfD11oQD19CHKyRt0C3-RPEpStpe0poCRFoaLKebNEQHohoA8-uvNzA6DNckUHCkuvBKXBOXiU8Xq8nokHDmXXJpLNm8WG2duKDgX6w","access_token":"eyJraWQiOiJ0YXF6bkc4SklGNjN1cUJqTHE5cGppTDhVNmZSbkp1bmNKYkxNbGFYMndZPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJjNjhkNDczMy0yNTMwLTQ2OTktYTc4NC03YWUzN2FhZDdjZWMiLCJldmVudF9pZCI6ImEyZDRkZTFmLTI1NDktNDYwMy1hYzM4LTZhMTQ3ZTAyNjc3ZSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE1NjEwMzE1NzcsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC51cy13ZXN0LTIuYW1hem9uYXdzLmNvbVwvdXMtd2VzdC0yXzBtTlFYbjQxOSIsImV4cCI6MTU2MTAzNTE3NywiaWF0IjoxNTYxMDMxNTc3LCJqdGkiOiI2MTQyZGIyYy0wMjdjLTQyNzctYjQ4Ny1mYzQ1ZDUxNTNhMGIiLCJjbGllbnRfaWQiOiIzcDFybXU3ZXZzMm5yN2x1MjdoNzVjc25iZiIsInVzZXJuYW1lIjoiYzY4ZDQ3MzMtMjUzMC00Njk5LWE3ODQtN2FlMzdhYWQ3Y2VjIn0.G6n582qOezHtsXwcF3rGevw06EgEq8Ah14L5VP3rXd-BG9O5LGfRQ6hjALCBniH6cQRgjF0YNVQwAfBHc-0BIk0AIqGNFQiZHpRsEIrMq8RfuvKaTAwqus6K6TI946f7u5Yg7lm6vTIhNahB-cm4TwNTTveLCVynBsGQqHGi4rFdsenj5IC50kN5htCd5_TH_K_P_Qs2Hgi9zAAEBk1nEvVN2IfFq3Xsm5KfEgdWdjjKrzKFm_fKGw1DEoY3O1JDqMtchwdbHDkMDRRNuoq56jE0w1dbYYOqeCUzh-NW6FzEl7SDB1A-RK-PDRp9Os0cAMnfZgFO9IZ3PMAGNM9gSQ","refresh_token":"eyJjdHkiOiJKV1QiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiUlNBLU9BRVAifQ.bHfGu7bZpRqltfzDJWaHnH4hIBFW6NnizbJ5CFY3a4fc7fcdUfcHXc3FcKO4mEnfv4o_N3j2uZFvOjMQh0qxvkQf8tCHghBsvbgYZcDL09RzAZ_xGoiiOP9EQVWFpAi_UA6kBhoiVSxjxBG39f6vBdNACPYRwdsGQaqzuRgC20gDBjRmyu50GCONjKkSKo8fTTLm4Ic1EVXKVVxJo3YrSb6DyS8wWoGewnxz4R_HDEwh5JUWaG-oHjVCModnrj3Bd6s6-5nxfmI374lmKwQSFtQeb-T9t3GSLmvJBOM7H9E5nBnXmOZzolBZGMQS7psbilqg1Bh8dWCFlHuSCgo2Hg.YBL0uynJDTmWfhKm.v0I1PS0efYkhhSxQ8_hY5yLXnDzBqAS0OcU4MrE7ULl1-xfwtJlMBmd_j_p8dA-ENFw9GbaSW7ndHBxqj-yPRXSFuLBxcYyBQdkhe_3zYu4hpTyAjzHRxUQOUh0TxQAl2YYOtLn21tnUGbXiJU8sRhKsRTYSt04YOAJyRkpJ4W3pRqXmEwLeEcZJTMTLBj0c1rrSRy2Zj1ILSEIVj2U8T2J96QR7U0CNjE996_v3VZpxrbVyFhgGpe5vmBtYcB9DGWCtORcGql_0oyLlWtZ2cbvHkqK2oy-bSBgVfKH2kRFtEDk-u8nZ5kQ0BS5DhlTb2_eRw_RRlHfFvv-cKRwtfhok3_29bTuYNVvH5t4kycWVbUSrdJ4USCxpYi8S-pOMmqV4DJMzvyhqkYDytTR-tgAOy-I5Rsj0FlcTJMN3oJH6t1gV3c2vr8dWmepjf0Yzd64FHIknf6lhR6_6TqA5eapVGjaoGRKMaOaj-nVq3RNY8bQAYSQp9Dr9oT1o1CJmiVvUj_YcYLIBH5SesvVzZ3PjLXIoeIf43Rsc7tEDbHdbmnDGjZL2sJ3xDbNdr-9732Vk_WXHUpv4f7TCqTg-l1DWeyLsa9U_n0xx1YRKEF1ypkTg58fOEcl6fTgu60CVHrOLDJErrkKepBROvBpqX8eYzD7ZbjB7yGEZQ-Udo_1wFQOIHZDDENm3yRtvyBwThTNMcczS1r-8mxnMEoEgF50WJ3L32W9QRHLqZ-vP4ifD4rnKKRgKWlQd-LEhEtyHWH866_ig4s65-EkO3tl_jFMUPrfM6Pi3E30SqmwuIheJCNcxDLEXLS4h06QUyiHk4x7LQ7J4sdiSu44gWcM8jJ5B12LVYgGXqTTEb0o7pP1bdzQtQOzogbyhf0aYsTIcaNTOXukr0h6PSVy8uirzMS64zPl5iRuLPl2Q1qCkvYnSFK6ehrOgOZuuOkiepNf-2q9RDnpClHts15CkL4hzdedxAGxOVPWfX5BJNMNJi8BLHlM1eyCBipZheEWiLFJyU9WOyHV5M4LPKYnWR2G1TkhVre9HBtbDVmBTGM7JpcVrsFaOFw2AWxfJ3gT9dNC7yB7RzOz2wh5-qCJp9bMN_X89mE9diZOqxyrv6czAnj3HG4n9XTxEQJr3dn49FB4G3XkwhZUmDmpPejnEmjimuK-xKf5q_vIKRT8U3xsq57bALYbRl1lYNvM9tpAp_bLyruNR58G2E-S1UOsOqioPEgPzMHTtxp8yv0dyuwglzclJkE8AijqI4xt-GY6ekyrI_UQeURgtBGfoP_80WMxODpu3WQAwBJbqLnDNmRVEWzln69aPy0jYipiukA.rtYBxHDLbWLpf5lat4nD3Q"}
+Registration 12m:
+curl -v -X POST 'https://connect-checkout-be.qa.openfit.com/v1/subscriptions/new' -H 'Authorization:Bearer eyJraWQiOiJpNXdpK29KS2pzbzdWZG0xY20zdUZ4SnVQYUZGSFE4aElkRUptcjQwdkdjPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJjNjhkNDczMy0yNTMwLTQ2OTktYTc4NC03YWUzN2FhZDdjZWMiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLXdlc3QtMi5hbWF6b25hd3MuY29tXC91cy13ZXN0LTJfMG1OUVhuNDE5IiwiY29nbml0bzp1c2VybmFtZSI6ImM2OGQ0NzMzLTI1MzAtNDY5OS1hNzg0LTdhZTM3YWFkN2NlYyIsImdpdmVuX25hbWUiOiJUZXN0IiwiYXVkIjoiM3Axcm11N2V2czJucjdsdTI3aDc1Y3NuYmYiLCJldmVudF9pZCI6ImEyZDRkZTFmLTI1NDktNDYwMy1hYzM4LTZhMTQ3ZTAyNjc3ZSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNTYxMDMxNTc3LCJleHAiOjE1NjEwMzUxNzcsImlhdCI6MTU2MTAzMTU3NywiZmFtaWx5X25hbWUiOiJUZXN0IiwiZW1haWwiOiJ0ZXN0ZXJ4d3VoOEB5b3BtYWlsLmNvbSJ9.Mekv4wgLFjEMLdEbapLGiLcEmqsEEFJtKSuetOUvgfroUM5MYHyH-e7uj1BTY9zjCywc7xs7BiEUJdPnQf2b3DD9AsKttT3sSDaVW7DQaUvau98VinnTB_n7M5_lVIMVvXmTkTn6Jp4QyMhOVC1bhaMAvm3NK03BKDXNOxwAAwx5X3t8YZ8dBK1-oMGnRx39ZhsmkH3tpb4AT8EFrrZcxrQDNoaSO4vS0jS1zFtTRvAvwq7yfD11oQD19CHKyRt0C3-RPEpStpe0poCRFoaLKebNEQHohoA8-uvNzA6DNckUHCkuvBKXBOXiU8Xq8nokHDmXXJpLNm8WG2duKDgX6w' -H 'Content-Length:1150' -H 'Content-Type:application/json; charset=utf-8' -H 'x-api-key:WYvuNYNwZo8LapYoJwwwh18rgJt85tPB8iYDAXSr' -d '{"items":[
+	{
+	"product_id":1685587853379,
+	"variant_id":15447916937283,
+	"quantity":1}],
+	"token_id":"6VPnYky00Tt0A1HPp1N3tw",
+	"access_token":"eyJraWQiOiJ0YXF6bkc4SklGNjN1cUJqTHE5cGppTDhVNmZSbkp1bmNKYkxNbGFYMndZPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJjNjhkNDczMy0yNTMwLTQ2OTktYTc4NC03YWUzN2FhZDdjZWMiLCJldmVudF9pZCI6ImEyZDRkZTFmLTI1NDktNDYwMy1hYzM4LTZhMTQ3ZTAyNjc3ZSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE1NjEwMzE1NzcsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC51cy13ZXN0LTIuYW1hem9uYXdzLmNvbVwvdXMtd2VzdC0yXzBtTlFYbjQxOSIsImV4cCI6MTU2MTAzNTE3NywiaWF0IjoxNTYxMDMxNTc3LCJqdGkiOiI2MTQyZGIyYy0wMjdjLTQyNzctYjQ4Ny1mYzQ1ZDUxNTNhMGIiLCJjbGllbnRfaWQiOiIzcDFybXU3ZXZzMm5yN2x1MjdoNzVjc25iZiIsInVzZXJuYW1lIjoiYzY4ZDQ3MzMtMjUzMC00Njk5LWE3ODQtN2FlMzdhYWQ3Y2VjIn0.G6n582qOezHtsXwcF3rGevw06EgEq8Ah14L5VP3rXd-BG9O5LGfRQ6hjALCBniH6cQRgjF0YNVQwAfBHc-0BIk0AIqGNFQiZHpRsEIrMq8RfuvKaTAwqus6K6TI946f7u5Yg7lm6vTIhNahB-cm4TwNTTveLCVynBsGQqHGi4rFdsenj5IC50kN5htCd5_TH_K_P_Qs2Hgi9zAAEBk1nEvVN2IfFq3Xsm5KfEgdWdjjKrzKFm_fKGw1DEoY3O1JDqMtchwdbHDkMDRRNuoq56jE0w1dbYYOqeCUzh-NW6FzEl7SDB1A-RK-PDRp9Os0cAMnfZgFO9IZ3PMAGNM9gSQ"
+}' 
+
+Response: 
+{"message":"The transaction was declined or failed for an unknown reason. Please try again or contact support.","error":{"reason":"unknown","requestId":"796656e8-9982-450e-936c-fdce0d577384","code":"4002"}}
+]]></system-out>
+  </testcase>
+  <testcase name="registration1m" classname="tests.SubscriptionsTests" time="1.727">
+    <failure message="No results for path: $[&apos;result&apos;]" type="com.jayway.jsonpath.PathNotFoundException">com.jayway.jsonpath.PathNotFoundException: No results for path: $['result']
+	at tests.SubscriptionsTests.registration1m_aroundBody0(SubscriptionsTests.java:89)
 	at tests.SubscriptionsTests.registration1m(SubscriptionsTests.java:58)
 </failure>
     <system-out><![CDATA[
@@ -79,27 +107,71 @@ Request to get ID token:
 curl -v -X POST 'https://api.recurly.com/js/v1/token' -H 'Content-Length:204' -H 'Content-Type:application/json; charset=utf-8' -d '{"first_name": "Instigate", "last_name": "Mobile", "postal_code": "90404", "country": "US", "number": "4111111111111111","month": "12", "year": "2020", "cvv": "132", "key": "ewr1-bBXWWGAuZMiIT4CL76bvwL" }' 
 
 Response: 
-{"type":"credit_card","id":"byef_nB5ke7KF0pXLt_How"}
+{"type":"credit_card","id":"la8AqfZ_UuElQ7ZSJx75QA"}
+freeRegisterTests PathNotFoundException
+Registration 1m:
+curl -v -X POST 'https://connect-checkout-be.qa.openfit.com/v1/subscriptions/new' -H 'Authorization:Bearer null' -H 'Content-Length:152' -H 'Content-Type:application/json; charset=utf-8' -H 'x-api-key:WYvuNYNwZo8LapYoJwwwh18rgJt85tPB8iYDAXSr' -d '{"items":[
+	{
+	"product_id":1685587853379,
+	"variant_id":15447916904515,
+	"quantity":1}],
+	"token_id":"la8AqfZ_UuElQ7ZSJx75QA",
+	"access_token":"null"
+}' 
+
+Response: {"message":"Unauthorized"}
 ]]></system-out>
+    <system-err><![CDATA[com.jayway.jsonpath.PathNotFoundException: No results for path: $['email']
+	at com.jayway.jsonpath.internal.path.EvaluationContextImpl.getValue(EvaluationContextImpl.java:133)
+	at com.jayway.jsonpath.JsonPath.read(JsonPath.java:187)
+	at com.jayway.jsonpath.internal.JsonContext.read(JsonContext.java:102)
+	at com.jayway.jsonpath.internal.JsonContext.read(JsonContext.java:85)
+	at com.jayway.jsonpath.JsonPath.read(JsonPath.java:502)
+	at util.CheckerMethods.getFreeRegisterResponseContent(CheckerMethods.java:30)
+	at tests.FreeRegisterTests.freeRegister_aroundBody0(FreeRegisterTests.java:75)
+	at tests.FreeRegisterTests$AjcClosure1.run(FreeRegisterTests.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+	at tests.FreeRegisterTests.freeRegister(FreeRegisterTests.java:53)
+	at tests.SubscriptionsTests.registration1m_aroundBody0(SubscriptionsTests.java:64)
+	at tests.SubscriptionsTests$AjcClosure1.run(SubscriptionsTests.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+	at tests.SubscriptionsTests.registration1m(SubscriptionsTests.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]></system-err>
   </testcase>
-  <testcase name="registration6m" classname="tests.SubscriptionsTests" time="0.822">
-    <failure message="The following asserts failed:&#10;	expected [Test] but found [null],&#10;	expected [Test] but found [null],&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected [Test] but found [null],&#10;	expected [Test] but found [null],&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null" type="java.lang.AssertionError">java.lang.AssertionError: 
-The following asserts failed:
-	expected [Test] but found [null],
-	expected [Test] but found [null],
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected [Test] but found [null],
-	expected [Test] but found [null],
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null
-	at tests.SubscriptionsTests.registration6m_aroundBody2(SubscriptionsTests.java:105)
+  <testcase name="registration6m" classname="tests.SubscriptionsTests" time="1.672">
+    <failure message="No results for path: $[&apos;result&apos;]" type="com.jayway.jsonpath.PathNotFoundException">com.jayway.jsonpath.PathNotFoundException: No results for path: $['result']
+	at tests.SubscriptionsTests.registration6m_aroundBody2(SubscriptionsTests.java:131)
 	at tests.SubscriptionsTests.registration6m(SubscriptionsTests.java:99)
 </failure>
     <system-out><![CDATA[
@@ -107,48 +179,72 @@ Request to get ID token:
 curl -v -X POST 'https://api.recurly.com/js/v1/token' -H 'Content-Length:204' -H 'Content-Type:application/json; charset=utf-8' -d '{"first_name": "Instigate", "last_name": "Mobile", "postal_code": "90404", "country": "US", "number": "4111111111111111","month": "12", "year": "2020", "cvv": "132", "key": "ewr1-bBXWWGAuZMiIT4CL76bvwL" }' 
 
 Response: 
-{"type":"credit_card","id":"Fu4dl8DYafNM4VQzQSjdnQ"}
+{"type":"credit_card","id":"MeuMN0ZNdV5i2JzvxhZfDw"}
+freeRegisterTests PathNotFoundException
+Registration 6m:
+curl -v -X POST 'https://connect-checkout-be.qa.openfit.com/v1/subscriptions/new' -H 'Authorization:Bearer null' -H 'Content-Length:152' -H 'Content-Type:application/json; charset=utf-8' -H 'x-api-key:WYvuNYNwZo8LapYoJwwwh18rgJt85tPB8iYDAXSr' -d '{"items":[
+	{
+	"product_id":1685587853379,
+	"variant_id":15447916838979,
+	"quantity":1}],
+	"token_id":"MeuMN0ZNdV5i2JzvxhZfDw",
+	"access_token":"null"
+}' 
+
+Response: {"message":"Unauthorized"}
 ]]></system-out>
+    <system-err><![CDATA[com.jayway.jsonpath.PathNotFoundException: No results for path: $['email']
+	at com.jayway.jsonpath.internal.path.EvaluationContextImpl.getValue(EvaluationContextImpl.java:133)
+	at com.jayway.jsonpath.JsonPath.read(JsonPath.java:187)
+	at com.jayway.jsonpath.internal.JsonContext.read(JsonContext.java:102)
+	at com.jayway.jsonpath.internal.JsonContext.read(JsonContext.java:85)
+	at com.jayway.jsonpath.JsonPath.read(JsonPath.java:502)
+	at util.CheckerMethods.getFreeRegisterResponseContent(CheckerMethods.java:30)
+	at tests.FreeRegisterTests.freeRegister_aroundBody0(FreeRegisterTests.java:75)
+	at tests.FreeRegisterTests$AjcClosure1.run(FreeRegisterTests.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+	at tests.FreeRegisterTests.freeRegister(FreeRegisterTests.java:53)
+	at tests.SubscriptionsTests.registration6m_aroundBody2(SubscriptionsTests.java:105)
+	at tests.SubscriptionsTests$AjcClosure3.run(SubscriptionsTests.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+	at tests.SubscriptionsTests.registration6m(SubscriptionsTests.java:99)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]></system-err>
   </testcase>
-  <testcase name="getIDToken" classname="tests.GetTokenIdTests" time="0.217"/>
-  <testcase name="changePasswordForRegisteredUser" classname="tests.ChangePasswordTests" time="2.14">
-    <failure message="The following asserts failed:&#10;	expected [Test] but found [null],&#10;	expected [Test] but found [null],&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected [Test] but found [null],&#10;	expected [Test] but found [null],&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null" type="java.lang.AssertionError">java.lang.AssertionError: 
-The following asserts failed:
-	expected [Test] but found [null],
-	expected [Test] but found [null],
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected [Test] but found [null],
-	expected [Test] but found [null],
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null
-	at tests.ChangePasswordTests.changePasswordForRegisteredUser_aroundBody0(ChangePasswordTests.java:28)
-	at tests.ChangePasswordTests.changePasswordForRegisteredUser(ChangePasswordTests.java:28)
-</failure>
-  </testcase>
-  <testcase name="changePasswordForSubscribedUser" classname="tests.ChangePasswordTests" time="2.958">
-    <failure message="The following asserts failed:&#10;	expected [Test] but found [null],&#10;	expected [Test] but found [null],&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected [Test] but found [null],&#10;	expected [Test] but found [null],&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null" type="java.lang.AssertionError">java.lang.AssertionError: 
-The following asserts failed:
-	expected [Test] but found [null],
-	expected [Test] but found [null],
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected [Test] but found [null],
-	expected [Test] but found [null],
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null
+  <testcase name="getIDToken" classname="tests.GetTokenIdTests" time="0.292"/>
+  <testcase name="changePasswordForRegisteredUser" classname="tests.ChangePasswordTests" time="3.112"/>
+  <testcase name="changePasswordForSubscribedUser" classname="tests.ChangePasswordTests" time="4.831">
+    <failure message="No results for path: $[&apos;result&apos;]" type="com.jayway.jsonpath.PathNotFoundException">com.jayway.jsonpath.PathNotFoundException: No results for path: $['result']
 	at tests.ChangePasswordTests.changePasswordForSubscribedUser_aroundBody2(ChangePasswordTests.java:48)
 	at tests.ChangePasswordTests.changePasswordForSubscribedUser(ChangePasswordTests.java:48)
 </failure>
@@ -157,47 +253,34 @@ Request to get ID token:
 curl -v -X POST 'https://api.recurly.com/js/v1/token' -H 'Content-Length:204' -H 'Content-Type:application/json; charset=utf-8' -d '{"first_name": "Instigate", "last_name": "Mobile", "postal_code": "90404", "country": "US", "number": "4111111111111111","month": "12", "year": "2020", "cvv": "132", "key": "ewr1-bBXWWGAuZMiIT4CL76bvwL" }' 
 
 Response: 
-{"type":"credit_card","id":"tDNwRm4QytrxJeBaCsrUnw"}
+{"type":"credit_card","id":"AC4wezkBw_1W9FuTDrCpWA"}
+Request to create free user: 
+curl -v -X POST 'https://connect-customer.qa.openfit.com/v1/register' -H 'Content-Length:145' -H 'Content-Type:application/json; charset=utf-8' -H 'x-api-key:wrlyU1ZZUL1QSl1BKe7zw9ZsTJANTCAe7mRh2WLP' -d '{
+        "given_name":"Test",
+        "family_name":"Test",
+        "email":"testerM5Q8X@yopmail.com",
+        "password":"Test1234@"
+        
+}' 
+
+Response: 
+{"email":"testerm5q8x@yopmail.com","given_name":"Test","family_name":"Test","sub":"421833ae-f4e0-4148-b61d-a70b4c6405be","id_token":"eyJraWQiOiJpNXdpK29KS2pzbzdWZG0xY20zdUZ4SnVQYUZGSFE4aElkRUptcjQwdkdjPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI0MjE4MzNhZS1mNGUwLTQxNDgtYjYxZC1hNzBiNGM2NDA1YmUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLXdlc3QtMi5hbWF6b25hd3MuY29tXC91cy13ZXN0LTJfMG1OUVhuNDE5IiwiY29nbml0bzp1c2VybmFtZSI6IjQyMTgzM2FlLWY0ZTAtNDE0OC1iNjFkLWE3MGI0YzY0MDViZSIsImdpdmVuX25hbWUiOiJUZXN0IiwiYXVkIjoiM3Axcm11N2V2czJucjdsdTI3aDc1Y3NuYmYiLCJldmVudF9pZCI6ImNhOTUyNzczLWE0YjYtNDY5MC04ZjFlLWJiN2NlZjU1MGYzMiIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNTYxMDMxNTg5LCJleHAiOjE1NjEwMzUxODksImlhdCI6MTU2MTAzMTU4OSwiZmFtaWx5X25hbWUiOiJUZXN0IiwiZW1haWwiOiJ0ZXN0ZXJtNXE4eEB5b3BtYWlsLmNvbSJ9.egt8Z9rcS7eJc9_zpRy-hBtV3p0M8LMylOajKgUG3l3PkGR1gyFK9g98Dj700xVAMxSddleo_laUYtWyOnf3oO3DJ-JW4saZEnXFCj47ileEMu-TCbPK7Y0iNiAA--7mx9_fuNqJhpz-P5Rz770ySe7eOV2WK0M79SGdFCEspZJfYr9W_yJewlZU9-6PvXLUkpJBdQjfYjU3C6uc6OG4CCa4nE6CZW7cjdHBVNJLolrEAkYIKZ-WYc_hslLN00vFk1BprRYxWO28TMkNtnlvVAgz6Hu7-9cu_fW1QFkAs62Kr4umYCYIZnqgz4QO-67ySq7XDftADMqbM-HSJ3M0uA","access_token":"eyJraWQiOiJ0YXF6bkc4SklGNjN1cUJqTHE5cGppTDhVNmZSbkp1bmNKYkxNbGFYMndZPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI0MjE4MzNhZS1mNGUwLTQxNDgtYjYxZC1hNzBiNGM2NDA1YmUiLCJldmVudF9pZCI6ImNhOTUyNzczLWE0YjYtNDY5MC04ZjFlLWJiN2NlZjU1MGYzMiIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE1NjEwMzE1ODksImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC51cy13ZXN0LTIuYW1hem9uYXdzLmNvbVwvdXMtd2VzdC0yXzBtTlFYbjQxOSIsImV4cCI6MTU2MTAzNTE4OSwiaWF0IjoxNTYxMDMxNTg5LCJqdGkiOiI0M2Y5NzRmMC0wODVjLTQzZDMtYjlhMC0yNmYwOGIxMTg2NzkiLCJjbGllbnRfaWQiOiIzcDFybXU3ZXZzMm5yN2x1MjdoNzVjc25iZiIsInVzZXJuYW1lIjoiNDIxODMzYWUtZjRlMC00MTQ4LWI2MWQtYTcwYjRjNjQwNWJlIn0.OpLTdO009y7GsoHNDPfdd3xz2xdwoh9Xjy9fCWVLGdjKcp4FK51wIk0dPtomt_pfOf0INvVL2Qc6FKUE0ICvQ3DSg1ETafVpViWFvm5c35fZPgYhpVbGXl7Uaij5_L0mMY9i8z1XzGWLQDVsK8IAS2-04idbbDnps7JGFOmxY1A32FNUL-QThK1evhFlErenBrioFDqBQSVUfFA0Wh5SHz2AfPvzH1G7lAu217-Jd3b2mPXSA5a13Xu_0B3CPRAmEl3zNhQNLLJ4zBGcnLJL-tXVByL2WvVGxYdVQffLSkQ3MRHKkoziuq8mR4ct8ZwZA5w4z5VBO_AnyLuBMd35Ww","refresh_token":"eyJjdHkiOiJKV1QiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiUlNBLU9BRVAifQ.K1KK84oqBWT-aqP5AfQ2oyt6PU1qx4WrNs9q9AFUdY1WSwDWLohrqUbu1cb2C_fq5FaVzAWyauATBYjoqgn2F2fctFnuF-ziddLZtWd0r9k_TyesxI0PE3F3V00wsL0g0iDGsRDwbWFnP9YaDfkRR4-CQuD7S-iD8HEZLt31q5eI5nhFvbfJ_wr5yw5nfIPrTov4AmGJ-q2aLmXNW6yXDzKq_jC6-6nIchMQFN98pFZg3xSD0T-w5w6Ru7Iy7-m9OA3-LuPyOc5VgQR-CLIqC6p4Is0yvfYi1I30prkQLdwml9dwnK0bMlkN_0WbcOqdQLUF_gFO4nmZPd_ZXwCP-w.mTB9P-VthwjvOnLd.OPunUAIkz8QLmvjIIZq_Z_SiBy6L5zEz0LZwN2TYxkr8G1WlY3URklR0enJwACXTRjrQgpAHu8HULagF8AZ-_cqR8U1yFs2Ngk2r6DRLmqUlzMB0lMvhWfmUCZIat0K7ORGOoU0rvdRxrFN2NuWQkGIsWJTC-YwGKzngICW9BeOHt0iQ_dM3EvGmYwEDKFQeU_Ulaf73n3WRgrODb-hXuEUODS8rn43rJtZI5ZCnUYocaF6VFYe-P2AUiKp-MjUfJh5Qu1vMT1eBIjsFsZQ3PI2qQl1MaFc7qrkkWCMmJuau_wDO9IMMtO0QCL0kSUYUCOxB2tFVAI9Y5XUYASRnftOxSzhBYD093-G6YaUxBRwKkRByHFnJOFeHz4VWmsOS3qdivz5pSkdD-cHYttF71Yvyo4duulSZ6itx9RtEzZS4OUSv8fdEddzmKlAwxK2Yl2NJl1Mb9LhuktLL5F-OOCxlQeN185i1jZC8LPwxlSwauYU4YXcDgJ8q8HKm6y9rqKS88O6oV_CUJ5w6w0VTozMv9oHnGZ2CfSJK_bZyXzzksPTAwjMQ48KGX2FVoBPGM5MW5LnNupyghk960i5PHcMyo_3A3yYrkrC_NW4GCyk3BCB-L3RNDqoMm2pwC1et3aUXIiKNt5jrsVNVRo6MyNULFR620eFQPIMpj8pkkKDOHOjqbemyKGxAKlplohufVlQCxzfQC5V7K78nBkvsM8im8eEydunCCaFMrFGP6mchosOXrnU2rqrWX9J-oEMAvcvOuiNfhroZIprp5_y9ucR-T9-8_2HMYxr9LcbMne6W1hXw30u2_Vsn77lORa5AcV56SkstO6BvRbJkcdYBP4W3scLK4FbO19qsj4yjZZG5b0GpokV3Yta05hH71oNgTgiSCpzbDeqsZbDdQtcvnhqnB4igxYi79UxakJSGwNtaoD_1N1HI7EFSCr2zEV9wn6zNPMCkC3uEzI_3Bwb6QeY3tcJDdIz_suZL9c5sN4011bTm3ixAGO2M65pCbh1bLlEfwtz8AR4kcVYHFHGfLB4PeYANm9gYVh-V6HcLvEsTWDu2FElbOtsuRYjhIS492s6GTdwvC3VeiMvKXfU8_mOE9bhbyMI7zr0whqffUnekZXdbN2IPFwuxdSt70JDKPgbpAQYpiMmNfQWi1aVteKpSrbMxlvAOwFQxjVg-dQ1CRewyd4agI1guTJ9xvuC6TRGmVUpYnRQLZSkDnMh0sOPO5q5FqTDLTSnav5jjHz3zKb6YSDDddd0kvt2XYdmlFDyyVqYlLhkI38C85sISOnc5JoOqEjvfh7hQP664iwo2nOCCqJagHu7SYw.NfpkD3Av4OL8ZiDisn34Fg"}
+Registration 6m:
+curl -v -X POST 'https://connect-checkout-be.qa.openfit.com/v1/subscriptions/new' -H 'Authorization:Bearer eyJraWQiOiJpNXdpK29KS2pzbzdWZG0xY20zdUZ4SnVQYUZGSFE4aElkRUptcjQwdkdjPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI0MjE4MzNhZS1mNGUwLTQxNDgtYjYxZC1hNzBiNGM2NDA1YmUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLXdlc3QtMi5hbWF6b25hd3MuY29tXC91cy13ZXN0LTJfMG1OUVhuNDE5IiwiY29nbml0bzp1c2VybmFtZSI6IjQyMTgzM2FlLWY0ZTAtNDE0OC1iNjFkLWE3MGI0YzY0MDViZSIsImdpdmVuX25hbWUiOiJUZXN0IiwiYXVkIjoiM3Axcm11N2V2czJucjdsdTI3aDc1Y3NuYmYiLCJldmVudF9pZCI6ImNhOTUyNzczLWE0YjYtNDY5MC04ZjFlLWJiN2NlZjU1MGYzMiIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNTYxMDMxNTg5LCJleHAiOjE1NjEwMzUxODksImlhdCI6MTU2MTAzMTU4OSwiZmFtaWx5X25hbWUiOiJUZXN0IiwiZW1haWwiOiJ0ZXN0ZXJtNXE4eEB5b3BtYWlsLmNvbSJ9.egt8Z9rcS7eJc9_zpRy-hBtV3p0M8LMylOajKgUG3l3PkGR1gyFK9g98Dj700xVAMxSddleo_laUYtWyOnf3oO3DJ-JW4saZEnXFCj47ileEMu-TCbPK7Y0iNiAA--7mx9_fuNqJhpz-P5Rz770ySe7eOV2WK0M79SGdFCEspZJfYr9W_yJewlZU9-6PvXLUkpJBdQjfYjU3C6uc6OG4CCa4nE6CZW7cjdHBVNJLolrEAkYIKZ-WYc_hslLN00vFk1BprRYxWO28TMkNtnlvVAgz6Hu7-9cu_fW1QFkAs62Kr4umYCYIZnqgz4QO-67ySq7XDftADMqbM-HSJ3M0uA' -H 'Content-Length:1150' -H 'Content-Type:application/json; charset=utf-8' -H 'x-api-key:WYvuNYNwZo8LapYoJwwwh18rgJt85tPB8iYDAXSr' -d '{"items":[
+	{
+	"product_id":1685587853379,
+	"variant_id":15447916838979,
+	"quantity":1}],
+	"token_id":"AC4wezkBw_1W9FuTDrCpWA",
+	"access_token":"eyJraWQiOiJ0YXF6bkc4SklGNjN1cUJqTHE5cGppTDhVNmZSbkp1bmNKYkxNbGFYMndZPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI0MjE4MzNhZS1mNGUwLTQxNDgtYjYxZC1hNzBiNGM2NDA1YmUiLCJldmVudF9pZCI6ImNhOTUyNzczLWE0YjYtNDY5MC04ZjFlLWJiN2NlZjU1MGYzMiIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE1NjEwMzE1ODksImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC51cy13ZXN0LTIuYW1hem9uYXdzLmNvbVwvdXMtd2VzdC0yXzBtTlFYbjQxOSIsImV4cCI6MTU2MTAzNTE4OSwiaWF0IjoxNTYxMDMxNTg5LCJqdGkiOiI0M2Y5NzRmMC0wODVjLTQzZDMtYjlhMC0yNmYwOGIxMTg2NzkiLCJjbGllbnRfaWQiOiIzcDFybXU3ZXZzMm5yN2x1MjdoNzVjc25iZiIsInVzZXJuYW1lIjoiNDIxODMzYWUtZjRlMC00MTQ4LWI2MWQtYTcwYjRjNjQwNWJlIn0.OpLTdO009y7GsoHNDPfdd3xz2xdwoh9Xjy9fCWVLGdjKcp4FK51wIk0dPtomt_pfOf0INvVL2Qc6FKUE0ICvQ3DSg1ETafVpViWFvm5c35fZPgYhpVbGXl7Uaij5_L0mMY9i8z1XzGWLQDVsK8IAS2-04idbbDnps7JGFOmxY1A32FNUL-QThK1evhFlErenBrioFDqBQSVUfFA0Wh5SHz2AfPvzH1G7lAu217-Jd3b2mPXSA5a13Xu_0B3CPRAmEl3zNhQNLLJ4zBGcnLJL-tXVByL2WvVGxYdVQffLSkQ3MRHKkoziuq8mR4ct8ZwZA5w4z5VBO_AnyLuBMd35Ww"
+}' 
+
+Response: {"message":"The transaction was declined or failed for an unknown reason. Please try again or contact support.","error":{"reason":"unknown","requestId":"06aad7a7-3926-4512-a120-8bf0b3974e61","code":"4002"}}
 ]]></system-out>
   </testcase>
-  <testcase name="loginWithRegisteredUser" classname="tests.LoginTests" time="1.991">
-    <failure message="The following asserts failed:&#10;	expected [Test] but found [null],&#10;	expected [Test] but found [null],&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected [Test] but found [null],&#10;	expected [Test] but found [null],&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null" type="java.lang.AssertionError">java.lang.AssertionError: 
-The following asserts failed:
-	expected [Test] but found [null],
-	expected [Test] but found [null],
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected [Test] but found [null],
-	expected [Test] but found [null],
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null
-	at tests.LoginTests.loginWithRegisteredUser_aroundBody2(LoginTests.java:40)
-	at tests.LoginTests.loginWithRegisteredUser(LoginTests.java:40)
-</failure>
-  </testcase>
-  <testcase name="loginWithSubscribedUser" classname="tests.LoginTests" time="2.545">
-    <failure message="The following asserts failed:&#10;	expected [Test] but found [null],&#10;	expected [Test] but found [null],&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected [Test] but found [null],&#10;	expected [Test] but found [null],&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null" type="java.lang.AssertionError">java.lang.AssertionError: 
-The following asserts failed:
-	expected [Test] but found [null],
-	expected [Test] but found [null],
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected [Test] but found [null],
-	expected [Test] but found [null],
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null
+  <testcase name="loginWithRegisteredUser" classname="tests.LoginTests" time="3.708"/>
+  <testcase name="loginWithSubscribedUser" classname="tests.LoginTests" time="4.725">
+    <failure message="No results for path: $[&apos;result&apos;]" type="com.jayway.jsonpath.PathNotFoundException">com.jayway.jsonpath.PathNotFoundException: No results for path: $['result']
 	at tests.LoginTests.loginWithSubscribedUser_aroundBody0(LoginTests.java:25)
 	at tests.LoginTests.loginWithSubscribedUser(LoginTests.java:25)
 </failure>
@@ -206,47 +289,34 @@ Request to get ID token:
 curl -v -X POST 'https://api.recurly.com/js/v1/token' -H 'Content-Length:204' -H 'Content-Type:application/json; charset=utf-8' -d '{"first_name": "Instigate", "last_name": "Mobile", "postal_code": "90404", "country": "US", "number": "4111111111111111","month": "12", "year": "2020", "cvv": "132", "key": "ewr1-bBXWWGAuZMiIT4CL76bvwL" }' 
 
 Response: 
-{"type":"credit_card","id":"95G_grjzISRgZEnNIEGnBA"}
+{"type":"credit_card","id":"T_RiS_39RjCx0tkT9Dqt5A"}
+Request to create free user: 
+curl -v -X POST 'https://connect-customer.qa.openfit.com/v1/register' -H 'Content-Length:145' -H 'Content-Type:application/json; charset=utf-8' -H 'x-api-key:wrlyU1ZZUL1QSl1BKe7zw9ZsTJANTCAe7mRh2WLP' -d '{
+        "given_name":"Test",
+        "family_name":"Test",
+        "email":"tester8FFI8@yopmail.com",
+        "password":"Test1234@"
+        
+}' 
+
+Response: 
+{"email":"tester8ffi8@yopmail.com","given_name":"Test","family_name":"Test","sub":"c1058c8a-1967-4052-9b65-f934d915c34b","id_token":"eyJraWQiOiJpNXdpK29KS2pzbzdWZG0xY20zdUZ4SnVQYUZGSFE4aElkRUptcjQwdkdjPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJjMTA1OGM4YS0xOTY3LTQwNTItOWI2NS1mOTM0ZDkxNWMzNGIiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLXdlc3QtMi5hbWF6b25hd3MuY29tXC91cy13ZXN0LTJfMG1OUVhuNDE5IiwiY29nbml0bzp1c2VybmFtZSI6ImMxMDU4YzhhLTE5NjctNDA1Mi05YjY1LWY5MzRkOTE1YzM0YiIsImdpdmVuX25hbWUiOiJUZXN0IiwiYXVkIjoiM3Axcm11N2V2czJucjdsdTI3aDc1Y3NuYmYiLCJldmVudF9pZCI6IjcxYTVmYzg5LWYzMzQtNGMwNC05ZTA0LTQ3YTJhNTQyOWJiZiIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNTYxMDMxNTk4LCJleHAiOjE1NjEwMzUxOTgsImlhdCI6MTU2MTAzMTU5OCwiZmFtaWx5X25hbWUiOiJUZXN0IiwiZW1haWwiOiJ0ZXN0ZXI4ZmZpOEB5b3BtYWlsLmNvbSJ9.aLd_QoF8ing66xxocVzmYGq_oVsr1aCgFpCJbfEsdEzQ25xBwA_AzaOnWpGy_FY7k7uNmqDVWHpXf0fxy_ijWjlq7Rx51EqVqQVvoJwGv6i8aN0o6dgvpsQD9unJ2gtXLp6D0uILWJuU9holHQdgzS6LTEkCO1PqdgRoMDScMvgJagNQBUN7Sh0riKmzfok6IMaHpsVohIR8X5Fl5VK-ZIoEOX7d1ox8PegcNSsGOf7aD4oV3KrCrCWu_UmxnoAfAI1DZEl4MfQNDAI92WUpnvRPl5QQkY7Z4O3DrJwrFPAX2MZDuu9JeyQPPu06_zR-LxPRFyElqEBjboLMgSRoJQ","access_token":"eyJraWQiOiJ0YXF6bkc4SklGNjN1cUJqTHE5cGppTDhVNmZSbkp1bmNKYkxNbGFYMndZPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJjMTA1OGM4YS0xOTY3LTQwNTItOWI2NS1mOTM0ZDkxNWMzNGIiLCJldmVudF9pZCI6IjcxYTVmYzg5LWYzMzQtNGMwNC05ZTA0LTQ3YTJhNTQyOWJiZiIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE1NjEwMzE1OTgsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC51cy13ZXN0LTIuYW1hem9uYXdzLmNvbVwvdXMtd2VzdC0yXzBtTlFYbjQxOSIsImV4cCI6MTU2MTAzNTE5OCwiaWF0IjoxNTYxMDMxNTk4LCJqdGkiOiI1ZmE5ZDBmYy1kYjBkLTQ3MWItYmYxNi05YWFhOTI3NTE5OWEiLCJjbGllbnRfaWQiOiIzcDFybXU3ZXZzMm5yN2x1MjdoNzVjc25iZiIsInVzZXJuYW1lIjoiYzEwNThjOGEtMTk2Ny00MDUyLTliNjUtZjkzNGQ5MTVjMzRiIn0.DRl4NoiXJUPsWHjjCk05ABropVg6zc6EQx6d1dha-GJaUrwtTTqa3yFTPBTZD74Vs-BduDMBfPwpP1LbrbRJbF_1aZncNYnc-YTBel3kSQ-x5qfE3A5meWyLPps8OlBLovSJ_GlyIjJ88odMRCD3OE_k43JNYEgXtCchg96xTjFsAj6gvmASmhvEVz8ZgkErlP-c8ziOU3zR1gbBjhA7pvVTCmaTjqbRIzoAtFqKzvIDYKr-vmZvxn5o4-28VI_CbVJl9UKt__OijitO0_Bpnnj4yqAJFHVKoOlkjlpCvbwfLXSyiyo87mqCY_qxJRt6EVgzS4iJ8ZI4v8oxHLmYvw","refresh_token":"eyJjdHkiOiJKV1QiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiUlNBLU9BRVAifQ.Va-krCAg0H5XO46pacQYVUvG_xCzE-IzGh7VlM2rlUETkL5yfXjwsIA4MovlCKhbzail813MQU9safK1KXGDcUbXI-XGIHuR-DleamZYjRKV-1aOASzyPhzBOtmFRox85qd7Jtrt7hLrX3F_8Q3RJ4zDCyd4MJhog5EyM4PbJqv6n7l6tWwTttgXHNTktHpD67rYeixec6mVs7HQ0R8g2YKeWgo3pGG6JmHqfGnqz9MUH5uwpBSIN2k2EjDxxeA58OpepfM88hAtulhZDGHC1QWiGBbydlUQLSNd9p01JPOV6zt4LoTshtz39xy70sVjnfcK6Za9g4o2h72lKJNkig.U8Qy2ui5vQHXJxmW.7fyEn_y3ql9tfN3ITOey6vn9_FeDVy0bqviXH_EeEnzN0G5Fhoj0Jta_MNEtoAx-NTrkKKVkFERU1OfC_O8seHHl21KY9ldngE91SPki3JtMjVerGdQQTOnJeDpasAqTSq96H4y8EG4kmy5Wx9ao96rNm8PhE-O0rGUTMhOZbftf348dqh8jpA7Bgwqcqrfep181hz38-PigmWXXO6kJ807qiclEsDUeEJx4nFFLsyTMG0pzFEm0cmgbSJwEXVpvgph2WiTRBbhVLpKRDcHYJ3oampkhHC7wRBNLTxwYZR2R8xt91-Q9SogMgceJFUWf8aHyFCwjLnMPVDMbusMU6tdlksPlTYlBiTj25ZdM1dmOq6KT4rV-CCfPA-A9Ce6Znhf8ZkrQ70yaOq8Gf21RbvnlBXyUswRU_wfg5p7-eWThGZsEegyd1LT5OJz6sge_A00-8kjppOw2KHy0RioYci-0fuklUd8AVeHZvuDCA_qcHzT9pEQ4syD_uCpdsv1bXJj-PhxgdXl09EhGqt1R2c9UPw8cs5BaazbgEsW4ozn-i49ooaC5OVqq_-3SgZr2HZBx6HDLED8ABccU0_88JCdriTDQt5AmJADkKNacUIYIF7TigiTfZbEU5aalu5s_EPVA45oysoqUqU-xK96PMEYmP1CmVg5v0s1nb-xVmyqOY5rOM9QNUt_Fn9HKgyZI75wqzqzepzNRx4Ad4dwO93ae3hX6b4ehQY6hJBu3TXVuYYR1fl8xvMxnyQdXL3FQ9RbGza7jbkAK_rpqxyjqV494w7DxGWGhZ--Ix6G52kAs35QS_u_SeT6DGkI8aIVH8OOhLOGCO0wBnuXodfrAxC4E6xDsgTjlLr0y92eI7b_ZOFM1gWp4geVUQ70BrFOa4w7JJlLByZ-0jdi0O7lQnsg01vO0gOWM0L8QxAs3bsuvE4q1o1r755YYOp1uEm2tIpPDvMTZzO96s0_O-Aly22yi13Y-RwDW_hBPyCwLtQw1NT2bPByREmz-e7Ow1VsSuJBXUFtvAw2lnljsxG1VWGGZTM8OtwJqTay9f89RCAXBZsIyun_4MyJmxD__wtJYZSsn1sgH7UiN6E_Z-EAQxwxu8-0YKUTbMtK-9hR92RvV4f0Hj-_2cg63VPVVBqkWlhxUsMlJbUtCeMwYSQHL4Qs-9g4mtXUqbTJJA8pzlyY7yTf4WeiyouGrIz9Bpu6mvqzVibr6AXRLMdQdzzCW7YiMzhhEQ4diE4NiqpxWotNrzyNoVQIprHNcmJ_CXnaRR4xlOaqphpBy6h4b4od5YqfyBZ2YWa9o0VVEMXTqDFiom6OCDgzJgFJq5g.TSkq8dHeb1OEdsSqvhQdbA"}
+Registration 6m:
+curl -v -X POST 'https://connect-checkout-be.qa.openfit.com/v1/subscriptions/new' -H 'Authorization:Bearer eyJraWQiOiJpNXdpK29KS2pzbzdWZG0xY20zdUZ4SnVQYUZGSFE4aElkRUptcjQwdkdjPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJjMTA1OGM4YS0xOTY3LTQwNTItOWI2NS1mOTM0ZDkxNWMzNGIiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLXdlc3QtMi5hbWF6b25hd3MuY29tXC91cy13ZXN0LTJfMG1OUVhuNDE5IiwiY29nbml0bzp1c2VybmFtZSI6ImMxMDU4YzhhLTE5NjctNDA1Mi05YjY1LWY5MzRkOTE1YzM0YiIsImdpdmVuX25hbWUiOiJUZXN0IiwiYXVkIjoiM3Axcm11N2V2czJucjdsdTI3aDc1Y3NuYmYiLCJldmVudF9pZCI6IjcxYTVmYzg5LWYzMzQtNGMwNC05ZTA0LTQ3YTJhNTQyOWJiZiIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNTYxMDMxNTk4LCJleHAiOjE1NjEwMzUxOTgsImlhdCI6MTU2MTAzMTU5OCwiZmFtaWx5X25hbWUiOiJUZXN0IiwiZW1haWwiOiJ0ZXN0ZXI4ZmZpOEB5b3BtYWlsLmNvbSJ9.aLd_QoF8ing66xxocVzmYGq_oVsr1aCgFpCJbfEsdEzQ25xBwA_AzaOnWpGy_FY7k7uNmqDVWHpXf0fxy_ijWjlq7Rx51EqVqQVvoJwGv6i8aN0o6dgvpsQD9unJ2gtXLp6D0uILWJuU9holHQdgzS6LTEkCO1PqdgRoMDScMvgJagNQBUN7Sh0riKmzfok6IMaHpsVohIR8X5Fl5VK-ZIoEOX7d1ox8PegcNSsGOf7aD4oV3KrCrCWu_UmxnoAfAI1DZEl4MfQNDAI92WUpnvRPl5QQkY7Z4O3DrJwrFPAX2MZDuu9JeyQPPu06_zR-LxPRFyElqEBjboLMgSRoJQ' -H 'Content-Length:1150' -H 'Content-Type:application/json; charset=utf-8' -H 'x-api-key:WYvuNYNwZo8LapYoJwwwh18rgJt85tPB8iYDAXSr' -d '{"items":[
+	{
+	"product_id":1685587853379,
+	"variant_id":15447916838979,
+	"quantity":1}],
+	"token_id":"T_RiS_39RjCx0tkT9Dqt5A",
+	"access_token":"eyJraWQiOiJ0YXF6bkc4SklGNjN1cUJqTHE5cGppTDhVNmZSbkp1bmNKYkxNbGFYMndZPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJjMTA1OGM4YS0xOTY3LTQwNTItOWI2NS1mOTM0ZDkxNWMzNGIiLCJldmVudF9pZCI6IjcxYTVmYzg5LWYzMzQtNGMwNC05ZTA0LTQ3YTJhNTQyOWJiZiIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE1NjEwMzE1OTgsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC51cy13ZXN0LTIuYW1hem9uYXdzLmNvbVwvdXMtd2VzdC0yXzBtTlFYbjQxOSIsImV4cCI6MTU2MTAzNTE5OCwiaWF0IjoxNTYxMDMxNTk4LCJqdGkiOiI1ZmE5ZDBmYy1kYjBkLTQ3MWItYmYxNi05YWFhOTI3NTE5OWEiLCJjbGllbnRfaWQiOiIzcDFybXU3ZXZzMm5yN2x1MjdoNzVjc25iZiIsInVzZXJuYW1lIjoiYzEwNThjOGEtMTk2Ny00MDUyLTliNjUtZjkzNGQ5MTVjMzRiIn0.DRl4NoiXJUPsWHjjCk05ABropVg6zc6EQx6d1dha-GJaUrwtTTqa3yFTPBTZD74Vs-BduDMBfPwpP1LbrbRJbF_1aZncNYnc-YTBel3kSQ-x5qfE3A5meWyLPps8OlBLovSJ_GlyIjJ88odMRCD3OE_k43JNYEgXtCchg96xTjFsAj6gvmASmhvEVz8ZgkErlP-c8ziOU3zR1gbBjhA7pvVTCmaTjqbRIzoAtFqKzvIDYKr-vmZvxn5o4-28VI_CbVJl9UKt__OijitO0_Bpnnj4yqAJFHVKoOlkjlpCvbwfLXSyiyo87mqCY_qxJRt6EVgzS4iJ8ZI4v8oxHLmYvw"
+}' 
+
+Response: {"message":"The transaction was declined or failed for an unknown reason. Please try again or contact support.","error":{"reason":"unknown","requestId":"d26f3606-c499-4804-9f61-5d5a0546ce24","code":"4002"}}
 ]]></system-out>
   </testcase>
-  <testcase name="changeAttributesForRegisteredUser" classname="tests.ChangeAttributesTests" time="2.322">
-    <failure message="The following asserts failed:&#10;	expected [Test] but found [null],&#10;	expected [Test] but found [null],&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected [Test] but found [null],&#10;	expected [Test] but found [null],&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null" type="java.lang.AssertionError">java.lang.AssertionError: 
-The following asserts failed:
-	expected [Test] but found [null],
-	expected [Test] but found [null],
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected [Test] but found [null],
-	expected [Test] but found [null],
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null
-	at tests.ChangeAttributesTests.changeAttributesForRegisteredUser_aroundBody2(ChangeAttributesTests.java:50)
-	at tests.ChangeAttributesTests.changeAttributesForRegisteredUser(ChangeAttributesTests.java:50)
-</failure>
-  </testcase>
-  <testcase name="changeAttributesForSubscribedUser" classname="tests.ChangeAttributesTests" time="2.294">
-    <failure message="The following asserts failed:&#10;	expected [Test] but found [null],&#10;	expected [Test] but found [null],&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected [Test] but found [null],&#10;	expected [Test] but found [null],&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null,&#10;	expected object to not be null" type="java.lang.AssertionError">java.lang.AssertionError: 
-The following asserts failed:
-	expected [Test] but found [null],
-	expected [Test] but found [null],
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected [Test] but found [null],
-	expected [Test] but found [null],
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null,
-	expected object to not be null
+  <testcase name="changeAttributesForRegisteredUser" classname="tests.ChangeAttributesTests" time="2.937"/>
+  <testcase name="changeAttributesForSubscribedUser" classname="tests.ChangeAttributesTests" time="4.82">
+    <failure message="No results for path: $[&apos;result&apos;]" type="com.jayway.jsonpath.PathNotFoundException">com.jayway.jsonpath.PathNotFoundException: No results for path: $['result']
 	at tests.ChangeAttributesTests.changeAttributesForSubscribedUser_aroundBody0(ChangeAttributesTests.java:28)
 	at tests.ChangeAttributesTests.changeAttributesForSubscribedUser(ChangeAttributesTests.java:28)
 </failure>
@@ -255,8 +325,30 @@ Request to get ID token:
 curl -v -X POST 'https://api.recurly.com/js/v1/token' -H 'Content-Length:204' -H 'Content-Type:application/json; charset=utf-8' -d '{"first_name": "Instigate", "last_name": "Mobile", "postal_code": "90404", "country": "US", "number": "4111111111111111","month": "12", "year": "2020", "cvv": "132", "key": "ewr1-bBXWWGAuZMiIT4CL76bvwL" }' 
 
 Response: 
-{"type":"credit_card","id":"Lw1afX-schv7tySVk7BxLQ"}
+{"type":"credit_card","id":"ZiP11Om0fZlkWWE5anbnyA"}
+Request to create free user: 
+curl -v -X POST 'https://connect-customer.qa.openfit.com/v1/register' -H 'Content-Length:145' -H 'Content-Type:application/json; charset=utf-8' -H 'x-api-key:wrlyU1ZZUL1QSl1BKe7zw9ZsTJANTCAe7mRh2WLP' -d '{
+        "given_name":"Test",
+        "family_name":"Test",
+        "email":"tester0XOFI@yopmail.com",
+        "password":"Test1234@"
+        
+}' 
+
+Response: 
+{"email":"tester0xofi@yopmail.com","given_name":"Test","family_name":"Test","sub":"53a52d12-3380-4af7-85b8-5887eb932fd9","id_token":"eyJraWQiOiJpNXdpK29KS2pzbzdWZG0xY20zdUZ4SnVQYUZGSFE4aElkRUptcjQwdkdjPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI1M2E1MmQxMi0zMzgwLTRhZjctODViOC01ODg3ZWI5MzJmZDkiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLXdlc3QtMi5hbWF6b25hd3MuY29tXC91cy13ZXN0LTJfMG1OUVhuNDE5IiwiY29nbml0bzp1c2VybmFtZSI6IjUzYTUyZDEyLTMzODAtNGFmNy04NWI4LTU4ODdlYjkzMmZkOSIsImdpdmVuX25hbWUiOiJUZXN0IiwiYXVkIjoiM3Axcm11N2V2czJucjdsdTI3aDc1Y3NuYmYiLCJldmVudF9pZCI6IjkyOWM1NmVmLTE5MjgtNDViMC05Y2JjLTQ1MjQ0MWEyYTU4OCIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNTYxMDMxNjA1LCJleHAiOjE1NjEwMzUyMDUsImlhdCI6MTU2MTAzMTYwNSwiZmFtaWx5X25hbWUiOiJUZXN0IiwiZW1haWwiOiJ0ZXN0ZXIweG9maUB5b3BtYWlsLmNvbSJ9.fSW_pmm8-vkFx0lU6dsD4DaO5CWmh1Ycza4fI96xp5Z-ozvg0vm1j7rV62GoJvnFGdRVe_1oSjzUm-gpLwK2aGo7qwJHtkqogtsJBk3U_7qHa39vQ1T__QTyu8WCx0cmqUunwGVsJUs66HHTWWQLLUq8NTr-foyd4b2SxP4J6M9SBgo8BX2uvj7eWjggzbNkaPyoxbj3ZhrkCJwmWFriUnY6PAWpJL9tqJhzZWsbbT9MSUoel4CC90lE1fDI7hLViKrfZUo0UsphYZc7OOkgi5vOLnD8Dsyj0DHh-YaoF8SUIx6CP7h5CB9AFJmJ-qy1nKr-OZn8vTvtlskekHpczw","access_token":"eyJraWQiOiJ0YXF6bkc4SklGNjN1cUJqTHE5cGppTDhVNmZSbkp1bmNKYkxNbGFYMndZPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI1M2E1MmQxMi0zMzgwLTRhZjctODViOC01ODg3ZWI5MzJmZDkiLCJldmVudF9pZCI6IjkyOWM1NmVmLTE5MjgtNDViMC05Y2JjLTQ1MjQ0MWEyYTU4OCIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE1NjEwMzE2MDUsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC51cy13ZXN0LTIuYW1hem9uYXdzLmNvbVwvdXMtd2VzdC0yXzBtTlFYbjQxOSIsImV4cCI6MTU2MTAzNTIwNSwiaWF0IjoxNTYxMDMxNjA1LCJqdGkiOiJmZjJmY2I0MS0zMjdjLTQ1OGYtODlkNi1iYWZmNDcyYzlmNDciLCJjbGllbnRfaWQiOiIzcDFybXU3ZXZzMm5yN2x1MjdoNzVjc25iZiIsInVzZXJuYW1lIjoiNTNhNTJkMTItMzM4MC00YWY3LTg1YjgtNTg4N2ViOTMyZmQ5In0.NyMANMFWEM1vmHcw9ghOvRYEWBojhDMR5J2svzMRedmSuIDQJIIYU2gFdEg3b6f82i4qvXIoieVdreq2p8wh4zB4Yqiz76xhvokR0zWHotRe6ksJTGmjujJZ2paEW9tFVnNRbJpilZZvGArD9cFFW-g3o4s_PIQlL-5JGQguRmwjP4qCS-Z_fcc1XqceEIkxZsNX8ZlOb6GRZc1DG_yChWhZ_42OW1q-gS-DZeQCbwwXl3Afr1qBa8bWS8N9-U0QpkzY9FAkGJyFwjn7WpR0Vay9gQ15RtNohq_aWQzF_TdfrNs_JyT2-JbDz0KGXHZe5RPVAdD6alEDBU5zaEa5tA","refresh_token":"eyJjdHkiOiJKV1QiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiUlNBLU9BRVAifQ.Jslt5Ut1kXnmhv051ag6261ZfUUPYpBUvvcglCJWHv4pKqjuFoIS8sibk5p8sjJ3RgwohzYzj6CwRsmOjPwPReq2tiJ7UqL9wzggtfw8D0pREQhCES9ipisNVZd8w-qPHL1G0OZbuHGM2OzU1m_csUuNk2y_IoQQD6OVv4L__OKpOWmFhEO1BTp-6ZZBt-jbDdrVl_3qmnxiqeR1VKF-k5CsE6Xjl_9lf7BrodDA0KO87VT_NT9k5u8thdxycdvZU66C9-OSCMsNvLp0Z4BCTk3ze_C-d8GurB0Wrv4bojlagMj1GeXKDHSIuA0MNlwxAm5XIsIrepD2H0QFK9LZlA.pyluMOB28qaHl3X2.zvHmLJRqEkln9lhJByC7aXBnK1WHz6SyeC7ewZN-rMQXg_P52waI0i0V_a-1l1XzQiMFuKGMP9x1PUTtpCYUA_0XGoihh7tBVU8pNimDrAHqvPV2ol-mEYRxaMzrf4fiIrhyvyZwY0jNfEDymgePEUySWDvRIqJRyTkemm8WfUR-TLNobcFPhlKOpRnz6VsrnvErVo91ZFYbgHu_ml0PtjdPrHETOXJVT-yBotmG-q5w6BYG7UkaTefK6n0Op4tjN0T-V8GQ5wcI17lmAXngSa9qQNUb8QI1Ln2fMDABX8mMVEbj4mI-5el_x63AhSsTUMzPwMjw-iFXCh0DJQABq2dQjveiin-uzI49SsEVNKUpOuI4jpGaM7sReY_5R8S_Ta_j-8xSrKCTuX4V2zehR4HI-0sBoUkybujpZS637fKk8MwjB4JxP7C6y2_pkw9kD7ifKmaVEA7KnvJXMmr-fENFSmeorGtoowv_6alY5Y6S7PEWVv0sUiIhFvrIIg-HtJyVae8FNYjZ_qIiP9B-IRWO78eseQFytcpJF9-VhMRBeEhvrI5yTcM5fZT4C8onPoiy5dAuk5DTb_mkFDBlDP2MtwZtSZyV7rQ8wuwzy0GhyYZ0wIyLYUkDnfphX_KkzJxeZj19QdUPEcXs9E-Nt01St-Nnjm1fxLKo3Y9EqqwMQGfX5gLIwRV0YpnXQAXYPZuRDIUpjRfTRzeB_LV_unFAlKvqlR4kLczQQVbzV0geJ8rdhIbGXVAIlA4ANnFieF9u0m2EMw59cxi02Ai8Ih4s7quTQx_9ylLsqdd7pH3k7cZATFGfDVuEshI8ZrRyXDevf8svXp78m7cWYdroMlFybHcgUJOc9Up8h2detAype-l3pdCnSejVWuCbQ20DJzGIXXIqbm8jLAGufxAnZTkOW1xwX5PxWj5Ekori7HnirfYjgjfrMgpNZDbGJbv8yv4q_nLi7x-dOoLOr7yv6Nv57bqXg83oXEvR44Rv2D3xamZVr8OS38fLmTp5KZ_NqWdLI8hH4C1E-Rz3oUUMzAOEE5ow-CYRgNjAexz-zZQ1fAAksTnaKiyLYnGXEaMHFMHHFxrriQegQi8aW04GBni6RGEohrgpueMWQPMjItazJYEY0pG7GL8GfssSCQR6IlY7C6Zpkx0PK5Urvt1IQ8FFC-YHdndX1OvFh8ceRzymjSzeum59pA3JjK3WzF4rZ88FiYAyGX8VMG8rT7V7978zkxN3jp_FjGgd4AOiS-xwicjV8PCMYkJi68o-hEeuwURj2Fd-F1gVYP9iN_eR-OttDKJw0QdiwfPhvcpyzMZ2Zt5qHwdwhXLv1g.OqboP6zNOd_jQLoaZwq_mw"}
+Registration 6m:
+curl -v -X POST 'https://connect-checkout-be.qa.openfit.com/v1/subscriptions/new' -H 'Authorization:Bearer eyJraWQiOiJpNXdpK29KS2pzbzdWZG0xY20zdUZ4SnVQYUZGSFE4aElkRUptcjQwdkdjPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI1M2E1MmQxMi0zMzgwLTRhZjctODViOC01ODg3ZWI5MzJmZDkiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLXdlc3QtMi5hbWF6b25hd3MuY29tXC91cy13ZXN0LTJfMG1OUVhuNDE5IiwiY29nbml0bzp1c2VybmFtZSI6IjUzYTUyZDEyLTMzODAtNGFmNy04NWI4LTU4ODdlYjkzMmZkOSIsImdpdmVuX25hbWUiOiJUZXN0IiwiYXVkIjoiM3Axcm11N2V2czJucjdsdTI3aDc1Y3NuYmYiLCJldmVudF9pZCI6IjkyOWM1NmVmLTE5MjgtNDViMC05Y2JjLTQ1MjQ0MWEyYTU4OCIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNTYxMDMxNjA1LCJleHAiOjE1NjEwMzUyMDUsImlhdCI6MTU2MTAzMTYwNSwiZmFtaWx5X25hbWUiOiJUZXN0IiwiZW1haWwiOiJ0ZXN0ZXIweG9maUB5b3BtYWlsLmNvbSJ9.fSW_pmm8-vkFx0lU6dsD4DaO5CWmh1Ycza4fI96xp5Z-ozvg0vm1j7rV62GoJvnFGdRVe_1oSjzUm-gpLwK2aGo7qwJHtkqogtsJBk3U_7qHa39vQ1T__QTyu8WCx0cmqUunwGVsJUs66HHTWWQLLUq8NTr-foyd4b2SxP4J6M9SBgo8BX2uvj7eWjggzbNkaPyoxbj3ZhrkCJwmWFriUnY6PAWpJL9tqJhzZWsbbT9MSUoel4CC90lE1fDI7hLViKrfZUo0UsphYZc7OOkgi5vOLnD8Dsyj0DHh-YaoF8SUIx6CP7h5CB9AFJmJ-qy1nKr-OZn8vTvtlskekHpczw' -H 'Content-Length:1150' -H 'Content-Type:application/json; charset=utf-8' -H 'x-api-key:WYvuNYNwZo8LapYoJwwwh18rgJt85tPB8iYDAXSr' -d '{"items":[
+	{
+	"product_id":1685587853379,
+	"variant_id":15447916838979,
+	"quantity":1}],
+	"token_id":"ZiP11Om0fZlkWWE5anbnyA",
+	"access_token":"eyJraWQiOiJ0YXF6bkc4SklGNjN1cUJqTHE5cGppTDhVNmZSbkp1bmNKYkxNbGFYMndZPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI1M2E1MmQxMi0zMzgwLTRhZjctODViOC01ODg3ZWI5MzJmZDkiLCJldmVudF9pZCI6IjkyOWM1NmVmLTE5MjgtNDViMC05Y2JjLTQ1MjQ0MWEyYTU4OCIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE1NjEwMzE2MDUsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC51cy13ZXN0LTIuYW1hem9uYXdzLmNvbVwvdXMtd2VzdC0yXzBtTlFYbjQxOSIsImV4cCI6MTU2MTAzNTIwNSwiaWF0IjoxNTYxMDMxNjA1LCJqdGkiOiJmZjJmY2I0MS0zMjdjLTQ1OGYtODlkNi1iYWZmNDcyYzlmNDciLCJjbGllbnRfaWQiOiIzcDFybXU3ZXZzMm5yN2x1MjdoNzVjc25iZiIsInVzZXJuYW1lIjoiNTNhNTJkMTItMzM4MC00YWY3LTg1YjgtNTg4N2ViOTMyZmQ5In0.NyMANMFWEM1vmHcw9ghOvRYEWBojhDMR5J2svzMRedmSuIDQJIIYU2gFdEg3b6f82i4qvXIoieVdreq2p8wh4zB4Yqiz76xhvokR0zWHotRe6ksJTGmjujJZ2paEW9tFVnNRbJpilZZvGArD9cFFW-g3o4s_PIQlL-5JGQguRmwjP4qCS-Z_fcc1XqceEIkxZsNX8ZlOb6GRZc1DG_yChWhZ_42OW1q-gS-DZeQCbwwXl3Afr1qBa8bWS8N9-U0QpkzY9FAkGJyFwjn7WpR0Vay9gQ15RtNohq_aWQzF_TdfrNs_JyT2-JbDz0KGXHZe5RPVAdD6alEDBU5zaEa5tA"
+}' 
+
+Response: {"message":"The transaction was declined or failed for an unknown reason. Please try again or contact support.","error":{"reason":"unknown","requestId":"8e28a548-4cfd-43ac-984e-b35f87e8e917","code":"4002"}}
 ]]></system-out>
   </testcase>
-  <testcase name="getContent" classname="tests.ContentTests" time="0.003"/>
+  <testcase name="getContent" classname="tests.ContentTests" time="0.001"/>
 </testsuite>

@@ -49,18 +49,29 @@ public class FreeRegisterTests {
     @Test(groups = "critical")
     @Description("Free register with valid credentials.")
     @Step("Make request to create free user:")
-    public void freeRegister() throws IOException, ParseException {
+    public void freeRegister(){
         RequestBuilder requestBuilder = new RequestBuilder(freeRegisterUrl)
                 .addPathParameters("v1", "register")
                 .addHeader("x-api-key", x_api_key);
-        Response response = requestBuilder.post("{\n" +
-                "        \"given_name\":\"Test\",\n" +
-                "        \"family_name\":\"Test\",\n" +
-                "        \"email\":\"" + email + "\",\n" +
-                "        \"password\":\"Test1234@\"\n" +
-                "        \n" +
-                "}", content_type);
-        helperMethods.getUser(response);
+        Response response = null;
+        try {
+            response = requestBuilder.post("{\n" +
+                    "        \"given_name\":\"Test\",\n" +
+                    "        \"family_name\":\"Test\",\n" +
+                    "        \"email\":\"" + email + "\",\n" +
+                    "        \"password\":\"Test1234@\"\n" +
+                    "        \n" +
+                    "}", content_type);
+        } catch (IOException e) {
+            System.out.println("Free Register IO Exception");
+            e.printStackTrace();
+        }
+        try {
+            helperMethods.getUser(response);
+        } catch (ParseException e) {
+            System.out.println("Free Register Parse Exception");
+            e.printStackTrace();
+        }
         checkerMethods.getFreeRegisterResponseContent(response);
         System.out.println("Request to create free user: \n" + response.getCurl() + "\n\nResponse: \n" + response.body());
         Allure.addAttachment("Request: ", response.getCurl());
