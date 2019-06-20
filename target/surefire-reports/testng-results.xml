@@ -1,52 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="6" ignored="0" total="12" passed="6">
+<testng-results skipped="0" failed="10" ignored="0" total="12" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="36750" started-at="2019-06-20T11:52:52Z" finished-at="2019-06-20T11:53:29Z">
+  <suite name="Surefire suite" duration-ms="33103" started-at="2019-06-20T13:36:10Z" finished-at="2019-06-20T13:36:44Z">
     <groups>
       <group name="major">
-        <method signature="ChangeAttributesTests.changeAttributesForRegisteredUser()[pri:0, instance:tests.ChangeAttributesTests@49aa766b]" name="changeAttributesForRegisteredUser" class="tests.ChangeAttributesTests"/>
-        <method signature="ChangeAttributesTests.changeAttributesForSubscribedUser()[pri:0, instance:tests.ChangeAttributesTests@49aa766b]" name="changeAttributesForSubscribedUser" class="tests.ChangeAttributesTests"/>
-        <method signature="ChangePasswordTests.changePasswordForRegisteredUser()[pri:0, instance:tests.ChangePasswordTests@3adbe50f]" name="changePasswordForRegisteredUser" class="tests.ChangePasswordTests"/>
-        <method signature="ChangePasswordTests.changePasswordForSubscribedUser()[pri:0, instance:tests.ChangePasswordTests@3adbe50f]" name="changePasswordForSubscribedUser" class="tests.ChangePasswordTests"/>
+        <method signature="ChangeAttributesTests.changeAttributesForRegisteredUser()[pri:0, instance:tests.ChangeAttributesTests@5cf87cfd]" name="changeAttributesForRegisteredUser" class="tests.ChangeAttributesTests"/>
+        <method signature="ChangeAttributesTests.changeAttributesForSubscribedUser()[pri:0, instance:tests.ChangeAttributesTests@5cf87cfd]" name="changeAttributesForSubscribedUser" class="tests.ChangeAttributesTests"/>
+        <method signature="ChangePasswordTests.changePasswordForRegisteredUser()[pri:0, instance:tests.ChangePasswordTests@1bbae752]" name="changePasswordForRegisteredUser" class="tests.ChangePasswordTests"/>
+        <method signature="ChangePasswordTests.changePasswordForSubscribedUser()[pri:0, instance:tests.ChangePasswordTests@1bbae752]" name="changePasswordForSubscribedUser" class="tests.ChangePasswordTests"/>
       </group> <!-- major -->
       <group name="critical">
-        <method signature="FreeRegisterTests.freeRegister()[pri:0, instance:tests.FreeRegisterTests@1542af63]" name="freeRegister" class="tests.FreeRegisterTests"/>
-        <method signature="SubscriptionsTests.registration12m()[pri:0, instance:tests.SubscriptionsTests@ecfbe91]" name="registration12m" class="tests.SubscriptionsTests"/>
-        <method signature="SubscriptionsTests.registration1m()[pri:0, instance:tests.SubscriptionsTests@ecfbe91]" name="registration1m" class="tests.SubscriptionsTests"/>
-        <method signature="SubscriptionsTests.registration6m()[pri:0, instance:tests.SubscriptionsTests@ecfbe91]" name="registration6m" class="tests.SubscriptionsTests"/>
+        <method signature="FreeRegisterTests.freeRegister()[pri:0, instance:tests.FreeRegisterTests@5f404594]" name="freeRegister" class="tests.FreeRegisterTests"/>
+        <method signature="SubscriptionsTests.registration12m()[pri:0, instance:tests.SubscriptionsTests@53692008]" name="registration12m" class="tests.SubscriptionsTests"/>
+        <method signature="SubscriptionsTests.registration1m()[pri:0, instance:tests.SubscriptionsTests@53692008]" name="registration1m" class="tests.SubscriptionsTests"/>
+        <method signature="SubscriptionsTests.registration6m()[pri:0, instance:tests.SubscriptionsTests@53692008]" name="registration6m" class="tests.SubscriptionsTests"/>
       </group> <!-- critical -->
       <group name="hp">
-        <method signature="ContentTests.getContent()[pri:0, instance:tests.ContentTests@963176]" name="getContent" class="tests.ContentTests"/>
-        <method signature="GetTokenIdTests.getIDToken()[pri:0, instance:tests.GetTokenIdTests@20ed3303]" name="getIDToken" class="tests.GetTokenIdTests"/>
-        <method signature="LoginTests.loginWithRegisteredUser()[pri:0, instance:tests.LoginTests@3a627c80]" name="loginWithRegisteredUser" class="tests.LoginTests"/>
-        <method signature="LoginTests.loginWithSubscribedUser()[pri:0, instance:tests.LoginTests@3a627c80]" name="loginWithSubscribedUser" class="tests.LoginTests"/>
+        <method signature="ContentTests.getContent()[pri:0, instance:tests.ContentTests@76075d65]" name="getContent" class="tests.ContentTests"/>
+        <method signature="GetTokenIdTests.getIDToken()[pri:0, instance:tests.GetTokenIdTests@7b2a3ff8]" name="getIDToken" class="tests.GetTokenIdTests"/>
+        <method signature="LoginTests.loginWithRegisteredUser()[pri:0, instance:tests.LoginTests@460b6d54]" name="loginWithRegisteredUser" class="tests.LoginTests"/>
+        <method signature="LoginTests.loginWithSubscribedUser()[pri:0, instance:tests.LoginTests@460b6d54]" name="loginWithSubscribedUser" class="tests.LoginTests"/>
       </group> <!-- hp -->
     </groups>
-    <test name="Surefire test" duration-ms="36750" started-at="2019-06-20T11:52:52Z" finished-at="2019-06-20T11:53:29Z">
+    <test name="Surefire test" duration-ms="33103" started-at="2019-06-20T13:36:10Z" finished-at="2019-06-20T13:36:44Z">
       <class name="tests.LoginTests">
-        <test-method status="PASS" signature="loginWithRegisteredUser()[pri:0, instance:tests.LoginTests@3a627c80]" name="loginWithRegisteredUser" duration-ms="3708" started-at="2019-06-20T11:53:12Z" finished-at="2019-06-20T11:53:16Z">
+        <test-method status="FAIL" signature="loginWithRegisteredUser()[pri:0, instance:tests.LoginTests@460b6d54]" name="loginWithRegisteredUser" duration-ms="2467" started-at="2019-06-20T13:36:33Z" finished-at="2019-06-20T13:36:36Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [testerujxih@yopmail.com] but found [null],
+expected [testeraj4an@yopmail.com] but found [null],
+expected [testerm7f56@yopmail.com] but found [null],
+expected [testeryc63y@yopmail.com] but found [null],
+expected [testerymmht@yopmail.com] but found [null]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [testerujxih@yopmail.com] but found [null],
+expected [testeraj4an@yopmail.com] but found [null],
+expected [testerm7f56@yopmail.com] but found [null],
+expected [testeryc63y@yopmail.com] but found [null],
+expected [testerymmht@yopmail.com] but found [null]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at util.CheckerMethods.getFreeRegisterResponseContent(CheckerMethods.java:45)
+at tests.FreeRegisterTests.freeRegister_aroundBody0(FreeRegisterTests.java:75)
+at tests.FreeRegisterTests$AjcClosure1.run(FreeRegisterTests.java:1)
+at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+at tests.FreeRegisterTests.freeRegister(FreeRegisterTests.java:53)
+at tests.LoginTests.loginWithRegisteredUser_aroundBody2(LoginTests.java:40)
+at tests.LoginTests$AjcClosure3.run(LoginTests.java:1)
+at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+at tests.LoginTests.loginWithRegisteredUser(LoginTests.java:40)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithRegisteredUser -->
-        <test-method status="FAIL" signature="loginWithSubscribedUser()[pri:0, instance:tests.LoginTests@3a627c80]" name="loginWithSubscribedUser" duration-ms="4725" started-at="2019-06-20T11:53:16Z" finished-at="2019-06-20T11:53:21Z">
-          <exception class="com.jayway.jsonpath.PathNotFoundException">
+        <test-method status="FAIL" signature="loginWithSubscribedUser()[pri:0, instance:tests.LoginTests@460b6d54]" name="loginWithSubscribedUser" duration-ms="2891" started-at="2019-06-20T13:36:36Z" finished-at="2019-06-20T13:36:39Z">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[No results for path: $['result']]]>
+              <![CDATA[The following asserts failed:
+expected [testerujxih@yopmail.com] but found [null],
+expected [testeraj4an@yopmail.com] but found [null],
+expected [testerm7f56@yopmail.com] but found [null],
+expected [testeryc63y@yopmail.com] but found [null],
+expected [testerymmht@yopmail.com] but found [null],
+expected [testerffbm3@yopmail.com] but found [null]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[com.jayway.jsonpath.PathNotFoundException: No results for path: $['result']
-at com.jayway.jsonpath.internal.path.EvaluationContextImpl.getValue(EvaluationContextImpl.java:133)
-at com.jayway.jsonpath.JsonPath.read(JsonPath.java:187)
-at com.jayway.jsonpath.internal.JsonContext.read(JsonContext.java:102)
-at com.jayway.jsonpath.internal.JsonContext.read(JsonContext.java:85)
-at com.jayway.jsonpath.JsonPath.read(JsonPath.java:502)
-at util.CheckerMethods.getSubscriptionResponseContent(CheckerMethods.java:77)
-at tests.SubscriptionsTests.registration6m_aroundBody2(SubscriptionsTests.java:131)
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [testerujxih@yopmail.com] but found [null],
+expected [testeraj4an@yopmail.com] but found [null],
+expected [testerm7f56@yopmail.com] but found [null],
+expected [testeryc63y@yopmail.com] but found [null],
+expected [testerymmht@yopmail.com] but found [null],
+expected [testerffbm3@yopmail.com] but found [null]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at util.CheckerMethods.getFreeRegisterResponseContent(CheckerMethods.java:45)
+at tests.FreeRegisterTests.freeRegister_aroundBody0(FreeRegisterTests.java:75)
+at tests.FreeRegisterTests$AjcClosure1.run(FreeRegisterTests.java:1)
+at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+at tests.FreeRegisterTests.freeRegister(FreeRegisterTests.java:53)
+at tests.SubscriptionsTests.registration6m_aroundBody2(SubscriptionsTests.java:101)
 at tests.SubscriptionsTests$AjcClosure3.run(SubscriptionsTests.java:1)
 at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
 at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
-at tests.SubscriptionsTests.registration6m(SubscriptionsTests.java:99)
+at tests.SubscriptionsTests.registration6m(SubscriptionsTests.java:95)
 at tests.LoginTests.loginWithSubscribedUser_aroundBody0(LoginTests.java:25)
 at tests.LoginTests$AjcClosure1.run(LoginTests.java:1)
 at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
@@ -83,36 +156,28 @@ at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
 ]]>
             </full-stacktrace>
-          </exception> <!-- com.jayway.jsonpath.PathNotFoundException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithSubscribedUser -->
       </class> <!-- tests.LoginTests -->
       <class name="tests.FreeRegisterTests">
-        <test-method status="PASS" signature="freeRegister()[pri:0, instance:tests.FreeRegisterTests@1542af63]" name="freeRegister" duration-ms="3384" started-at="2019-06-20T11:52:52Z" finished-at="2019-06-20T11:52:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- freeRegister -->
-      </class> <!-- tests.FreeRegisterTests -->
-      <class name="tests.SubscriptionsTests">
-        <test-method status="FAIL" signature="registration12m()[pri:0, instance:tests.SubscriptionsTests@ecfbe91]" name="registration12m" duration-ms="5373" started-at="2019-06-20T11:52:55Z" finished-at="2019-06-20T11:53:01Z">
-          <exception class="com.jayway.jsonpath.PathNotFoundException">
+        <test-method status="FAIL" signature="freeRegister()[pri:0, instance:tests.FreeRegisterTests@5f404594]" name="freeRegister" duration-ms="3565" started-at="2019-06-20T13:36:10Z" finished-at="2019-06-20T13:36:14Z">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[No results for path: $['result']]]>
+              <![CDATA[The following asserts failed:
+expected [testerujxih@yopmail.com] but found [null]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[com.jayway.jsonpath.PathNotFoundException: No results for path: $['result']
-at com.jayway.jsonpath.internal.path.EvaluationContextImpl.getValue(EvaluationContextImpl.java:133)
-at com.jayway.jsonpath.JsonPath.read(JsonPath.java:187)
-at com.jayway.jsonpath.internal.JsonContext.read(JsonContext.java:102)
-at com.jayway.jsonpath.internal.JsonContext.read(JsonContext.java:89)
-at com.jayway.jsonpath.JsonPath.read(JsonPath.java:502)
-at util.CheckerMethods.getSubscriptionResponseContent(CheckerMethods.java:77)
-at tests.SubscriptionsTests.registration12m_aroundBody4(SubscriptionsTests.java:171)
-at tests.SubscriptionsTests$AjcClosure5.run(SubscriptionsTests.java:1)
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [testerujxih@yopmail.com] but found [null]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at util.CheckerMethods.getFreeRegisterResponseContent(CheckerMethods.java:45)
+at tests.FreeRegisterTests.freeRegister_aroundBody0(FreeRegisterTests.java:75)
+at tests.FreeRegisterTests$AjcClosure1.run(FreeRegisterTests.java:1)
 at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
 at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
-at tests.SubscriptionsTests.registration12m(SubscriptionsTests.java:141)
+at tests.FreeRegisterTests.freeRegister(FreeRegisterTests.java:53)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -144,11 +209,71 @@ at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
 ]]>
             </full-stacktrace>
-          </exception> <!-- com.jayway.jsonpath.PathNotFoundException -->
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freeRegister -->
+      </class> <!-- tests.FreeRegisterTests -->
+      <class name="tests.SubscriptionsTests">
+        <test-method status="FAIL" signature="registration12m()[pri:0, instance:tests.SubscriptionsTests@53692008]" name="registration12m" duration-ms="3029" started-at="2019-06-20T13:36:14Z" finished-at="2019-06-20T13:36:17Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [testerujxih@yopmail.com] but found [null],
+expected [testeraj4an@yopmail.com] but found [null]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [testerujxih@yopmail.com] but found [null],
+expected [testeraj4an@yopmail.com] but found [null]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at util.CheckerMethods.getFreeRegisterResponseContent(CheckerMethods.java:45)
+at tests.FreeRegisterTests.freeRegister_aroundBody0(FreeRegisterTests.java:75)
+at tests.FreeRegisterTests$AjcClosure1.run(FreeRegisterTests.java:1)
+at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+at tests.FreeRegisterTests.freeRegister(FreeRegisterTests.java:53)
+at tests.SubscriptionsTests.registration12m_aroundBody4(SubscriptionsTests.java:143)
+at tests.SubscriptionsTests$AjcClosure5.run(SubscriptionsTests.java:1)
+at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+at tests.SubscriptionsTests.registration12m(SubscriptionsTests.java:137)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registration12m -->
-        <test-method status="FAIL" signature="registration1m()[pri:0, instance:tests.SubscriptionsTests@ecfbe91]" name="registration1m" duration-ms="1723" started-at="2019-06-20T11:53:01Z" finished-at="2019-06-20T11:53:03Z">
+        <test-method status="FAIL" signature="registration1m()[pri:0, instance:tests.SubscriptionsTests@53692008]" name="registration1m" duration-ms="2179" started-at="2019-06-20T13:36:17Z" finished-at="2019-06-20T13:36:19Z">
           <exception class="com.jayway.jsonpath.PathNotFoundException">
             <message>
               <![CDATA[No results for path: $['result']]]>
@@ -158,10 +283,10 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
 at com.jayway.jsonpath.internal.path.EvaluationContextImpl.getValue(EvaluationContextImpl.java:133)
 at com.jayway.jsonpath.JsonPath.read(JsonPath.java:187)
 at com.jayway.jsonpath.internal.JsonContext.read(JsonContext.java:102)
-at com.jayway.jsonpath.internal.JsonContext.read(JsonContext.java:85)
+at com.jayway.jsonpath.internal.JsonContext.read(JsonContext.java:89)
 at com.jayway.jsonpath.JsonPath.read(JsonPath.java:502)
 at util.CheckerMethods.getSubscriptionResponseContent(CheckerMethods.java:77)
-at tests.SubscriptionsTests.registration1m_aroundBody0(SubscriptionsTests.java:89)
+at tests.SubscriptionsTests.registration1m_aroundBody0(SubscriptionsTests.java:85)
 at tests.SubscriptionsTests$AjcClosure1.run(SubscriptionsTests.java:1)
 at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
 at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
@@ -201,7 +326,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registration1m -->
-        <test-method status="FAIL" signature="registration6m()[pri:0, instance:tests.SubscriptionsTests@ecfbe91]" name="registration6m" duration-ms="1675" started-at="2019-06-20T11:53:03Z" finished-at="2019-06-20T11:53:04Z">
+        <test-method status="FAIL" signature="registration6m()[pri:0, instance:tests.SubscriptionsTests@53692008]" name="registration6m" duration-ms="1969" started-at="2019-06-20T13:36:19Z" finished-at="2019-06-20T13:36:21Z">
           <exception class="com.jayway.jsonpath.PathNotFoundException">
             <message>
               <![CDATA[No results for path: $['result']]]>
@@ -214,11 +339,11 @@ at com.jayway.jsonpath.internal.JsonContext.read(JsonContext.java:102)
 at com.jayway.jsonpath.internal.JsonContext.read(JsonContext.java:85)
 at com.jayway.jsonpath.JsonPath.read(JsonPath.java:502)
 at util.CheckerMethods.getSubscriptionResponseContent(CheckerMethods.java:77)
-at tests.SubscriptionsTests.registration6m_aroundBody2(SubscriptionsTests.java:131)
+at tests.SubscriptionsTests.registration6m_aroundBody2(SubscriptionsTests.java:127)
 at tests.SubscriptionsTests$AjcClosure3.run(SubscriptionsTests.java:1)
 at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
 at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
-at tests.SubscriptionsTests.registration6m(SubscriptionsTests.java:99)
+at tests.SubscriptionsTests.registration6m(SubscriptionsTests.java:95)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -256,28 +381,93 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
         </test-method> <!-- registration6m -->
       </class> <!-- tests.SubscriptionsTests -->
       <class name="tests.ChangePasswordTests">
-        <test-method status="PASS" signature="changePasswordForRegisteredUser()[pri:0, instance:tests.ChangePasswordTests@3adbe50f]" name="changePasswordForRegisteredUser" duration-ms="3110" started-at="2019-06-20T11:53:04Z" finished-at="2019-06-20T11:53:08Z">
+        <test-method status="FAIL" signature="changePasswordForRegisteredUser()[pri:0, instance:tests.ChangePasswordTests@1bbae752]" name="changePasswordForRegisteredUser" duration-ms="2199" started-at="2019-06-20T13:36:22Z" finished-at="2019-06-20T13:36:24Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [testerujxih@yopmail.com] but found [null],
+expected [testeraj4an@yopmail.com] but found [null],
+expected [testerm7f56@yopmail.com] but found [null]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [testerujxih@yopmail.com] but found [null],
+expected [testeraj4an@yopmail.com] but found [null],
+expected [testerm7f56@yopmail.com] but found [null]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at util.CheckerMethods.getFreeRegisterResponseContent(CheckerMethods.java:45)
+at tests.FreeRegisterTests.freeRegister_aroundBody0(FreeRegisterTests.java:75)
+at tests.FreeRegisterTests$AjcClosure1.run(FreeRegisterTests.java:1)
+at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+at tests.FreeRegisterTests.freeRegister(FreeRegisterTests.java:53)
+at tests.ChangePasswordTests.changePasswordForRegisteredUser_aroundBody0(ChangePasswordTests.java:28)
+at tests.ChangePasswordTests$AjcClosure1.run(ChangePasswordTests.java:1)
+at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+at tests.ChangePasswordTests.changePasswordForRegisteredUser(ChangePasswordTests.java:28)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changePasswordForRegisteredUser -->
-        <test-method status="FAIL" signature="changePasswordForSubscribedUser()[pri:0, instance:tests.ChangePasswordTests@3adbe50f]" name="changePasswordForSubscribedUser" duration-ms="4828" started-at="2019-06-20T11:53:08Z" finished-at="2019-06-20T11:53:12Z">
-          <exception class="com.jayway.jsonpath.PathNotFoundException">
+        <test-method status="FAIL" signature="changePasswordForSubscribedUser()[pri:0, instance:tests.ChangePasswordTests@1bbae752]" name="changePasswordForSubscribedUser" duration-ms="8966" started-at="2019-06-20T13:36:24Z" finished-at="2019-06-20T13:36:33Z">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[No results for path: $['result']]]>
+              <![CDATA[The following asserts failed:
+expected [testerujxih@yopmail.com] but found [null],
+expected [testeraj4an@yopmail.com] but found [null],
+expected [testerm7f56@yopmail.com] but found [null],
+expected [testeryc63y@yopmail.com] but found [null]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[com.jayway.jsonpath.PathNotFoundException: No results for path: $['result']
-at com.jayway.jsonpath.internal.path.EvaluationContextImpl.getValue(EvaluationContextImpl.java:133)
-at com.jayway.jsonpath.JsonPath.read(JsonPath.java:187)
-at com.jayway.jsonpath.internal.JsonContext.read(JsonContext.java:102)
-at com.jayway.jsonpath.internal.JsonContext.read(JsonContext.java:85)
-at com.jayway.jsonpath.JsonPath.read(JsonPath.java:502)
-at util.CheckerMethods.getSubscriptionResponseContent(CheckerMethods.java:77)
-at tests.SubscriptionsTests.registration6m_aroundBody2(SubscriptionsTests.java:131)
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [testerujxih@yopmail.com] but found [null],
+expected [testeraj4an@yopmail.com] but found [null],
+expected [testerm7f56@yopmail.com] but found [null],
+expected [testeryc63y@yopmail.com] but found [null]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at util.CheckerMethods.getFreeRegisterResponseContent(CheckerMethods.java:45)
+at tests.FreeRegisterTests.freeRegister_aroundBody0(FreeRegisterTests.java:75)
+at tests.FreeRegisterTests$AjcClosure1.run(FreeRegisterTests.java:1)
+at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+at tests.FreeRegisterTests.freeRegister(FreeRegisterTests.java:53)
+at tests.SubscriptionsTests.registration6m_aroundBody2(SubscriptionsTests.java:101)
 at tests.SubscriptionsTests$AjcClosure3.run(SubscriptionsTests.java:1)
 at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
 at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
-at tests.SubscriptionsTests.registration6m(SubscriptionsTests.java:99)
+at tests.SubscriptionsTests.registration6m(SubscriptionsTests.java:95)
 at tests.ChangePasswordTests.changePasswordForSubscribedUser_aroundBody2(ChangePasswordTests.java:48)
 at tests.ChangePasswordTests$AjcClosure3.run(ChangePasswordTests.java:1)
 at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
@@ -314,46 +504,127 @@ at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
 ]]>
             </full-stacktrace>
-          </exception> <!-- com.jayway.jsonpath.PathNotFoundException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changePasswordForSubscribedUser -->
       </class> <!-- tests.ChangePasswordTests -->
       <class name="tests.ContentTests">
-        <test-method status="PASS" signature="getContent()[pri:0, instance:tests.ContentTests@963176]" name="getContent" duration-ms="3" started-at="2019-06-20T11:53:29Z" finished-at="2019-06-20T11:53:29Z">
+        <test-method status="PASS" signature="getContent()[pri:0, instance:tests.ContentTests@76075d65]" name="getContent" duration-ms="3" started-at="2019-06-20T13:36:44Z" finished-at="2019-06-20T13:36:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getContent -->
       </class> <!-- tests.ContentTests -->
       <class name="tests.GetTokenIdTests">
-        <test-method status="PASS" signature="getIDToken()[pri:0, instance:tests.GetTokenIdTests@20ed3303]" name="getIDToken" duration-ms="291" started-at="2019-06-20T11:53:04Z" finished-at="2019-06-20T11:53:04Z">
+        <test-method status="PASS" signature="getIDToken()[pri:0, instance:tests.GetTokenIdTests@7b2a3ff8]" name="getIDToken" duration-ms="727" started-at="2019-06-20T13:36:21Z" finished-at="2019-06-20T13:36:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getIDToken -->
       </class> <!-- tests.GetTokenIdTests -->
       <class name="tests.ChangeAttributesTests">
-        <test-method status="PASS" signature="changeAttributesForRegisteredUser()[pri:0, instance:tests.ChangeAttributesTests@49aa766b]" name="changeAttributesForRegisteredUser" duration-ms="2937" started-at="2019-06-20T11:53:21Z" finished-at="2019-06-20T11:53:24Z">
+        <test-method status="FAIL" signature="changeAttributesForRegisteredUser()[pri:0, instance:tests.ChangeAttributesTests@5cf87cfd]" name="changeAttributesForRegisteredUser" duration-ms="2124" started-at="2019-06-20T13:36:39Z" finished-at="2019-06-20T13:36:41Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [testerujxih@yopmail.com] but found [null],
+expected [testeraj4an@yopmail.com] but found [null],
+expected [testerm7f56@yopmail.com] but found [null],
+expected [testeryc63y@yopmail.com] but found [null],
+expected [testerymmht@yopmail.com] but found [null],
+expected [testerffbm3@yopmail.com] but found [null],
+expected [testerhsgcf@yopmail.com] but found [null]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [testerujxih@yopmail.com] but found [null],
+expected [testeraj4an@yopmail.com] but found [null],
+expected [testerm7f56@yopmail.com] but found [null],
+expected [testeryc63y@yopmail.com] but found [null],
+expected [testerymmht@yopmail.com] but found [null],
+expected [testerffbm3@yopmail.com] but found [null],
+expected [testerhsgcf@yopmail.com] but found [null]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at util.CheckerMethods.getFreeRegisterResponseContent(CheckerMethods.java:45)
+at tests.FreeRegisterTests.freeRegister_aroundBody0(FreeRegisterTests.java:75)
+at tests.FreeRegisterTests$AjcClosure1.run(FreeRegisterTests.java:1)
+at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+at tests.FreeRegisterTests.freeRegister(FreeRegisterTests.java:53)
+at tests.ChangeAttributesTests.changeAttributesForRegisteredUser_aroundBody2(ChangeAttributesTests.java:50)
+at tests.ChangeAttributesTests$AjcClosure3.run(ChangeAttributesTests.java:1)
+at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+at tests.ChangeAttributesTests.changeAttributesForRegisteredUser(ChangeAttributesTests.java:50)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changeAttributesForRegisteredUser -->
-        <test-method status="FAIL" signature="changeAttributesForSubscribedUser()[pri:0, instance:tests.ChangeAttributesTests@49aa766b]" name="changeAttributesForSubscribedUser" duration-ms="4816" started-at="2019-06-20T11:53:24Z" finished-at="2019-06-20T11:53:29Z">
-          <exception class="com.jayway.jsonpath.PathNotFoundException">
+        <test-method status="FAIL" signature="changeAttributesForSubscribedUser()[pri:0, instance:tests.ChangeAttributesTests@5cf87cfd]" name="changeAttributesForSubscribedUser" duration-ms="2791" started-at="2019-06-20T13:36:41Z" finished-at="2019-06-20T13:36:44Z">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[No results for path: $['result']]]>
+              <![CDATA[The following asserts failed:
+expected [testerujxih@yopmail.com] but found [null],
+expected [testeraj4an@yopmail.com] but found [null],
+expected [testerm7f56@yopmail.com] but found [null],
+expected [testeryc63y@yopmail.com] but found [null],
+expected [testerymmht@yopmail.com] but found [null],
+expected [testerffbm3@yopmail.com] but found [null],
+expected [testerhsgcf@yopmail.com] but found [null],
+expected [testerzddet@yopmail.com] but found [null]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[com.jayway.jsonpath.PathNotFoundException: No results for path: $['result']
-at com.jayway.jsonpath.internal.path.EvaluationContextImpl.getValue(EvaluationContextImpl.java:133)
-at com.jayway.jsonpath.JsonPath.read(JsonPath.java:187)
-at com.jayway.jsonpath.internal.JsonContext.read(JsonContext.java:102)
-at com.jayway.jsonpath.internal.JsonContext.read(JsonContext.java:85)
-at com.jayway.jsonpath.JsonPath.read(JsonPath.java:502)
-at util.CheckerMethods.getSubscriptionResponseContent(CheckerMethods.java:77)
-at tests.SubscriptionsTests.registration6m_aroundBody2(SubscriptionsTests.java:131)
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [testerujxih@yopmail.com] but found [null],
+expected [testeraj4an@yopmail.com] but found [null],
+expected [testerm7f56@yopmail.com] but found [null],
+expected [testeryc63y@yopmail.com] but found [null],
+expected [testerymmht@yopmail.com] but found [null],
+expected [testerffbm3@yopmail.com] but found [null],
+expected [testerhsgcf@yopmail.com] but found [null],
+expected [testerzddet@yopmail.com] but found [null]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at util.CheckerMethods.getFreeRegisterResponseContent(CheckerMethods.java:45)
+at tests.FreeRegisterTests.freeRegister_aroundBody0(FreeRegisterTests.java:75)
+at tests.FreeRegisterTests$AjcClosure1.run(FreeRegisterTests.java:1)
+at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+at tests.FreeRegisterTests.freeRegister(FreeRegisterTests.java:53)
+at tests.SubscriptionsTests.registration6m_aroundBody2(SubscriptionsTests.java:101)
 at tests.SubscriptionsTests$AjcClosure3.run(SubscriptionsTests.java:1)
 at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
 at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
-at tests.SubscriptionsTests.registration6m(SubscriptionsTests.java:99)
+at tests.SubscriptionsTests.registration6m(SubscriptionsTests.java:95)
 at tests.ChangeAttributesTests.changeAttributesForSubscribedUser_aroundBody0(ChangeAttributesTests.java:28)
 at tests.ChangeAttributesTests$AjcClosure1.run(ChangeAttributesTests.java:1)
 at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
@@ -390,7 +661,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
 ]]>
             </full-stacktrace>
-          </exception> <!-- com.jayway.jsonpath.PathNotFoundException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changeAttributesForSubscribedUser -->

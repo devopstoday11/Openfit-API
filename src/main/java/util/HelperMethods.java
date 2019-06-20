@@ -15,8 +15,8 @@ public class HelperMethods {
 
     private static final String ALPHA_NUMERIC_STRING = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
     public static HashMap headers = new HashMap();
-    public static HashMap userData = new HashMap();
-    public static HashMap tokenIDs = new HashMap();
+    public HashMap userData = new HashMap();
+    public HashMap tokenIDs = new HashMap();
 
     public static void headers(String authorization) {
         headers.put("x-api-key", "WYvuNYNwZo8LapYoJwwwh18rgJt85tPB8iYDAXSr");
@@ -24,7 +24,7 @@ public class HelperMethods {
         headers.put("Authorization", "Bearer " + authorization);
     }
 
-    public static void getUser(Response response) throws ParseException {
+    public void getUser(Response response) throws ParseException {
         JSONObject userJson = (JSONObject) new JSONParser().parse(response.body());
         String given_name = userJson.getAsString("given_name");
         String family_name = userJson.getAsString("family_name");

@@ -21,8 +21,8 @@ public class CheckerMethods {
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertNotNull(idToken);
         softAssert.assertNotNull(type);
-        softAssert.assertEquals(type, "credit_card");
-        HelperMethods.tokenIDs.put("token_id", "\"" + idToken + "\"");
+        softAssert.assertEquals( "credit_card", type);
+        helperMethods.tokenIDs.put("token_id", "\"" + idToken + "\"");
 
     }
 
@@ -34,14 +34,14 @@ public class CheckerMethods {
         String id_token = JsonPath.read(response.body(), "id_token");
         String access_token = JsonPath.read(response.body(), "access_token");
         String refresh_token = JsonPath.read(response.body(), "refresh_token");
-        softAssert.assertEquals(given_name, "Test");
-        softAssert.assertEquals(family_name, "Test");
+        softAssert.assertEquals( "Test", given_name);
+        softAssert.assertEquals("Test", family_name);
         softAssert.assertNotNull(email);
         softAssert.assertNotNull(sub);
         softAssert.assertNotNull(id_token);
         softAssert.assertNotNull(access_token);
         softAssert.assertNotNull(refresh_token);
-        softAssert.assertEquals(email, helperMethods.userData.get("email"));
+        softAssert.assertEquals(helperMethods.userData.get("email"), email);
         softAssert.assertAll();
     }
 
@@ -86,11 +86,11 @@ public class CheckerMethods {
         String zip = JsonPath.read(response.body(), "$.details.address.zip");
         String country = JsonPath.read(response.body(), "$.details.address.country");
         String phone = JsonPath.read(response.body(), "$.details.address.phone");
-        softAssert.assertEquals(result, "Purchase was successful");
-        softAssert.assertEquals(first_name, "Instigate");
-        softAssert.assertEquals(last_name, "Mobile");
-        softAssert.assertEquals(zip, "90404");
-        softAssert.assertEquals(country, "US");
+        softAssert.assertEquals("Purchase was successful", result);
+        softAssert.assertEquals("Instigate", first_name);
+        softAssert.assertEquals( "Mobile", last_name);
+        softAssert.assertEquals("90404", zip);
+        softAssert.assertEquals( "US", country);
         softAssert.assertNotNull(company);
         softAssert.assertNotNull(name_on_account);
         softAssert.assertNotNull(address1);
@@ -110,13 +110,13 @@ public class CheckerMethods {
         String access_token = JsonPath.read(response.body(), "access_token");
         String refresh_token = JsonPath.read(response.body(), "refresh_token");
         softAssert.assertNotNull(email);
-        softAssert.assertEquals(email, helperMethods.userData.get("email"));
+        softAssert.assertEquals(helperMethods.userData.get("email"), email);
         softAssert.assertNotNull(given_name);
-        softAssert.assertEquals(given_name, helperMethods.userData.get("given_name"));
+        softAssert.assertEquals(helperMethods.userData.get("given_name"), given_name);
         softAssert.assertNotNull(family_name);
-        softAssert.assertEquals(family_name, helperMethods.userData.get("family_name"));
+        softAssert.assertEquals(helperMethods.userData.get("family_name"), family_name);
         softAssert.assertNotNull(sub);
-        softAssert.assertEquals(sub, helperMethods.userData.get("sub"));
+        softAssert.assertEquals(helperMethods.userData.get("sub"), sub);
         softAssert.assertNotNull(id_token);
         softAssert.assertNotNull(access_token);
         softAssert.assertNotNull(refresh_token);

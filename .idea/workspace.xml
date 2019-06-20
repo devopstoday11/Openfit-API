@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd3e2269-c6cc-4769-a2be-92dcefec6ca8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/FreeRegisterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/FreeRegisterTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/GetTokenIdTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/GetTokenIdTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/CheckerMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/CheckerMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/HelperMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/HelperMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/SubscriptionsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SubscriptionsTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,49 +22,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/SubscriptionsTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-315">
-              <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-              <folding>
-                <element signature="e#1886#1939#0" />
-                <element signature="e#1975#2088#0" />
-                <element signature="e#2078#2135#0" />
-                <element signature="e#2175#2301#0" />
-                <element signature="e#2615#3108#0" />
-                <element signature="e#3131#3230#0" />
-                <element signature="e#3753#3806#0" />
-                <element signature="e#3839#3952#0" />
-                <element signature="e#3992#4049#0" />
-                <element signature="e#4082#4201#0" />
-                <element signature="e#4493#5011#0" />
-                <element signature="e#5034#5133#0" />
-                <element signature="e#5670#5723#0" />
-                <element signature="e#5746#5849#0" />
-                <element signature="e#5884#5941#0" />
-                <element signature="e#5974#6093#0" />
-                <element signature="e#6399#6873#0" />
-                <element signature="e#6896#6995#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            <state relative-caret-position="405">
+              <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/util/CheckerMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1635">
-              <caret line="136" column="1" selection-start-line="136" selection-start-column="1" selection-end-line="136" selection-end-column="1" />
+            <state relative-caret-position="-150">
+              <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#getChangeAttributesResponseContent#0;class#CheckerMethods#0" />
@@ -176,12 +145,12 @@
         <option value="$PROJECT_DIR$/src/test/java/tests/ChangeAttributesTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/ChangePasswordTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/util/HelperMethods.java" />
-        <option value="$PROJECT_DIR$/src/main/java/util/CheckerMethods.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/tests/FreeRegisterTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/GetTokenIdTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/HelperMethods.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/SubscriptionsTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/CheckerMethods.java" />
       </list>
     </option>
   </component>
@@ -625,18 +594,6 @@
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32946378" />
     </layout-to-restore>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/tests/SubscriptionsTests.java</url>
-          <line>74</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
@@ -791,60 +748,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="43" column="79" selection-start-line="43" selection-start-column="79" selection-end-line="43" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/ChangeAttributesTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="60" column="2" lean-forward="true" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/HelperMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-390">
           <caret line="7" selection-start-line="7" selection-end-line="15" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/ChangePasswordTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="32" column="81" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/CheckerMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1635">
-          <caret line="136" column="1" selection-start-line="136" selection-start-column="1" selection-end-line="136" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getChangeAttributesResponseContent#0;class#CheckerMethods#0" />
-            <element signature="method#getChangePasswordResponseContent#0;class#CheckerMethods#0" />
-            <element signature="method#compareContent#0;class#CheckerMethods#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -865,9 +772,36 @@
     <entry file="file://$PROJECT_DIR$/test-output/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/HelperMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="59" lean-forward="true" selection-start-line="45" selection-start-column="59" selection-end-line="45" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/ChangeAttributesTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="60" column="2" lean-forward="true" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/ChangePasswordTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="32" column="81" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/ContentTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="162">
           <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -875,59 +809,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/GetTokenIdTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="50" column="47" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
+          <folding>
+            <element signature="e#837#889#0" />
+            <element signature="e#912#956#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="43" column="79" selection-start-line="43" selection-start-column="79" selection-end-line="43" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/SubscriptionsTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="158" column="53" selection-start-line="158" selection-start-column="53" selection-end-line="158" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/FreeRegisterTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="49" column="57" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
+        <state relative-caret-position="286">
+          <caret line="74" column="23" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="initializer##0;class#FreeRegisterTests#0" />
             <element signature="method#FreeRegisterTests#0;class#FreeRegisterTests#0" />
             <element signature="e#1846#2226#0" />
-            <element signature="e#2249#2293#0" />
-            <element signature="e#2183#2239#0" />
-            <element signature="e#2265#2309#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="405">
+          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/GetTokenIdTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/CheckerMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="50" column="47" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/SubscriptionsTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-315">
-          <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        <state relative-caret-position="-150">
+          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
           <folding>
-            <element signature="e#1886#1939#0" />
-            <element signature="e#1975#2088#0" />
-            <element signature="e#2078#2135#0" />
-            <element signature="e#2175#2301#0" />
-            <element signature="e#2615#3108#0" />
-            <element signature="e#3131#3230#0" />
-            <element signature="e#3753#3806#0" />
-            <element signature="e#3839#3952#0" />
-            <element signature="e#3992#4049#0" />
-            <element signature="e#4082#4201#0" />
-            <element signature="e#4493#5011#0" />
-            <element signature="e#5034#5133#0" />
-            <element signature="e#5670#5723#0" />
-            <element signature="e#5746#5849#0" />
-            <element signature="e#5884#5941#0" />
-            <element signature="e#5974#6093#0" />
-            <element signature="e#6399#6873#0" />
-            <element signature="e#6896#6995#0" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#getChangeAttributesResponseContent#0;class#CheckerMethods#0" />
+            <element signature="method#getChangePasswordResponseContent#0;class#CheckerMethods#0" />
+            <element signature="method#compareContent#0;class#CheckerMethods#0" />
           </folding>
         </state>
       </provider>

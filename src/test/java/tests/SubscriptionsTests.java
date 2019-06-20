@@ -56,16 +56,12 @@ public class SubscriptionsTests {
     public void registration1m(){
         try {
             getTokenIdTests.getIDToken();
-        } catch (PathNotFoundException e) {
-            System.out.println("getToken ID PathNotFoundException");
-            e.printStackTrace();
-        }
-        try {
             freeRegisterTests.freeRegister();
         } catch (PathNotFoundException e) {
-            System.out.println("freeRegisterTests PathNotFoundException");
+            System.out.println("PathNotFoundException");
             e.printStackTrace();
         }
+
         HelperMethods.headers((String) helperMethods.userData.get("id_token"));
         RequestBuilder requestBuilder = new RequestBuilder(url);
         requestBuilder.addPathParameters("v1", "subscriptions", "new")
@@ -77,7 +73,7 @@ public class SubscriptionsTests {
                     "\t\"product_id\":" + product_id + ",\n" +
                     "\t\"variant_id\":" + variant_id_1m + ",\n" +
                     "\t\"quantity\":1}],\n" +
-                    "\t\"token_id\":" + HelperMethods.tokenIDs.get("token_id") + ",\n" +
+                    "\t\"token_id\":" + helperMethods.tokenIDs.get("token_id") + ",\n" +
                     "\t\"access_token\":\"" + helperMethods.userData.get("access_token") + "\"\n" +
                     "}");
         } catch (IOException e) {
@@ -119,7 +115,7 @@ public class SubscriptionsTests {
                     "\t\"product_id\":" + product_id + ",\n" +
                     "\t\"variant_id\":" + variant_id_6m + ",\n" +
                     "\t\"quantity\":1}],\n" +
-                    "\t\"token_id\":" + HelperMethods.tokenIDs.get("token_id") + ",\n" +
+                    "\t\"token_id\":" + helperMethods.tokenIDs.get("token_id") + ",\n" +
                     "\t\"access_token\":\"" + helperMethods.userData.get("access_token") + "\"\n" +
                     "}");
         } catch (IOException e) {
@@ -160,7 +156,7 @@ public class SubscriptionsTests {
                     "\t\"product_id\":" + product_id + ",\n" +
                     "\t\"variant_id\":" + variant_id_12m + ",\n" +
                     "\t\"quantity\":1}],\n" +
-                    "\t\"token_id\":" + HelperMethods.tokenIDs.get("token_id") + ",\n" +
+                    "\t\"token_id\":" + helperMethods.tokenIDs.get("token_id") + ",\n" +
                     "\t\"access_token\":\"" + helperMethods.userData.get("access_token") + "\"\n" + "}");
         } catch (IOException e) {
             System.out.println("Request is not sent");

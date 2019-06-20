@@ -3,16 +3,6 @@
 <suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
   <test thread-count="1" verbose="0" name="Surefire test(failed)">
     <classes>
-      <class name="tests.ChangeAttributesTests">
-        <methods>
-          <include name="changeAttributesForSubscribedUser"/>
-        </methods>
-      </class> <!-- tests.ChangeAttributesTests -->
-      <class name="tests.ChangePasswordTests">
-        <methods>
-          <include name="changePasswordForSubscribedUser"/>
-        </methods>
-      </class> <!-- tests.ChangePasswordTests -->
       <class name="tests.SubscriptionsTests">
         <methods>
           <include name="registration12m"/>
@@ -20,11 +10,29 @@
           <include name="registration1m"/>
         </methods>
       </class> <!-- tests.SubscriptionsTests -->
+      <class name="tests.ChangePasswordTests">
+        <methods>
+          <include name="changePasswordForRegisteredUser"/>
+          <include name="changePasswordForSubscribedUser"/>
+        </methods>
+      </class> <!-- tests.ChangePasswordTests -->
       <class name="tests.LoginTests">
         <methods>
+          <include name="loginWithRegisteredUser"/>
           <include name="loginWithSubscribedUser"/>
         </methods>
       </class> <!-- tests.LoginTests -->
+      <class name="tests.ChangeAttributesTests">
+        <methods>
+          <include name="changeAttributesForSubscribedUser"/>
+          <include name="changeAttributesForRegisteredUser"/>
+        </methods>
+      </class> <!-- tests.ChangeAttributesTests -->
+      <class name="tests.FreeRegisterTests">
+        <methods>
+          <include name="freeRegister"/>
+        </methods>
+      </class> <!-- tests.FreeRegisterTests -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

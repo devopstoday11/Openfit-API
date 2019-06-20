@@ -1,0 +1,1 @@
+curl -v -X POST 'https://api.recurly.com/js/v1/token' -H 'Content-Length:204' -H 'Content-Type:application/json; charset=utf-8' -d '{"first_name": "Instigate", "last_name": "Mobile", "postal_code": "90404", "country": "US", "number": "4111111111111111","month": "12", "year": "2020", "cvv": "132", "key": "ewr1-bBXWWGAuZMiIT4CL76bvwL" }' 

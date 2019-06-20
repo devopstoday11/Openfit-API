@@ -1,34 +1,98 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 37.698 s <<< FAILURE! - in TestSuite
-registration12m(tests.SubscriptionsTests)  Time elapsed: 5.386 s  <<< FAILURE!
-com.jayway.jsonpath.PathNotFoundException: No results for path: $['result']
-	at tests.SubscriptionsTests.registration12m_aroundBody4(SubscriptionsTests.java:171)
-	at tests.SubscriptionsTests.registration12m(SubscriptionsTests.java:141)
+Tests run: 12, Failures: 10, Errors: 0, Skipped: 0, Time elapsed: 34.007 s <<< FAILURE! - in TestSuite
+freeRegister(tests.FreeRegisterTests)  Time elapsed: 3.611 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [testerujxih@yopmail.com] but found [null]
+	at tests.FreeRegisterTests.freeRegister_aroundBody0(FreeRegisterTests.java:75)
+	at tests.FreeRegisterTests.freeRegister(FreeRegisterTests.java:53)
 
-registration1m(tests.SubscriptionsTests)  Time elapsed: 1.727 s  <<< FAILURE!
+registration12m(tests.SubscriptionsTests)  Time elapsed: 3.03 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [testerujxih@yopmail.com] but found [null],
+	expected [testeraj4an@yopmail.com] but found [null]
+	at tests.SubscriptionsTests.registration12m_aroundBody4(SubscriptionsTests.java:143)
+	at tests.SubscriptionsTests.registration12m(SubscriptionsTests.java:137)
+
+registration1m(tests.SubscriptionsTests)  Time elapsed: 2.183 s  <<< FAILURE!
 com.jayway.jsonpath.PathNotFoundException: No results for path: $['result']
-	at tests.SubscriptionsTests.registration1m_aroundBody0(SubscriptionsTests.java:89)
+	at tests.SubscriptionsTests.registration1m_aroundBody0(SubscriptionsTests.java:85)
 	at tests.SubscriptionsTests.registration1m(SubscriptionsTests.java:58)
 
-registration6m(tests.SubscriptionsTests)  Time elapsed: 1.672 s  <<< FAILURE!
+registration6m(tests.SubscriptionsTests)  Time elapsed: 1.969 s  <<< FAILURE!
 com.jayway.jsonpath.PathNotFoundException: No results for path: $['result']
-	at tests.SubscriptionsTests.registration6m_aroundBody2(SubscriptionsTests.java:131)
-	at tests.SubscriptionsTests.registration6m(SubscriptionsTests.java:99)
+	at tests.SubscriptionsTests.registration6m_aroundBody2(SubscriptionsTests.java:127)
+	at tests.SubscriptionsTests.registration6m(SubscriptionsTests.java:95)
 
-changePasswordForSubscribedUser(tests.ChangePasswordTests)  Time elapsed: 4.831 s  <<< FAILURE!
-com.jayway.jsonpath.PathNotFoundException: No results for path: $['result']
+changePasswordForRegisteredUser(tests.ChangePasswordTests)  Time elapsed: 2.197 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [testerujxih@yopmail.com] but found [null],
+	expected [testeraj4an@yopmail.com] but found [null],
+	expected [testerm7f56@yopmail.com] but found [null]
+	at tests.ChangePasswordTests.changePasswordForRegisteredUser_aroundBody0(ChangePasswordTests.java:28)
+	at tests.ChangePasswordTests.changePasswordForRegisteredUser(ChangePasswordTests.java:28)
+
+changePasswordForSubscribedUser(tests.ChangePasswordTests)  Time elapsed: 8.973 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [testerujxih@yopmail.com] but found [null],
+	expected [testeraj4an@yopmail.com] but found [null],
+	expected [testerm7f56@yopmail.com] but found [null],
+	expected [testeryc63y@yopmail.com] but found [null]
 	at tests.ChangePasswordTests.changePasswordForSubscribedUser_aroundBody2(ChangePasswordTests.java:48)
 	at tests.ChangePasswordTests.changePasswordForSubscribedUser(ChangePasswordTests.java:48)
 
-loginWithSubscribedUser(tests.LoginTests)  Time elapsed: 4.725 s  <<< FAILURE!
-com.jayway.jsonpath.PathNotFoundException: No results for path: $['result']
+loginWithRegisteredUser(tests.LoginTests)  Time elapsed: 2.47 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [testerujxih@yopmail.com] but found [null],
+	expected [testeraj4an@yopmail.com] but found [null],
+	expected [testerm7f56@yopmail.com] but found [null],
+	expected [testeryc63y@yopmail.com] but found [null],
+	expected [testerymmht@yopmail.com] but found [null]
+	at tests.LoginTests.loginWithRegisteredUser_aroundBody2(LoginTests.java:40)
+	at tests.LoginTests.loginWithRegisteredUser(LoginTests.java:40)
+
+loginWithSubscribedUser(tests.LoginTests)  Time elapsed: 2.894 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [testerujxih@yopmail.com] but found [null],
+	expected [testeraj4an@yopmail.com] but found [null],
+	expected [testerm7f56@yopmail.com] but found [null],
+	expected [testeryc63y@yopmail.com] but found [null],
+	expected [testerymmht@yopmail.com] but found [null],
+	expected [testerffbm3@yopmail.com] but found [null]
 	at tests.LoginTests.loginWithSubscribedUser_aroundBody0(LoginTests.java:25)
 	at tests.LoginTests.loginWithSubscribedUser(LoginTests.java:25)
 
-changeAttributesForSubscribedUser(tests.ChangeAttributesTests)  Time elapsed: 4.82 s  <<< FAILURE!
-com.jayway.jsonpath.PathNotFoundException: No results for path: $['result']
+changeAttributesForRegisteredUser(tests.ChangeAttributesTests)  Time elapsed: 2.124 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [testerujxih@yopmail.com] but found [null],
+	expected [testeraj4an@yopmail.com] but found [null],
+	expected [testerm7f56@yopmail.com] but found [null],
+	expected [testeryc63y@yopmail.com] but found [null],
+	expected [testerymmht@yopmail.com] but found [null],
+	expected [testerffbm3@yopmail.com] but found [null],
+	expected [testerhsgcf@yopmail.com] but found [null]
+	at tests.ChangeAttributesTests.changeAttributesForRegisteredUser_aroundBody2(ChangeAttributesTests.java:50)
+	at tests.ChangeAttributesTests.changeAttributesForRegisteredUser(ChangeAttributesTests.java:50)
+
+changeAttributesForSubscribedUser(tests.ChangeAttributesTests)  Time elapsed: 2.79 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [testerujxih@yopmail.com] but found [null],
+	expected [testeraj4an@yopmail.com] but found [null],
+	expected [testerm7f56@yopmail.com] but found [null],
+	expected [testeryc63y@yopmail.com] but found [null],
+	expected [testerymmht@yopmail.com] but found [null],
+	expected [testerffbm3@yopmail.com] but found [null],
+	expected [testerhsgcf@yopmail.com] but found [null],
+	expected [testerzddet@yopmail.com] but found [null]
 	at tests.ChangeAttributesTests.changeAttributesForSubscribedUser_aroundBody0(ChangeAttributesTests.java:28)
 	at tests.ChangeAttributesTests.changeAttributesForSubscribedUser(ChangeAttributesTests.java:28)
 
