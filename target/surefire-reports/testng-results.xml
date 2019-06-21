@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="59603" started-at="2019-06-20T14:00:17Z" finished-at="2019-06-20T14:01:16Z">
+  <suite name="Surefire suite" duration-ms="63367" started-at="2019-06-20T14:05:50Z" finished-at="2019-06-20T14:06:54Z">
     <groups>
       <group name="major">
         <method signature="ChangeAttributesTests.changeAttributesForRegisteredUser()[pri:0, instance:tests.ChangeAttributesTests@659925f4]" name="changeAttributesForRegisteredUser" class="tests.ChangeAttributesTests"/>
@@ -23,65 +23,65 @@
         <method signature="LoginTests.loginWithSubscribedUser()[pri:0, instance:tests.LoginTests@5c92166b]" name="loginWithSubscribedUser" class="tests.LoginTests"/>
       </group> <!-- hp -->
     </groups>
-    <test name="Surefire test" duration-ms="59603" started-at="2019-06-20T14:00:17Z" finished-at="2019-06-20T14:01:16Z">
+    <test name="Surefire test" duration-ms="63367" started-at="2019-06-20T14:05:50Z" finished-at="2019-06-20T14:06:54Z">
       <class name="tests.LoginTests">
-        <test-method status="PASS" signature="loginWithRegisteredUser()[pri:0, instance:tests.LoginTests@5c92166b]" name="loginWithRegisteredUser" duration-ms="3118" started-at="2019-06-20T14:00:53Z" finished-at="2019-06-20T14:00:57Z">
+        <test-method status="PASS" signature="loginWithRegisteredUser()[pri:0, instance:tests.LoginTests@5c92166b]" name="loginWithRegisteredUser" duration-ms="3780" started-at="2019-06-20T14:06:30Z" finished-at="2019-06-20T14:06:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithRegisteredUser -->
-        <test-method status="PASS" signature="loginWithSubscribedUser()[pri:0, instance:tests.LoginTests@5c92166b]" name="loginWithSubscribedUser" duration-ms="8402" started-at="2019-06-20T14:00:57Z" finished-at="2019-06-20T14:01:05Z">
+        <test-method status="PASS" signature="loginWithSubscribedUser()[pri:0, instance:tests.LoginTests@5c92166b]" name="loginWithSubscribedUser" duration-ms="8607" started-at="2019-06-20T14:06:33Z" finished-at="2019-06-20T14:06:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithSubscribedUser -->
       </class> <!-- tests.LoginTests -->
       <class name="tests.FreeRegisterTests">
-        <test-method status="PASS" signature="freeRegister()[pri:0, instance:tests.FreeRegisterTests@7906578e]" name="freeRegister" duration-ms="3420" started-at="2019-06-20T14:00:17Z" finished-at="2019-06-20T14:00:20Z">
+        <test-method status="PASS" signature="freeRegister()[pri:0, instance:tests.FreeRegisterTests@7906578e]" name="freeRegister" duration-ms="3085" started-at="2019-06-20T14:05:51Z" finished-at="2019-06-20T14:05:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- freeRegister -->
       </class> <!-- tests.FreeRegisterTests -->
       <class name="tests.SubscriptionsTests">
-        <test-method status="PASS" signature="registration12m()[pri:0, instance:tests.SubscriptionsTests@8a62297]" name="registration12m" duration-ms="7143" started-at="2019-06-20T14:00:20Z" finished-at="2019-06-20T14:00:27Z">
+        <test-method status="PASS" signature="registration12m()[pri:0, instance:tests.SubscriptionsTests@8a62297]" name="registration12m" duration-ms="8441" started-at="2019-06-20T14:05:54Z" finished-at="2019-06-20T14:06:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registration12m -->
-        <test-method status="PASS" signature="registration1m()[pri:0, instance:tests.SubscriptionsTests@8a62297]" name="registration1m" duration-ms="7551" started-at="2019-06-20T14:00:27Z" finished-at="2019-06-20T14:00:35Z">
+        <test-method status="PASS" signature="registration1m()[pri:0, instance:tests.SubscriptionsTests@8a62297]" name="registration1m" duration-ms="6452" started-at="2019-06-20T14:06:02Z" finished-at="2019-06-20T14:06:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registration1m -->
-        <test-method status="PASS" signature="registration6m()[pri:0, instance:tests.SubscriptionsTests@8a62297]" name="registration6m" duration-ms="7416" started-at="2019-06-20T14:00:35Z" finished-at="2019-06-20T14:00:42Z">
+        <test-method status="PASS" signature="registration6m()[pri:0, instance:tests.SubscriptionsTests@8a62297]" name="registration6m" duration-ms="7926" started-at="2019-06-20T14:06:09Z" finished-at="2019-06-20T14:06:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registration6m -->
       </class> <!-- tests.SubscriptionsTests -->
       <class name="tests.ChangePasswordTests">
-        <test-method status="PASS" signature="changePasswordForRegisteredUser()[pri:0, instance:tests.ChangePasswordTests@1763992e]" name="changePasswordForRegisteredUser" duration-ms="2889" started-at="2019-06-20T14:00:43Z" finished-at="2019-06-20T14:00:46Z">
+        <test-method status="PASS" signature="changePasswordForRegisteredUser()[pri:0, instance:tests.ChangePasswordTests@1763992e]" name="changePasswordForRegisteredUser" duration-ms="3044" started-at="2019-06-20T14:06:17Z" finished-at="2019-06-20T14:06:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changePasswordForRegisteredUser -->
-        <test-method status="PASS" signature="changePasswordForSubscribedUser()[pri:0, instance:tests.ChangePasswordTests@1763992e]" name="changePasswordForSubscribedUser" duration-ms="7945" started-at="2019-06-20T14:00:46Z" finished-at="2019-06-20T14:00:53Z">
+        <test-method status="PASS" signature="changePasswordForSubscribedUser()[pri:0, instance:tests.ChangePasswordTests@1763992e]" name="changePasswordForSubscribedUser" duration-ms="9852" started-at="2019-06-20T14:06:20Z" finished-at="2019-06-20T14:06:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changePasswordForSubscribedUser -->
       </class> <!-- tests.ChangePasswordTests -->
       <class name="tests.ContentTests">
-        <test-method status="PASS" signature="getContent()[pri:0, instance:tests.ContentTests@4cd1c1dc]" name="getContent" duration-ms="3" started-at="2019-06-20T14:01:16Z" finished-at="2019-06-20T14:01:16Z">
+        <test-method status="PASS" signature="getContent()[pri:0, instance:tests.ContentTests@4cd1c1dc]" name="getContent" duration-ms="2" started-at="2019-06-20T14:06:54Z" finished-at="2019-06-20T14:06:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getContent -->
       </class> <!-- tests.ContentTests -->
       <class name="tests.ChangeAttributesTests">
-        <test-method status="PASS" signature="changeAttributesForRegisteredUser()[pri:0, instance:tests.ChangeAttributesTests@659925f4]" name="changeAttributesForRegisteredUser" duration-ms="3356" started-at="2019-06-20T14:01:05Z" finished-at="2019-06-20T14:01:08Z">
+        <test-method status="PASS" signature="changeAttributesForRegisteredUser()[pri:0, instance:tests.ChangeAttributesTests@659925f4]" name="changeAttributesForRegisteredUser" duration-ms="3130" started-at="2019-06-20T14:06:42Z" finished-at="2019-06-20T14:06:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changeAttributesForRegisteredUser -->
-        <test-method status="PASS" signature="changeAttributesForSubscribedUser()[pri:0, instance:tests.ChangeAttributesTests@659925f4]" name="changeAttributesForSubscribedUser" duration-ms="8003" started-at="2019-06-20T14:01:08Z" finished-at="2019-06-20T14:01:16Z">
+        <test-method status="PASS" signature="changeAttributesForSubscribedUser()[pri:0, instance:tests.ChangeAttributesTests@659925f4]" name="changeAttributesForSubscribedUser" duration-ms="8640" started-at="2019-06-20T14:06:45Z" finished-at="2019-06-20T14:06:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changeAttributesForSubscribedUser -->
       </class> <!-- tests.ChangeAttributesTests -->
       <class name="tests.GetTokenIdTests">
-        <test-method status="PASS" signature="getIDToken()[pri:0, instance:tests.GetTokenIdTests@61a91912]" name="getIDToken" duration-ms="210" started-at="2019-06-20T14:00:42Z" finished-at="2019-06-20T14:00:43Z">
+        <test-method status="PASS" signature="getIDToken()[pri:0, instance:tests.GetTokenIdTests@61a91912]" name="getIDToken" duration-ms="251" started-at="2019-06-20T14:06:17Z" finished-at="2019-06-20T14:06:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getIDToken -->
